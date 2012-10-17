@@ -324,53 +324,6 @@ button {
           border-radius: 5px;
 }
 
-.photo img{
-  -webkit-filter: grayscale(100%);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.photo:hover img{
-  -webkit-filter: grayscale(0%);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.img-title {
-  opacity: 0;
-  font-family: "Carrois Gothic";
-  color: white;
-  position: absolute; 
-  bottom: 0px; 
-  left: 0px; 
-  width: 100%;
-  text-shadow: -1px 1px 10px #000;
-  background-color: rgba(256,256,256,0.4);
-  padding: 5px 0;
-
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.photo:hover .img-title {
-  opacity: 1;
-
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
- 
 .box h2 {
   font-size: 14px;
   font-weight: 200;
@@ -690,4 +643,64 @@ body {
   margin-right: 10px;
   margin-bottom: 10px;
   border: 1px solid black;
+}
+
+.photo img{
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.photo:hover img{
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.img-bar {
+  opacity: 0;
+  color: white;
+  position: absolute; 
+  bottom: 0px; 
+  left: 0px; 
+  width: 100%;
+  text-shadow: -1px 1px 10px #000;
+  background-color: rgba(256,256,256,0.4);
+  padding: 5px 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.photo:hover .img-bar{
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.img-title {
+  margin-left: 10px;
+  font-family: "Carrois Gothic";
+}
+
+.img-icons img{
+  margin: 0 2px;
+  height: 20px;
+  margin-bottom: -3px;
+  float: right;
+}
+
+.img-icons img:hover{
+  -webkit-filter: invert(100%); 
 }

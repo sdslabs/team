@@ -27,8 +27,14 @@
           <div class="img-bar">
             <span class="img-title">Abhay Bir Singh Rana</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://facebook.com/capt.n3m0"><img src="assets/fb.png"></a>
+              <a href="https://twitter.com/capt_n3m0"><img src="assets/twitter.png"></a>
+              <a href="http://captnemo.in"><img src="assets/captnemo.in.png"></a>
+              <a href="http://www.last.fm/user/captn3m0"><img src="assets/lastfm.png"></a>
+              <a href="mailto:me@captnemo.in"><img src="assets/mail.png"></a>
+              <a href="http://stackoverflow.com/users/368328/capt-nemo"><img src="assets/so.png"></a>
+              <a href="http://github.com/captn3m0"><img src="assets/gh.png"></a>
+              <a href="https://plus.google.com/116290713924645527187"><img src="assets/gplus.png"></a>
             </span>
           </div>
         </div>

@@ -16,8 +16,7 @@
           <div class="img-bar">
             <span class="img-title">Aarti Dwivedi</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/AndromedaAarti"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -27,14 +26,14 @@
           <div class="img-bar">
             <span class="img-title">Abhay Bir Singh Rana</span>
             <span class="img-icons">
-              <a href="https://facebook.com/capt.n3m0"><img src="assets/fb.png"></a>
-              <a href="https://twitter.com/capt_n3m0"><img src="assets/twitter.png"></a>
-              <a href="http://captnemo.in"><img src="assets/captnemo.in.png"></a>
-              <a href="http://www.last.fm/user/captn3m0"><img src="assets/lastfm.png"></a>
-              <a href="mailto:me@captnemo.in"><img src="assets/mail.png"></a>
-              <a href="http://stackoverflow.com/users/368328/capt-nemo"><img src="assets/so.png"></a>
-              <a href="http://github.com/captn3m0"><img src="assets/gh.png"></a>
-              <a href="https://plus.google.com/116290713924645527187"><img src="assets/gplus.png"></a>
+              <a href="https://facebook.com/capt.n3m0"><img src="assets/fb.png" title="Facebook"></a>
+              <a href="https://twitter.com/capt_n3m0"><img src="assets/twitter.png" title="Twitter"></a>
+              <a href="https://plus.google.com/116290713924645527187"><img src="assets/gplus.png" title="Google+"></a>
+              <a href="http://captnemo.in"><img src="assets/captnemo.in.png" title="CaptNemo.in"></a>
+              <a href="http://www.last.fm/user/captn3m0"><img src="assets/lastfm.png" title="Last.fm"></a>
+              <a href="mailto:me@captnemo.in"><img src="assets/mail.png" title="Email"></a>
+              <a href="http://stackoverflow.com/users/368328/capt-nemo"><img src="assets/so.png" title="StackOverflow"></a>
+              <a href="http://github.com/captn3m0"><img src="assets/gh.png" title="Github"></a>
             </span>
           </div>
         </div>
@@ -44,11 +43,13 @@
           <div class="img-bar">
             <span class="img-title">Abhishek Das</span>
             <span class="img-icons">
-              <a href="http://stackoverflow.com/users/1257954/abhshkdz"><img src="assets/so.png"></a>
-              <a href="https://github.com/abhshkdz"><img src="assets/gh.png"></a>
-              <a href="https://plus.google.com/u/0/100610196494221761914/"><img src="assets/gplus.png"></a>
-              <a href="https://www.facebook.com/AbhshkDz"><img src="assets/fb.png"></a>
-              <a href="https://twitter.com/"><img src="assets/twitter.png"></a>
+              <a href="https://www.facebook.com/AbhshkDz"><img src="assets/fb.png" title="Facebook"></a>
+              <a href="https://twitter.com/"><img src="assets/twitter.png" title="Twitter"></a>
+              <a href="https://plus.google.com/u/0/100610196494221761914/"><img src="assets/gplus.png" title="Google+"></a>
+              <a href="http://www.last.fm/user/abhshkdz"><img src="assets/lastfm.png" title="Last.fm"></a>
+              <a href="mailto:das.abhshk@gmail.com"><img src="assets/mail.png" title="Email"></a>
+              <a href="http://stackoverflow.com/users/1257954/abhshkdz"><img src="assets/so.png" title="StackOverflow"></a>
+              <a href="https://github.com/abhshkdz"><img src="assets/gh.png" title="Github"></a>
             </span>
           </div>
         </div>
@@ -58,8 +59,7 @@
           <div class="img-bar">
             <span class="img-title">Aditya Garg</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/adityagargg"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -69,8 +69,7 @@
           <div class="img-bar">
             <span class="img-title">Apoorva Mudgal</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/apoorva.mudgal"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -80,8 +79,7 @@
           <div class="img-bar">
             <span class="img-title">Arun Chetty</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/chetty.arun.nani"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -91,8 +89,7 @@
           <div class="img-bar">
             <span class="img-title">Ashwini Khare</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/khare.ashwini"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -102,8 +99,7 @@
           <div class="img-bar">
             <span class="img-title">Divyanshu Upreti</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/divyanshu.upreti"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -113,8 +109,7 @@
           <div class="img-bar">
             <span class="img-title">Durgesh Suthar</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/durgeshsuthar92"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -124,8 +119,7 @@
           <div class="img-bar">
             <span class="img-title">Giridaran Manivannan</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/giridaran"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -135,8 +129,7 @@
           <div class="img-bar">
             <span class="img-title">Harshil Mathur</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/harshilmathur"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -146,8 +139,7 @@
           <div class="img-bar">
             <span class="img-title">Jayant Jain</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/JayantJain"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -157,8 +149,7 @@
           <div class="img-bar">
             <span class="img-title">Neeraj Gangwar</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/gangwar.neeraj"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -168,8 +159,7 @@
           <div class="img-bar">
             <span class="img-title">Nisha Chandramoorthy</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/nisha.chandramoorthy"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -179,8 +169,7 @@
           <div class="img-bar">
             <span class="img-title">Nitish Sharma</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/fuzzy.nitish"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -190,8 +179,7 @@
           <div class="img-bar">
             <span class="img-title">Obuli Vignesh</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/obulivigneshra"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -201,8 +189,7 @@
           <div class="img-bar">
             <span class="img-title">Ravi Kishore</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/ravikishore1993"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -212,8 +199,7 @@
           <div class="img-bar">
             <span class="img-title">Richa Jain</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/richa.jain.146"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -223,8 +209,7 @@
           <div class="img-bar">
             <span class="img-title">Rushil Nagda</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/rushil.nagda"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -234,8 +219,7 @@
           <div class="img-bar">
             <span class="img-title">Sagar Saxena</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/saxenasagar91"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -245,8 +229,7 @@
           <div class="img-bar">
             <span class="img-title">Saket Sarupria</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/saket.sarupria"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -256,8 +239,7 @@
           <div class="img-bar">
             <span class="img-title">Sethu Nachiappan</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/demonslayer68"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -267,8 +249,7 @@
           <div class="img-bar">
             <span class="img-title">Shagun Sodhani</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/shagun.sodhani"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -278,8 +259,7 @@
           <div class="img-bar">
             <span class="img-title">Shashank Mehta</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/leostatic"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -289,8 +269,7 @@
           <div class="img-bar">
             <span class="img-title">Shikhar Shrivastava</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/shikhar.shrivastav"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -300,8 +279,7 @@
           <div class="img-bar">
             <span class="img-title">Shivam Gupta</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/shivziitr"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -311,8 +289,7 @@
           <div class="img-bar">
             <span class="img-title">Shreya Bhardwaj</span>
             <span class="img-icons">
-              <img src="assets/fb.png">
-              <img src="assets/twitter.png">
+              <a href="https://www.facebook.com/shreya.bhardwaj.77"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>

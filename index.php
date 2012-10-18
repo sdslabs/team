@@ -44,7 +44,7 @@
             <span class="img-title">Abhishek Das</span>
             <span class="img-icons">
               <a href="https://www.facebook.com/AbhshkDz"><img src="assets/fb.png" title="Facebook"></a>
-              <a href="https://twitter.com/"><img src="assets/twitter.png" title="Twitter"></a>
+              <a href="https://twitter.com/abhshkdz"><img src="assets/twitter.png" title="Twitter"></a>
               <a href="https://plus.google.com/u/0/100610196494221761914/"><img src="assets/gplus.png" title="Google+"></a>
               <a href="http://www.last.fm/user/abhshkdz"><img src="assets/lastfm.png" title="Last.fm"></a>
               <a href="mailto:das.abhshk@gmail.com"><img src="assets/mail.png" title="Email"></a>
@@ -150,6 +150,10 @@
             <span class="img-title">Neeraj Gangwar</span>
             <span class="img-icons">
               <a href="https://www.facebook.com/gangwar.neeraj"><img src="assets/fb.png" title="Facebook"></a>
+              <a href="http://twitter.com/neeraj_gangwar"><img src="assets/twitter.png" title="Twitter"></a>
+              <a href="http://gangwarneeraj.blogspot.in/"><img src="assets/blogger.png" title="Blog"></a>
+              <a href="mailto:yneeraj2008@gmail.com"><img src="assets/mail.png" title="Email"></a>
+              <a href="https://github.com/gangwarneeraj"><img src="assets/gh.png" title="Github"></a>
             </span>
           </div>
         </div>

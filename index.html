@@ -2,11 +2,11 @@
   <head>
     <link rel="stylesheet" href="/home/topbar.css">
     <title>SDSLabs Team</title>
-    <link rel="stylesheet" href="assets/style.css">
     <link rel="shortcut icon" href="assets/favicon.png">
     <script src='//cdn.sdslabs.co.in/cdnjs/ajax/libs/jquery/1.8.1/jquery.min.js'></script>
     <script src="/api/public/api.js"></script>
     <script src="//cdn.sdslabs.co.in/cdnjs/ajax/libs/masonry/2.1.04/jquery.masonry.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
     <div id="wrapper">
@@ -327,12 +327,14 @@
 
         $container.imagesLoaded( function(){
           $container.masonry({
-            itemSelector : '.box'
+            itemSelector : '.box',
+            columnWidth: 390
           });
-          $('#wrapper').css('width',$('.photo').width()*3+26).animate({
+          $('#wrapper').animate({
             opacity: 1
-          },1000);
+          },300);
         });
+
         topbar.showTopbar(); 
         topbar.setCurrent("Team");
       });

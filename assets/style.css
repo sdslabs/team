@@ -18,17 +18,14 @@
 .col5 img { max-width: 480px; }
 
 body {
-  background: #454545;
+  background: black;
 }
 
 #wrapper {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
-  background: white;
-
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  background: transparent;
   width: 1180px;
   margin: 25px auto;
 }

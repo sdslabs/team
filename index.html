@@ -6,12 +6,24 @@
     <script src='//cdn.sdslabs.co.in/cdnjs/ajax/libs/jquery/1.8.1/jquery.min.js'></script>
     <script src="/api/public/api.js"></script>
     <script src="//cdn.sdslabs.co.in/cdnjs/ajax/libs/masonry/2.1.04/jquery.masonry.min.js"></script>
+    <script src="assets/shuffle.min.js"></script>
     <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
     <div id="wrapper">
       <div id="container">
+        
         <div class="box photo col4">
+          <img src="pics/aarti.jpg" alt="Aarti" />
+          <div class="img-bar">
+            <span class="img-title">Aarti Dwivedi</span>
+            <span class="img-icons">
+              <a href="https://www.facebook.com/AndromedaAarti"><img src="assets/fb.png" title="Facebook"></a>
+            </span>
+          </div>
+        </div>
+
+        <div class="box photo sdslabs col4">
          <img src="pics/sdslabs.jpg" alt="Team SDSLabs" />
           <div class="img-bar">
             <span class="img-title">Team SDSLabs</span>
@@ -22,15 +34,6 @@
               <a href="https://plus.google.com/101733513430697982016/"><img src="assets/gplus.png" title="Google+"></a>
               <a href="mailto:contact@sdslabs.co.in"><img src="assets/mail.png" title="Email"></a>
               <a href="http://blog.sdslabs.co"><img src="assets/blogger.png" title="Blog"></a>              
-            </span>
-          </div>
-        </div>
-        <div class="box photo col4">
-          <img src="pics/aarti.jpg" alt="Aarti" />
-          <div class="img-bar">
-            <span class="img-title">Aarti Dwivedi</span>
-            <span class="img-icons">
-              <a href="https://www.facebook.com/AndromedaAarti"><img src="assets/fb.png" title="Facebook"></a>
             </span>
           </div>
         </div>
@@ -78,6 +81,7 @@
           </div>
         </div>
 
+
         <div class="box photo col4">
           <img src="pics/apoorva.jpg" alt="Apoorva" />
           <div class="img-bar">
@@ -87,6 +91,7 @@
             </span>
           </div>
         </div>
+
 
         <div class="box photo col4">
           <img src="pics/arun.jpg" alt="Arun" />
@@ -332,6 +337,9 @@
         var $container = $('#container');
 
         $container.imagesLoaded( function(){
+
+          $('.photo:not(.sdslabs)').shuffle();
+
           $container.masonry({
             itemSelector : '.box',
             columnWidth: 390

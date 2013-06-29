@@ -536,9 +536,10 @@
             opacity: 1
           },300);
         });
-
-        topbar.showTopbar(); 
-        topbar.setCurrent("Team");
+        if(typeof topbar !== 'undefined'){
+          topbar.showTopbar(); 
+          topbar.setCurrent("Team");
+        }
       });
 
     </script>

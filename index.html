@@ -5,9 +5,9 @@
     <link rel="shortcut icon" href="assets/favicon.png">
     <script src='assets/jquery.1.8.1.min.js'></script>
     <script>
-        if (window.location.hostname == 'sdslabs.co.in') {
-            document.write('<script src="https://sdslabs.co.in/api/public/api.js"><\/script>');
-            document.write('<link rel="stylesheet" href="https://sdslabs.co.in/lollipop/topbar.css">'); 
+        if (window.location.hostname == 'sdslabs.co.in' || window.location.hostname == 'sdslabs.local') {
+            document.write('<script src="//'+window.location.hostname+'/api/public/api.js"><\/script>');
+            document.write('<link rel="stylesheet" href="//'+window.location.hostname+'/home/topbar.css">'); 
         }
     </script>
     <script src="assets/jquery.masonry.min.js"></script>

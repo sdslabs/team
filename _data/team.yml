@@ -1,0 +1,238 @@
+---
+- name: Aarti Dwivedi
+  pic: aarti.jpg
+  links:
+    Facebook: https://www.facebook.com/AndromedaAarti
+    GPlus: https://plus.google.com/u/0/114986089777689431996/posts
+    GitHub: https://github.com/AartiNdi
+    EMail: mailto:ellydwivedi2093@gmail.com
+    Twitter: https://twitter.com/aarti_andromeda
+
+- name: Team SDSLabs
+  pic: sdslabs.jpg
+  links:
+    Facebook: https://facebook.com/SDSLabs
+    Twitter: https://twitter.com/sdslabs
+    GitHub: https://github.com/sdslabs
+    GPlus: https://plus.google.com/101733513430697982016/
+    EMail: mailto:contact@sdslabs.co.in
+    Blog: http://blog.sdslabs.co
+
+- name: Abhay Rana
+  pic: abhay.jpg
+  links:
+    Facebook: https://facebook.com/capt.n3m0
+    Twitter: https://twitter.com/capt_n3m0
+    GPlus: https://google.com/+AbhayRana
+    Blog: http://captnemo.in
+    LastFM: http://www.last.fm/user/captn3m0
+    EMail: mailto:me@captnemo.in
+    StackOverflow: http://stackoverflow.com/users/368328/capt-nemo
+    GitHub: http://github.com/captn3m0
+- name: Abhinav Tushar
+  pic: abhinav.jpg
+  links:
+    Facebook: https://www.facebook.com/abhinav.tushar.9
+    EMail: mailto:abhinav.tushar.vs@gmail.com
+    GitHub: https://github.com/abhinavtushar
+    Twitter: https://twitter.com/abhinavtushar
+    DeviantArt: http://abhinav-tushar.deviantart.com
+    LastFM: http://www.last.fm/user/AbhinavTushar
+    GPlus: https://plus.google.com/115954372898330305451
+    StackOverflow: http://stackoverflow.com/users/1984662/abhinav-tushar-vs
+    Pinterest: https://pinterest.com/abhinavtushar
+
+- name: Abhishek Das
+  pic: abhishek.jpg
+  links:
+    Twitter: https://twitter.com/abhshkdz
+    GPlus: https://google.com/+AbhishekDasZ
+    LastFM: http://www.last.fm/user/abhshkdz
+    EMail: mailto:das@sdslabs.co.in
+    StackOverflow: http://stackoverflow.com/users/1257954/abhshkdz
+    GitHub: https://github.com/abhshkdz
+    Blog: http://abhishekdas.com
+
+- name: Abhishek Kandoi
+  pic: kandoi.jpg
+  links:
+    Facebook: https://facebook.com/kandoiabhi
+    Twitter: https://twitter.com/kandoiabhi
+    GPlus: https://google.com/+AbhishekKandoi
+    LastFM: http://www.last.fm/user/abhikandoi2000
+    EMail: mailto:abhikandoi2000@gmail.com
+    Kandoi: http://stackoverflow.com/users/1368007/abhi-kandoi
+    GitHub: http://github.com/abhikandoi2000
+
+- name: Ankita Shukla
+  pic: ankita.jpg
+  links:
+    Facebook: https://github.com/ankitashukla   
+
+- name: Arun Chetty
+  pic: arun.jpg
+  links:
+    Facebook: https://www.facebook.com/chetty.arun.nani
+
+- name: Ashwini Khare
+  pic: ashwini.jpg
+  links:
+    Facebook: https://www.facebook.com/khare.ashwini
+    Twitter: https://twitter.com/khare_ashwini
+    GPlus: https://plus.google.com/104375527069211180980/
+    EMail: mailto:khare.ashwini@gmail.com
+    StackOverflow: http://stackoverflow.com/users/846797/ashwini-khare
+    GitHub: http://github.com/khare-ashwini
+
+- name: Divij Bindlish
+  pic: divij.jpg
+  links:
+    Facebook: https://www.facebook.com/divij.bindlish.3
+    EMail: mailto:dvjbndlsh93@gmail.com
+    GitHub: https://github.com/dvjbndlsh93
+
+- name: Durgesh Suthar
+  pic: durgesh.jpg
+  links:
+    Facebook: https://www.facebook.com/durgeshsuthar92
+    GPlus: https://plus.google.com/111206991385253863173
+    EMail: mailto:durgeshsuthar1992@gmail.com
+    GitHub: http://github.com/durgeshsuthar1992
+    YouTube: http://youtube.com/durgeshsuthar1992
+    LastFM: http://www.last.fm/user/durgeshsuthar
+
+- name: Giridaran Manivannan
+  pic: giri.jpg
+  links:
+    Facebook: https://www.facebook.com/giridaran
+
+- name: Harshil Mathur
+  pic: harshil.jpg
+  links:
+    Facebook: https://www.facebook.com/harshilmathur
+    Twitter: https://twitter.com/harshilmathur
+    GPlus: https://plus.google.com/u/0/115752018561278276015/
+    EMail: mailto:harshilmathur@gmail.com
+    Blog: http://harshilmathur.in/
+
+- name: Jayant Jain
+  pic: jayant.jpg
+  links:
+    Facebook: https://www.facebook.com/JayantJain
+
+- name: Kushal Saharan
+  pic: kushal.jpg
+  links:
+    Facebook: https://www.facebook.com/kushal.saharan
+
+- name: Mohit Agarwal
+  pic: mohit.jpg
+  links:
+    Facebook: https://www.facebook.com/mohitagarwal.iitr
+    GitHub: https://github.com/mohitagarwal
+
+- name: Neeraj Gangwar
+  pic: neeraj.jpg
+  links:
+    Facebook: https://www.facebook.com/gangwar.neeraj
+    Twitter: http://twitter.com/neeraj_gangwar
+    Blog: http://gangwarneeraj.blogspot.in/
+    EMail: mailto:y.neeraj2008@gmail.com
+    GitHub: https://github.com/gangwarneeraj
+
+- name: Prakhar Singh
+  pic: prakhar.jpg
+  links:
+    Facebook: https://www.facebook.com/prakhar.singh.4
+    GPlus: https://plus.google.com/u/0/115801568533852567708/posts
+    GitHub: https://github.com/FarSighTe
+    EMail: mailto:prakharsingh95@gmail.com
+
+- name: Pravendra Singh Rathore
+  pic: pravendra.jpg
+  links:
+    Facebook: https://www.facebook.com/pravendrasingh.rathore.5
+    EMail: mailto:hackpravj@gmail.com
+    GPlus: https://google.com/+pravendrarathore
+    Twitter: https://twitter.com/hackpravj
+    GitHub: https://github.com/pravj
+
+- name: Ravi Kishore
+  pic: ravi.jpg
+  links:
+    Facebook: https://www.facebook.com/ravikishore1993
+    Twitter: https://twitter.com/ravikishore1993
+    EMail: mailto:ravikishore1993@gmail.com
+    GitHub: https://github.com/ravikishore1993
+    LastFM: http://www.last.fm/user/ravikishore1993
+
+- name: Rishabh Yadav
+  pic: rishabh.jpg
+  links:
+    Facebook: https://www.facebook.com/RoyalRishabh
+
+- name: Sagar Saxena
+  pic: sagar.jpg
+  links:
+    Facebook: https://www.facebook.com/saxenasagar91
+
+- name: Saket Sarupria
+  pic: saket.jpg
+  links:
+    Facebook: https://www.facebook.com/saket.sarupria
+
+- name: Satyam Vijay
+  pic: satyam.jpg
+  links:
+    Facebook: https://facebook.com/satyam.vijay15
+    Twitter: https://twitter.com/Satyamvijay15
+    GPlus: https://google.com/+SatyamVijay
+    LastFM: http://www.last.fm/user/satyam94
+    StackOverflow: http://stackoverflow.com/users/2572910/sam-codes
+    EMail: mailto:satyam.vijay15@gmail.com
+    GitHub: http://github.com/satyam94
+
+- name: Sethu Nachiappan
+  pic: sethu.jpg
+  links:
+    Facebook: https://www.facebook.com/demonslayer68
+    GPlus: https://plus.google.com/114865456079306635193
+    LastFM: http://www.last.fm/user/demonslayer68
+    EMail: mailto:demonslayer68@gmail.com
+    GitHub: https://github.com/demonslayer68
+
+- name: Shagun Sodhani
+  pic: shagun.jpg
+  links:
+    Spoj: https://www.spoj.pl/users/shagunsodhani/
+    Facebook: https://www.facebook.com/shagun.sodhani
+    GPlus: https://plus.google.com/+ShagunSodhani/posts
+    EMail: mailto:sshagunsodhani@gmail.com
+    StackOverflow: http://stackoverflow.com/users/1353861/shagun
+    GitHub: https://github.com/shagunsodhani
+    Blog: http://shagunsodhani.in
+
+- name: Shashank Mehta
+  pic: shashank.jpg
+  links:
+    Facebook: https://www.facebook.com/leostatic
+    Twitter: https://twitter.com/leostatic
+    GPlus: https://plus.google.com/+ShashankMehta
+    EMail: mailto:me@shashankmehta.in
+    GitHub: https://github.com/shashankmehta
+    Blog: http://shashankmehta.in/
+
+- name: Shikhar Shrivastava
+  pic: shikhar.jpg
+  links:
+    Facebook: https://www.facebook.com/shikhar.shrivastav
+
+- name: Shivam Gupta
+  pic: shivam.jpg
+  links:
+    Facebook: https://www.facebook.com/shivziitr
+
+- name: Shreya Bhardwaj
+  pic: shreya.jpg
+  links:
+    Facebook: https://www.facebook.com/shreya.bhardwaj.77

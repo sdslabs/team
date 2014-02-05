@@ -1,13 +1,4 @@
 ---
-- name: Rishabh Chhabra
-  pic: chhabra.png
-  links:
-    Facebook: https://www.facebook.com/rish24
-    GPlus: https://plus.google.com/u/0/106956682804774631694/posts
-    GitHub: https://github.com/rishabhc
-    EMail: mailto:rishabh.chhabra561@gmail.com
-    Twitter: https://twitter.com/rishabhrocks
-
 - name: Aarti Dwivedi
   pic: aarti.jpg
   links:
@@ -20,7 +11,7 @@
 - name: Team SDSLabs
   pic: sdslabs.jpg
   links:
-    Facebook: https://facebook.com/SDSLabs
+    facebook: https://facebook.com/SDSLabs
     Twitter: https://twitter.com/sdslabs
     GitHub: https://github.com/sdslabs
     GPlus: https://plus.google.com/101733513430697982016/
@@ -38,6 +29,7 @@
     EMail: mailto:me@captnemo.in
     StackOverflow: http://stackoverflow.com/users/368328/capt-nemo
     GitHub: http://github.com/captn3m0
+
 - name: Abhinav Tushar
   pic: abhinav.jpg
   links:
@@ -174,6 +166,15 @@
     EMail: mailto:ravikishore1993@gmail.com
     GitHub: https://github.com/ravikishore1993
     LastFM: http://www.last.fm/user/ravikishore1993
+
+- name: Rishabh Chhabra
+  pic: chhabra.png
+  links:
+    Facebook: https://www.facebook.com/rish24
+    GPlus: https://plus.google.com/u/0/106956682804774631694/posts
+    GitHub: https://github.com/rishabhc
+    EMail: mailto:rishabh.chhabra561@gmail.com
+    Twitter: https://twitter.com/rishabhrocks
 
 - name: Rishabh Yadav
   pic: rishabh.jpg

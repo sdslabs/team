@@ -259,4 +259,11 @@
   links:
     Facebook: https://www.facebook.com/adury.surya
     GPlus: https://plus.google.com/u/0/101257503584344392488/posts
-    EMail: adury.surya@gmail.com
+    EMail: mailto:adury.surya@gmail.com
+
+- name: Vikalp Gupta
+  pic: vikalp.jpg
+  links:
+    Facebook: https://www.facebook.com/vikalp02
+    GPlus: https://plus.google.com/+VikalpGupta
+    EMail: mailto:vikalp02@gmail.com

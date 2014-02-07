@@ -85,6 +85,13 @@
     StackOverflow: http://stackoverflow.com/users/846797/ashwini-khare
     GitHub: http://github.com/khare-ashwini
 
+- name: Dhaval Kapil
+  pic: dhaval.jpg
+  links:
+    Facebook: https://www.facebook.com/dhaval.kapil
+    EMail: mailto:dhavalkapil@gmail.com
+    GitHub: https://github.com/dhavalkapil
+
 - name: Divij Bindlish
   pic: divij.jpg
   links:

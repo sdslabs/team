@@ -64,6 +64,14 @@
     EMail: mailto:abhikandoi2000@gmail.com
     StackOverflow: http://stackoverflow.com/users/1368007/abhi-kandoi
     GitHub: http://github.com/abhikandoi2000
+
+- name: Aditya Prakash
+  pic:aditya_pra.jpg
+  links:
+    Facebook: https://www.facebook.com/aditya.prakash.5648137
+    Email: mailto:adiitya.adda@gmail.com
+    GitHub: https://github.com/adiitya
+
 - name: Aniket Gupta
   pic: aniket.jpg 
   Email: mailto:aniketguptaknp@gmail.com

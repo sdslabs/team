@@ -66,15 +66,17 @@
     GitHub: http://github.com/abhikandoi2000
 
 - name: Aditya Prakash
-  pic:aditya_pra.jpg
+  pic: aditya_pra.jpg
   links:
     Facebook: https://www.facebook.com/aditya.prakash.5648137
     Email: mailto:adiitya.adda@gmail.com
     GitHub: https://github.com/adiitya
 
 - name: Aniket Gupta
-  pic: aniket.jpg 
-  Email: mailto:aniketguptaknp@gmail.com
+  pic: aniket.jpg
+  links:
+    Email: mailto:aniketguptaknp@gmail.com
+    GitHub: https://github.com/ankg
   
 - name: Ankita Shukla
   pic: ankita.jpg
@@ -95,6 +97,13 @@
     EMail: mailto:khare.ashwini@gmail.com
     StackOverflow: http://stackoverflow.com/users/846797/ashwini-khare
     GitHub: http://github.com/khare-ashwini
+
+- name: Deepali Jain
+  pic: deepali.jpg
+  links:
+    Facebook: https://www.facebook.com/deepalijain8
+    EMail: mailto:djdeepalijain811@gmail.com
+    GitHub: https://github.com/jaindeepali
 
 - name: Dhaval Kapil
   pic: dhaval.jpg

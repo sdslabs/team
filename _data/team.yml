@@ -93,10 +93,11 @@
   links:
     Facebook: https://www.facebook.com/khare.ashwini
     Twitter: https://twitter.com/khare_ashwini
-    GPlus: https://plus.google.com/104375527069211180980/
+    GPlus: https://google.com/+AshwiniKhare
     EMail: mailto:khare.ashwini@gmail.com
     StackOverflow: http://stackoverflow.com/users/846797/ashwini-khare
     GitHub: http://github.com/khare-ashwini
+    Blog: http://x.ashwinikhare.in/
 
 - name: Deepali Jain
   pic: deepali.jpg
@@ -275,11 +276,6 @@
   pic: shivam.jpg
   links:
     Facebook: https://www.facebook.com/shivziitr
-
-- name: Shreya Bhardwaj
-  pic: shreya.jpg
-  links:
-    Facebook: https://www.facebook.com/shreya.bhardwaj.77
 
 - name: Surya Kiran
   pic: surya.jpg

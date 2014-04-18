@@ -77,11 +77,11 @@
   links:
     Email: mailto:aniketguptaknp@gmail.com
     GitHub: https://github.com/ankg
-  
+
 - name: Ankita Shukla
   pic: ankita.jpg
   links:
-    Facebook: https://github.com/ankitashukla   
+    Facebook: https://github.com/ankitashukla
 
 - name: Arun Chetty
   pic: arun.jpg
@@ -211,7 +211,7 @@
 
 - name: Rishi Devgan
   pic: rishi.jpg
-  links: 
+  links:
     Facebook: https://www.facebook.com/rishidvgn
     GPlus: https://plus.google.com/u/0/115745766914301417252/posts
     EMail: mailto:rishidvgn@gmail.com
@@ -309,3 +309,13 @@
     StackOverflow: http://stackoverflow.com/users/3543237/priyanshu1994
     GitHub: http://github.com/priyanshu1994
     Spoj: https://www.spoj.com/users/priyanshu1994/
+
+- name: Amanpreet Singh
+  pic: amanpreet.jpg
+  links:
+    Facebook: https://facebook.com/amanpreet.singh.18
+    GPlus: https://google.com/+AmanpreetSingh94
+    EMail: mailto:apsdehal@gmail.com
+    StackOverflow: http://stackoverflow.com/users/2428889/apsdehal
+    GitHub: http://github.com/apsdehal
+    Spoj: https://www.spoj.com/users/apsdehal/

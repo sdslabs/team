@@ -30,19 +30,6 @@
     StackOverflow: http://stackoverflow.com/users/368328/capt-nemo
     GitHub: http://github.com/captn3m0
 
-- name: Abhinav Tushar
-  pic: abhinav.jpg
-  links:
-    Facebook: https://www.facebook.com/abhinav.tushar.9
-    EMail: mailto:abhinav.tushar.vs@gmail.com
-    GitHub: https://github.com/abhinavtushar
-    Twitter: https://twitter.com/abhinavtushar
-    DeviantArt: http://abhinav-tushar.deviantart.com
-    LastFM: http://www.last.fm/user/AbhinavTushar
-    GPlus: https://plus.google.com/115954372898330305451
-    StackOverflow: http://stackoverflow.com/users/1984662/abhinav-tushar-vs
-    Pinterest: https://pinterest.com/abhinavtushar
-
 - name: Abhishek Das
   pic: abhishek.jpg
   links:
@@ -78,11 +65,6 @@
     Email: mailto:aniketguptaknp@gmail.com
     GitHub: https://github.com/ankg
 
-- name: Ankita Shukla
-  pic: ankita.jpg
-  links:
-    Facebook: https://github.com/ankitashukla
-
 - name: Arun Chetty
   pic: arun.jpg
   links:
@@ -98,15 +80,6 @@
     StackOverflow: http://stackoverflow.com/users/846797/ashwini-khare
     GitHub: http://github.com/khare-ashwini
     Blog: http://x.ashwinikhare.in/
-
-- name: Avishek De
-  pic: avishek.jpg
-  links:
-    Facebook: https://www.facebook.com/gunneravishek
-    EMail: mailto:avishekde.iitr@gmail.com
-    GitHub: https://github.com/AvishekDe
-    Twitter: https://twitter.com/wild_avishek
-    GPlus: https://plus.google.com/u/0/115693903706646418554/posts
 
 - name: Deepali Jain
   pic: deepali.jpg
@@ -133,16 +106,6 @@
     EMail: mailto:dvjbndlsh93@gmail.com
     GitHub: https://github.com/dvjbndlsh93
 
-- name: Durgesh Suthar
-  pic: durgesh.jpg
-  links:
-    Facebook: https://www.facebook.com/durgeshsuthar92
-    GPlus: https://plus.google.com/111206991385253863173
-    EMail: mailto:durgeshsuthar1992@gmail.com
-    GitHub: http://github.com/durgeshsuthar1992
-    YouTube: http://youtube.com/durgeshsuthar1992
-    LastFM: http://www.last.fm/user/durgeshsuthar
-
 - name: Giridaran Manivannan
   pic: giri.jpg
   links:
@@ -161,11 +124,6 @@
   pic: jayant.jpg
   links:
     Facebook: https://www.facebook.com/JayantJain
-
-- name: Kushal Saharan
-  pic: kushal.jpg
-  links:
-    Facebook: https://www.facebook.com/kushal.saharan
 
 - name: Mohit Agarwal
   pic: mohit.jpg
@@ -190,15 +148,6 @@
     GitHub: https://github.com/FarSighTe
     EMail: mailto:prakharsingh95@gmail.com
 
-- name: Pravendra Singh Rathore
-  pic: pravendra.jpg
-  links:
-    Facebook: https://www.facebook.com/pravendrasingh.rathore.5
-    EMail: mailto:hackpravj@gmail.com
-    GPlus: https://google.com/+pravendrarathore
-    Twitter: https://twitter.com/hackpravj
-    GitHub: https://github.com/pravj
-
 - name: Ravi Kishore
   pic: ravi.jpg
   links:
@@ -217,11 +166,6 @@
     EMail: mailto:rishabh.chhabra561@gmail.com
     Twitter: https://twitter.com/rishabhrocks
 
-- name: Rishabh Yadav
-  pic: rishabh.jpg
-  links:
-    Facebook: https://www.facebook.com/RoyalRishabh
-
 - name: Rishi Devgan
   pic: rishi.jpg
   links:
@@ -233,22 +177,6 @@
   pic: sagar.jpg
   links:
     Facebook: https://www.facebook.com/saxenasagar91
-
-- name: Saket Sarupria
-  pic: saket.jpg
-  links:
-    Facebook: https://www.facebook.com/saket.sarupria
-
-- name: Satyam Vijay
-  pic: satyam.jpg
-  links:
-    Facebook: https://facebook.com/satyam.vijay15
-    Twitter: https://twitter.com/Satyamvijay15
-    GPlus: https://google.com/+SatyamVijay
-    LastFM: http://www.last.fm/user/satyam94
-    StackOverflow: http://stackoverflow.com/users/2572910/sam-codes
-    EMail: mailto:satyam.vijay15@gmail.com
-    GitHub: http://github.com/satyam94
 
 - name: Sethu Nachiappan
   pic: sethu.jpg
@@ -303,14 +231,6 @@
     Facebook: https://www.facebook.com/vikalp02
     GPlus: https://plus.google.com/+VikalpGupta
     EMail: mailto:vikalp02@gmail.com
-
-- name: Vikas Yadav
-  pic: vikas_vy.jpg
-  links:
-    Facebook: https://www.facebook.com/wicked.yadav
-    GPlus: https://plus.google.com/+VikasYadavvy007
-    GitHub: https://github.com/vy007vikas
-    EMail: mailto:wicked.yadav@gmail.com
 
 - name: Priyanshu Sheth
   pic: priyanshu.jpg

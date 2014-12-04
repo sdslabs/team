@@ -91,13 +91,14 @@
 - name: Dhaval Kapil
   pic: dhaval.jpg
   links:
-    Blog: http://dhavalkapil.github.io/
     Facebook: https://www.facebook.com/dhaval.kapil
-    EMail: mailto:dhavalkapil@gmail.com
-    GitHub: https://github.com/dhavalkapil
     GPlus: https://plus.google.com/+DhavalKapildk
     StackOverflow: http://stackoverflow.com/users/3307716/user3307716
     Twitter: https://twitter.com/dhaval_kapil
+    Npmjs: https://www.npmjs.org/~dhavalkapil
+    GitHub: https://github.com/dhavalkapil
+    EMail: mailto:me@dhavalkapil.com
+    Blog: https://dhavalkapil.com/
 
 - name: Divij Bindlish
   pic: divij.jpg

@@ -1,0 +1,6 @@
+_site
+_dist
+.sass-cache
+node_modules/
+bower_components/
+.jekyll/

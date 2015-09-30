@@ -1,0 +1,10 @@
+{
+  "name": "jekyll-grunt",
+  "version": "1.0.0",
+  "dependencies": {
+    "picchu": "latest",
+    "winjs-grid": "latest",
+    "jquery": "1.11.2",
+    "js-throttle-debounce": "~0.1.1"
+  }
+}

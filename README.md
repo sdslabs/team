@@ -1,4 +1,4 @@
-#SDSLabs Team Page
+#SDSLabs Team Page [![Build Status](https://travis-ci.org/sdslabs/team.svg?branch=gh-pages)](https://travis-ci.org/sdslabs/team)
 
 Uses Masonry and Jekyll.
 

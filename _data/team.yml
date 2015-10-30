@@ -39,6 +39,15 @@
     StackOverflow: http://stackoverflow.com/users/368328/capt-nemo
     GitHub: http://github.com/captn3m0
 
+- name: Abhinav Kaushal Keshari
+  pic: abhinav.jpg
+  links:
+    Facebook: https://www.facebook.com/abhinav.k.keshari
+    GPlus: https://plus.google.com/117578660962224971540/posts
+    Github: https://github.com/abhinavkk
+    EMail: keshariabhinavk1996@gmail.com
+    StackOverflow: http://stackoverflow.com/users/4584901/abhinav-kaushal-keshari
+
 - name: Abhishek Das
   pic: abhishek.jpg
   links:
@@ -68,11 +77,40 @@
     Email: mailto:adiitya.adda@gmail.com
     GitHub: https://github.com/adiitya
 
-- name: Aniket Gupta
-  pic: aniket.jpg
+- name: Akashdeep Goel
+  pic: akashdeepgoel.jpg
   links:
-    Email: mailto:aniketguptaknp@gmail.com
-    GitHub: https://github.com/ankg
+    Facebook: https://www.facebook.com/akashdeep.goel.5
+    GPlus: https://plus.google.com/118091862804381715211/posts
+    GitHub: https://github.com/akashdeepgoel
+    EMail: mailto:akashdeep.goel1996@gmail.com
+    Spoj: http://www.spoj.com/users/akashdeepgoel/
+    Blog: http://iitroorkee2014.blogspot.in/
+
+- name: Amit Manchanda
+  pic: amit.jpg
+  links:
+    Facebook: https://www.facebook.com/amit.manchanda.27
+    GPlus: https://plus.google.com/u/0/110034518196137128401/posts
+    Github: https://github.com/amitdelhi1995
+    Email: mailto:amitdelhi1995@yahoo.co.in
+
+- name: Ankur Garg
+  pic: ankurgarg.jpg
+  links:
+    Facebook: https://www.facebook.com/ankurgarg101
+    GPlus: https://plus.google.com/+AnkurGarg101/
+    EMail: mailto:ankurgarg101@gmail.com
+    GitHub: https://github.com/ankurgarg101
+
+- name: Arpit Singla
+  pic: arpit.jpg
+  links:
+    Facebook: https://www.facebook.com/arpit.singla.270896
+    GPlus: https://plus.google.com/+ArpitSingla270896
+    EMail: mailto:arpit270896@gmail.com
+    GitHub: https://github.com/arpit270896
+    Twitter: https://twitter.com/arpit270896
 
 - name: Arun Chetty
   pic: arun.jpg
@@ -89,6 +127,16 @@
     StackOverflow: http://stackoverflow.com/users/846797/ashwini-khare
     GitHub: http://github.com/khare-ashwini
     Blog: http://x.ashwinikhare.in/
+
+- name: Asutosh Palai
+  pic: asutoshpalai.jpg
+  links:
+    Facebook: https://www.facebook.com/asupalai
+    GPlus: https://plus.google.com/+AsutoshPalai
+    EMail: mailto:asupalai@gmail.com
+    GitHub: https://github.com/asutoshpalai
+    Twitter: https://twitter.com/asupalai
+    Blog: https://blog.asutoshpalai.in
 
 - name: Deepali Jain
   pic: deepali.jpg
@@ -167,7 +215,7 @@
     GPlus: https://plus.google.com/u/0/106956682804774631694/posts
     GitHub: https://github.com/rishabhc
     EMail: mailto:rishabh.chhabra561@gmail.com
-    Twitter: https://twitter.com/rishabhrocks
+    Twitter: https://twitter.com/rc1288
 
 - name: Sagar Saxena
   pic: sagar.jpg
@@ -237,6 +285,14 @@
     Facebook: https://www.facebook.com/vikalp02
     GPlus: https://plus.google.com/+VikalpGupta
     EMail: mailto:vikalp02@gmail.com
+
+- name: Ashish Chaudhary
+  pic: ashish.jpg
+  links:
+    GitHub: https://github.com/yankee101
+    Blog: https://ashishchaudhary.in
+    Facebook: https://facebook.com/ashishchaudhary2311
+    EMail: mailto:iamashishchaudhary@gmail.com
 
 - name: Priyanshu Sheth
   pic: priyanshu.jpg

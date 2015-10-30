@@ -2,18 +2,18 @@
   <head>
     <meta charset="utf-8">
     <title>SDSLabs Team</title>
-    <link rel="shortcut icon" href="assets/favicon.png">
-    <script src='assets/jquery.1.8.1.min.js'></script>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <script src='assets/libs/jquery.1.8.1.min.js'></script>
     <script>
     if (window.location.hostname == 'sdslabs.co.in' || window.location.hostname == 'sdslabs.local')
     {
       document.write('<script src="//'+window.location.hostname+'/api/public/api.js"><\/script>');
-      document.write('<link rel="stylesheet" href="//'+window.location.hostname+'/home/topbar.css">'); 
+      document.write('<link rel="stylesheet" href="//'+window.location.hostname+'/home/topbar.css">');
     }
     </script>
-    <script src="assets/jquery.masonry.min.js"></script>
-    <script src="assets/shuffle.min.js"></script>
-    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/libs/jquery.masonry.min.js"></script>
+    <script src="assets/libs/shuffle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <div id="wrapper">
@@ -26,7 +26,7 @@
                 <span class='img-title'>{{ member.name }}</span>
                 <span class='img-icons'>
                   {% for link in member.links %}
-                  <a href='{{ link[1] }}'><img src='assets/{{ link[0]|downcase }}.png' title='{{ link[0] }}'></a>
+                  <a href='{{ link[1] }}'><img src='assets/img/{{ link[0]|downcase }}.png' title='{{ link[0] }}'></a>
                   {% endfor %}
                   </span>
               </div>
@@ -38,7 +38,7 @@
                 <span class='img-title'>{{ member.name }}</span>
                 <span class='img-icons'>
                   {% for link in member.links %}
-                  <a href='{{ link[1] }}'><img src='assets/{{ link[0]|downcase }}.png' title='{{ link[0] }}'></a>
+                  <a href='{{ link[1] }}'><img src='assets/img/{{ link[0]|downcase }}.png' title='{{ link[0] }}'></a>
                   {% endfor %}
                 </span>
               </div>
@@ -61,7 +61,7 @@
           },300);
         });
         if(typeof topbar !== 'undefined'){
-          topbar.showTopbar(); 
+          topbar.showTopbar();
           topbar.setCurrent("Team");
         }
       });

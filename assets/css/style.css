@@ -2,7 +2,7 @@
   font-family: 'Carrois Gothic';
   font-style: normal;
   font-weight: 400;
-  src: local('Carrois Gothic'), local('CarroisGothic-Regular'), url(carroisgothic.woff) format('woff');
+  src: local('Carrois Gothic'), local('CarroisGothic-Regular'), url(fonts/carroisgothic.woff) format('woff');
 }
 
 .col1 { width: 80px; }

@@ -53,7 +53,7 @@ module.exports = function(grunt) {
       },
       scripts: {
         files: [
-          '<%= config.src %>/scripts/*.js'
+          '<%= config.src %>/assets/scripts/**/*.js'
         ],
         tasks: [ 'concat:dev' ]
       }
@@ -108,14 +108,16 @@ module.exports = function(grunt) {
       dist: {
           src: [
             'bower_components/jquery/dist/jquery.min.js',
-            'bower_components/js-throttle-debounce/build/js-throttle-debounce.min.js'
+            'bower_components/js-throttle-debounce/build/js-throttle-debounce.min.js',
+            '<%= config.src %>/assets/scripts/**/*.js'
           ],
-          dest: '_dist/assets/scripts/master.js'
+          dest: '<%= config.dist %>/assets/scripts/master.js'
       },
       dev: {
           src: [
             'bower_components/jquery/dist/jquery.min.js',
-            'bower_components/js-throttle-debounce/build/js-throttle-debounce.min.js'
+            'bower_components/js-throttle-debounce/build/js-throttle-debounce.min.js',
+            '<%= config.src %>/assets/scripts/**/*.js'
           ],
           dest: '.jekyll/assets/scripts/master.js'
       }

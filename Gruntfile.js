@@ -38,11 +38,10 @@ module.exports = function(grunt) {
           livereload : true
       },
       jekyll: {
-        cwd: '<%= config.src %>',
         files: [ 
-          'index.html',
-          '**/_*{,/**}',
-          '!_sass{,/**}'
+          '<%= config.src %>/**/_*{,/**}',
+          '<%= config.src %>/*.html',
+          '<%= config.src %>/!_sass{,/**}'
         ],
         tasks: [ 'jekyll:dev', 'concat:dev' ]
       },

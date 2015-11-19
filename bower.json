@@ -2,9 +2,9 @@
   "name": "jekyll-grunt",
   "version": "1.0.0",
   "dependencies": {
-    "picchu": "latest",
+    "picchu": "git@github.com:MicrosoftDotCom/picchu.git#master",
     "winjs-grid": "latest",
-    "jquery": "1.11.2",
-    "js-throttle-debounce": "~0.1.1"
+    "jquery-throttle-debounce": "latest",
+    "modernizr": "^2.0.0"
   }
 }

@@ -41,7 +41,7 @@ module.exports = function(grunt) {
         files: [ 
           '<%= config.src %>/**/_*{,/**}',
           '<%= config.src %>/*.html',
-          '<%= config.src %>/!_sass{,/**}'
+          '!<%= config.src %>/_sass{,/**}'
         ],
         tasks: [ 'jekyll:dev', 'concat:dev' ]
       },

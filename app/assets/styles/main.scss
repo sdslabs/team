@@ -1,11 +1,5 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
-
-// This is the Jekyll main scss file, used when Jekyll runs it's build command. 
-// Do not add changes here! All styles should live in the _sass directory, since we are handling
-// styles in the dev environment with Grunt, not Jekyll.
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "main";
+@import
+  "../../../bower_components/winjs-grid/src/sass/mscom-grid.scss",
+  "../../../bower_components/picchu/src/picchu.scss",
+  "_layout"
+;

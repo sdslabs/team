@@ -41,15 +41,15 @@ module.exports = function(grunt) {
         files: [ 
           '<%= config.src %>/**/_*{,/**}',
           '<%= config.src %>/*.html',
-          '!<%= config.src %>/_sass{,/**}'
+          '!<%= config.src %>/assets/**'
         ],
-        tasks: [ 'jekyll:dev', 'concat:dev' ]
+        tasks: [ 'jekyll:dev', 'sass:dev', 'autoprefixer:dev', 'concat:dev' ]
       },
       sass: {
         files: [
-          '<%= config.src %>/_sass/**/*{.scss,.sass}'
+          '<%= config.src %>/assets/styles/**/*{.scss,.sass}'
         ],
-        tasks: [ 'sass:dev' ]
+        tasks: [ 'sass:dev', 'autoprefixer:dev' ]
       },
       scripts: {
         files: [
@@ -60,12 +60,20 @@ module.exports = function(grunt) {
     },
 
     sass: {
+      dist: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          '<%= config.dist %>/assets/styles/main.css': '<%= config.src %>/assets/styles/main.scss',
+        }
+      },
       dev: {
         options: {
           style: 'expanded'
         },
         files: {
-          '.jekyll/assets/styles/main.css': '<%= config.src %>/_sass/main.scss',
+          '.jekyll/assets/styles/main.css': '<%= config.src %>/assets/styles/main.scss',
         }
       }
     },
@@ -86,6 +94,17 @@ module.exports = function(grunt) {
         ]
         // Target-specific file lists and/or options go here.
       },
+      dev: {
+        files: [
+          {
+            expand: true,
+            cwd: '.jekyll/assets/styles',
+            src: ['**/*.css'],
+            dest: '.jekyll/assets/styles',
+            ext: '.css'
+          },
+        ]
+      }
     },
 
     cssmin: {
@@ -138,6 +157,7 @@ module.exports = function(grunt) {
             defaultHeight: '65px',
             colors: {
               black: '#2F2F2F',
+              white: '#FFFFFF',
               grayl3: '#c8c8c8',
               grayl4: '#e3e3e3',
               blue: '#0060AC'
@@ -154,22 +174,6 @@ module.exports = function(grunt) {
           base: '.jekyll',
         }
       }
-    },
-
-    browserSync: {
-      options: {
-        watchTask: true,
-        server: '.jekyll'
-      },
-      dev: {
-        bsFiles: {
-          src : [
-            '.jekyll/**/*.html',
-            '.jekyll/assets/styles/**/*.css',
-            '.jekyll/assets/scripts/**/*.js'
-          ]
-        }
-      }
     }
 
   });
@@ -182,13 +186,16 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'grunticon',
     'jekyll:dist',
-    'concat:dist',
-    'autoprefixer',
-    'cssmin'
+    'sass:dist',
+    'autoprefixer:dist',
+    'cssmin',
+    'concat:dist'
   ]);
 
   grunt.registerTask('serve', [
     'jekyll:dev',
+    'sass:dev',
+    'autoprefixer:dev',
     'concat:dev',
     'connect',
     'watch',

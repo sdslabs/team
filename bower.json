@@ -2,7 +2,7 @@
   "name": "jekyll-grunt",
   "version": "1.0.0",
   "dependencies": {
-    "picchu": "git@github.com:MicrosoftDotCom/picchu.git#master",
+    "picchu": "latest",
     "winjs-grid": "latest",
     "jquery-throttle-debounce": "latest",
     "modernizr": "^2.0.0"

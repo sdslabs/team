@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SDSLabs Team</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <script src='assets/jquery.1.8.1.min.js'></script>
+    <script>
+    if (window.location.hostname == 'sdslabs.co.in' || window.location.hostname == 'sdslabs.local')
+    {
+      document.write('<script src="//'+window.location.hostname+'/api/public/api.js"><\/script>');
+      document.write('<link rel="stylesheet" href="//'+window.location.hostname+'/home/topbar.css">'); 
+    }
+    </script>
+    <script src="assets/jquery.masonry.min.js"></script>
+    <script src="assets/shuffle.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        {% for member in site.data.team %}
+          {% if member.name == 'Team SDSLabs' %}
+            <div class='box photo sdslabs col4'>
+              <img src='pics/{{ member.pic }}' alt='{{ member.name }}'>
+                <div class='img-bar'>
+                <span class='img-title'>{{ member.name }}</span>
+                <span class='img-icons'>
+                  {% for link in member.links %}
+                  <a href='{{ link[1] }}'><img src='assets/{{ link[0]|downcase }}.png' title='{{ link[0] }}'></a>
+                  {% endfor %}
+                  </span>
+              </div>
+            </div>
+          {% else %}
+            <div class='box photo col4'>
+             <img src='pics/{{ member.pic }}' alt='{{ member.name }}'>
+              <div class='img-bar'>
+                <span class='img-title'>{{ member.name }}</span>
+                <span class='img-icons'>
+                  {% for link in member.links %}
+                  <a href='{{ link[1] }}'><img src='assets/{{ link[0]|downcase }}.png' title='{{ link[0] }}'></a>
+                  {% endfor %}
+                </span>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <script>
+      $(function() {
+        $('#container').imagesLoaded( function(){
+          console.log('y');
+          $('.photo:not(.sdslabs)').shuffle();
+          $('#container').masonry({
+            itemSelector : '.box',
+            columnWidth: 390
+          });
+          $('#wrapper').animate({
+            opacity: 1
+          },300);
+        });
+        if(typeof topbar !== 'undefined'){
+          topbar.showTopbar(); 
+          topbar.setCurrent("Team");
+        }
+      });
+    </script>
+  </body>
+</html>

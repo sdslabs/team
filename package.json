@@ -1,0 +1,25 @@
+{
+  "name": "team",
+  "description": "Team page for SDSLabs.",
+  "version": "1.0.0",
+  "homepage": "https://team.sdslabs.co",
+  "author": {
+    "name": "SDSLabs",
+    "url": "https://sdslabs.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdslabs/team.git"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -u bdd tests/test.js"
+  },
+  "license": "MIT",
+  "keywords": []
+}

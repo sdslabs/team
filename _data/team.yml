@@ -15,7 +15,6 @@
     GPlus: https://plus.google.com/100450738982137416015
     GitHub: https://github.com/alphadose
     EMail: mailto:anish.mukherjee1996@gmail.com
-    
 
 - name: Team SDSLabs
   pic: sdslabs.jpg
@@ -348,7 +347,7 @@
     Facebook: https://www.facebook.com/vedansh.bhartiya.7
     GitHub: https://github.com/vedanshbhartia
     EMail: vedanshbhartia@gmail.com
-    
+
 - name: Vishrut Kumar Mishra
   pic: vkm.jpg
   links:
@@ -374,12 +373,21 @@
     Email: mailto:yashdev18@gmail.com
     Twitter: https://twitter.com/yashdev18
 
+- name: Nikhil Kaushik
+  pic: nikhil.jpg
+  links:
+    Facebook: https://www.facebook.com/nikhil.kaushik.984
+    Github: https://github.com/c0dzilla
+    Email: mailto:nikhil.celtics@gmail.com
+    StackOverflow: http://stackexchange.com/users/9712323/nikhil-kaushik
+
 - name: Kartikey Pandey
   pic: kartik.jpeg
   links:
     Facebook: https://www.facebook.com/kartikey.pandey.900
     Email: mailto:k.p.2511998@gmail.com
     GitHub: https://github.com/KP251
+
 - name: Ankit Kataria
   pic: kataria.jpg
   links:

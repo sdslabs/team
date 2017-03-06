@@ -16,7 +16,6 @@
     GitHub: https://github.com/alphadose
     EMail: mailto:anish.mukherjee1996@gmail.com
     
-
 - name: Team SDSLabs
   pic: sdslabs.jpg
   links:
@@ -26,15 +25,6 @@
     GPlus: https://plus.google.com/101733513430697982016/
     EMail: mailto:contact@sdslabs.co.in
     Blog: http://blog.sdslabs.co
-
-- name: Aashaka Shah
-  pic: aashaka.jpg
-  links:
-    Facebook: https://www.facebook.com/aashaka96
-    GPlus: https://plus.google.com/u/0/101169495806201252216/posts
-    GitHub: https://github.com/aashaka
-    EMail: mailto:aashaka96@gmail.com
-    Twitter: https://twitter.com/aashaka96
 
 - name: Abhay Rana
   pic: abhay.jpg
@@ -47,15 +37,6 @@
     EMail: mailto:me@captnemo.in
     StackOverflow: http://stackoverflow.com/users/368328/capt-nemo
     GitHub: http://github.com/captn3m0
-
-- name: Abhinav Kaushal Keshari
-  pic: abhinav.jpg
-  links:
-    Facebook: https://www.facebook.com/abhinav.k.keshari
-    GPlus: https://plus.google.com/117578660962224971540/posts
-    Github: https://github.com/abhinavkk
-    EMail: keshariabhinavk1996@gmail.com
-    StackOverflow: http://stackoverflow.com/users/4584901/abhinav-kaushal-keshari
 
 - name: Abhishek Das
   pic: abhishek.jpg
@@ -349,14 +330,6 @@
     GitHub: https://github.com/vedanshbhartia
     EMail: vedanshbhartia@gmail.com
     
-- name: Vishrut Kumar Mishra
-  pic: vkm.jpg
-  links:
-    Facebook: https://www.facebook.com/vishrut.mishra
-    GPlus: https://plus.google.com/u/0/+vishrutmishra1807/about
-    GitHub: https://github.com/vishrutmishra
-    EMail: mailto:m.vishrut180795@gmail.com
-
 - name: Utsav Mangal
   pic: utsav.jpg
   links:
@@ -380,6 +353,7 @@
     Facebook: https://www.facebook.com/kartikey.pandey.900
     Email: mailto:k.p.2511998@gmail.com
     GitHub: https://github.com/KP251
+
 - name: Ankit Kataria
   pic: kataria.jpg
   links:

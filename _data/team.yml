@@ -219,6 +219,14 @@
   links:
     Facebook: https://www.facebook.com/JayantJain
 
+- name: Karan Desai
+  pic: kd.jpg
+  links:
+    Facebook: https://facebook.com/d4rth.kd
+    EMail: mailto:karandesai281196@gmail.com
+    GitHub: https://github.com/karandesai-96
+    Twitter: https://www.twitter.com/karand3sai
+
 - name: Kartikey Pandey
   pic: kartik.jpeg
   links:
@@ -407,5 +415,3 @@
     Github: https://github.com/ydlamba
     Email: mailto:yashdev18@gmail.com
     Twitter: https://twitter.com/yashdev18
-
-

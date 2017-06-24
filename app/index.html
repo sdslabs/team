@@ -1,23 +1,320 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<!DOCTYPE html>
+ <html>
+ <head>
+   <title>SDSLabs Team</title>
+ </head>
+ <body>
+  <div class="page-container">
+    <div class="page" id="mainpage">
+     
+<div id="icon">
+  <img src="logo.png" style="height: 60px; width: 180px;">
 </div>
+<div id = "venn-maindiv">
+  <div id="leftcircle">
+    <!-- <div id ="textleft">Designers</div> -->
+    <img src="designers.svg" style="position: relative; top: 40%;">
+  </div>
+  <div id="rightcircle">
+    <!-- <div id="textright">Developers</div> -->
+    <img src="developers.svg" style="top: 40%; position: relative;">
+  </div>
+</div>
+<div class="text">
+  Meet the team
+</div>
+<div class="descriptions" id="left-top">
+  <div class="headtext">
+    11
+  </div>
+  <div class="subtext">
+    Designers
+  </div>
+</div>
+<div class="descriptions" id="left-middle">
+  <div class="headtext">
+    36
+  </div>
+  <div class="subtext">
+    Developers
+  </div>
+</div>
+<div class="descriptions" id="left-bottom">
+  <div class="headtext">
+    65
+  </div>
+  <div class="subtext">
+    Alumni
+  </div>  
+</div>
+<div class="descriptions" id="right-top">
+  <div class="headtext">
+    40%
+  </div>
+  <div class="subtext">
+    CS Undergrads
+  </div>
+</div>
+<div class="descriptions" id="right-middle">
+  <div class="headtext">
+    60%
+  </div>
+  <div class="subtext">
+    Non-CS Undergrads
+  </div>
+</div>
+<div class="descriptions" id="right-bottom">
+  <div class="headtext">
+    65%
+  </div>
+  <div class="subtext">
+    Non-Vegetarians
+  </div>
+</div>
+<div class="arrowtext">
+  Alumni
+</div>
+<div class="navdiv">
+<i class="arrow down"></i>
+</div> 
+    </div>
+    <div class="page" id="designerpage">
+      
+    </div>
+    <div class="page" id="developerpage">
+      <div class="bodyborder">
+<div class="bordertext rotate">Designers</div>
+</div>
+<div id="icon">
+  <img src="logo.png" style="height: 70px; width: 200px;">
+</div>
+<div id="headings">
+  Developers
+</div>
+<div id="horizontalrule">
+</div>
+<div class="superdiv">
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      
+  </div>
+  <div class="row">
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+      <div class="col-sm-3">
+        <img src="./dummy.png">
+      </div>
+  </div>
+</div>
+</div>
+<div class="navdiv">
+<div class="close">
+<img src="./close-button.jpg" style="position: relative;
+  top: 45%;
+  left: 45%;
+  height: 10px;
+  width: 10px;"></div></div>
+    </div>
+    <div class="page" id="alumnilocationpage">
+        <div class="navup">
+    <i class="arrow up"></i>
+  </div>
+    <div id="icon">
+    <img src="logo.png" style="height: 70px; width: 200px;">
+  </div>
+  <div class="alumnihead">
+    <b>Alumni</b><small> around the world</small>
+  </div>
+  <div class="alumni-location">
+    <img src="worldmap.png" class="expand">
+  </div>
+<div class="svg50">
+
+<svg width="148" height="133" viewBox="0 0 148 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group.svg</title>
+<desc>Created using Figma</desc>
+
+<g id="Canvas" transform="translate(-425 -362)">
+<g id="Group">
+<g id="Ellipse 6">
+<use xlink:href="#path0_fill" transform="translate(440.836 362.913)" fill="#8A1C19"/>
+</g>
+<g id="Vector 8">
+<use xlink:href="#path1_fill" transform="translate(425.194 366.212)" fill="#8A1C19"/>
+</g>
+</g>
+</g>
+<text x="45" y="85" font-family="Oswald , sans-serif" font-size="48" fill="white">50+</text>
+<defs>
+<path id="path0_fill" d="M 131.237 65.6029C 131.237 101.834 101.859 131.206 65.6184 131.206C 29.3784 131.206 0 101.834 0 65.6029C 0 29.3714 29.3784 0 65.6184 0C 101.859 0 131.237 29.3714 131.237 65.6029Z"/>
+<path id="path1_fill" d="M 0 41.4141C 31.0863 10.3352 54.2544 0.855159 61.9526 0C 63.7855 13.8047 64.0055 38.9952 50.2219 29.3197C 36.4384 19.6442 10.9975 33.3512 0 41.4141Z"/>
+</defs>
+</svg>
+</div>
+<div class="svg20">
+<svg width="94" height="87" viewBox="0 0 148 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group.svg</title>
+<desc>Created using Figma</desc>
+
+<g id="Canvas" transform="translate(-425 -362)">
+<g id="Group">
+<g id="Ellipse 6">
+<use xlink:href="#path0_fill" transform="translate(440.836 362.913)" fill="#8A1C19"/>
+</g>
+<g id="Vector 8">
+<use xlink:href="#path1_fill" transform="translate(425.194 366.212)" fill="#8A1C19"/>
+</g>
+</g>
+</g>
+<text x="50" y="80" font-family="Oswald , sans-serif" font-size="48" fill="white">20+</text>
+<defs>
+<path id="path0_fill" d="M 131.237 65.6029C 131.237 101.834 101.859 131.206 65.6184 131.206C 29.3784 131.206 0 101.834 0 65.6029C 0 29.3714 29.3784 0 65.6184 0C 101.859 0 131.237 29.3714 131.237 65.6029Z"/>
+<path id="path1_fill" d="M 0 41.4141C 31.0863 10.3352 54.2544 0.855159 61.9526 0C 63.7855 13.8047 64.0055 38.9952 50.2219 29.3197C 36.4384 19.6442 10.9975 33.3512 0 41.4141Z"/>
+</defs>
+</svg>
+</div>
+<div class="svg10sam">
+<svg width="80" height="70" viewBox="0 0 148 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group.svg</title>
+<desc>Created using Figma</desc>
+
+<g id="Canvas" transform="translate(-425 -362)">
+<g id="Group">
+<g id="Ellipse 6">
+<use xlink:href="#path0_fill" transform="translate(440.836 362.913)" fill="#8A1C19"/>
+</g>
+<g id="Vector 8">
+<use xlink:href="#path1_fill" transform="translate(425.194 366.212)" fill="#8A1C19"/>
+</g>
+</g>
+</g>
+<text x="50" y="80" font-family="Oswald , sans-serif" font-size="48" fill="white">10+</text>
+<defs>
+<path id="path0_fill" d="M 131.237 65.6029C 131.237 101.834 101.859 131.206 65.6184 131.206C 29.3784 131.206 0 101.834 0 65.6029C 0 29.3714 29.3784 0 65.6184 0C 101.859 0 131.237 29.3714 131.237 65.6029Z"/>
+<path id="path1_fill" d="M 0 41.4141C 31.0863 10.3352 54.2544 0.855159 61.9526 0C 63.7855 13.8047 64.0055 38.9952 50.2219 29.3197C 36.4384 19.6442 10.9975 33.3512 0 41.4141Z"/>
+</defs>
+</svg>  
+</div>
+<div class="svg10eu">
+<svg width="80" height="70" viewBox="0 0 148 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group.svg</title>
+<desc>Created using Figma</desc>
+
+<g id="Canvas" transform="translate(-425 -362)">
+<g id="Group">
+<g id="Ellipse 6">
+<use xlink:href="#path0_fill" transform="translate(440.836 362.913)" fill="#8A1C19"/>
+</g>
+<g id="Vector 8">
+<use xlink:href="#path1_fill" transform="translate(425.194 366.212)" fill="#8A1C19"/>
+</g>
+</g>
+</g>
+<text x="50" y="80" font-family="Oswald , sans-serif" font-size="48" fill="white">10+</text>
+<defs>
+<path id="path0_fill" d="M 131.237 65.6029C 131.237 101.834 101.859 131.206 65.6184 131.206C 29.3784 131.206 0 101.834 0 65.6029C 0 29.3714 29.3784 0 65.6184 0C 101.859 0 131.237 29.3714 131.237 65.6029Z"/>
+<path id="path1_fill" d="M 0 41.4141C 31.0863 10.3352 54.2544 0.855159 61.9526 0C 63.7855 13.8047 64.0055 38.9952 50.2219 29.3197C 36.4384 19.6442 10.9975 33.3512 0 41.4141Z"/>
+</defs>
+</svg>  
+</div>
+<div class="svg10saf">
+<svg width="80" height="70" viewBox="0 0 148 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group.svg</title>
+<desc>Created using Figma</desc>
+
+<g id="Canvas" transform="translate(-425 -362)">
+<g id="Group">
+<g id="Ellipse 6">
+<use xlink:href="#path0_fill" transform="translate(440.836 362.913)" fill="#8A1C19"/>
+</g>
+<g id="Vector 8">
+<use xlink:href="#path1_fill" transform="translate(425.194 366.212)" fill="#8A1C19"/>
+</g>
+</g>
+</g>
+<text x="50" y="80" font-family="Oswald , sans-serif" font-size="48" fill="white">10+</text>
+<defs>
+<path id="path0_fill" d="M 131.237 65.6029C 131.237 101.834 101.859 131.206 65.6184 131.206C 29.3784 131.206 0 101.834 0 65.6029C 0 29.3714 29.3784 0 65.6184 0C 101.859 0 131.237 29.3714 131.237 65.6029Z"/>
+<path id="path1_fill" d="M 0 41.4141C 31.0863 10.3352 54.2544 0.855159 61.9526 0C 63.7855 13.8047 64.0055 38.9952 50.2219 29.3197C 36.4384 19.6442 10.9975 33.3512 0 41.4141Z"/>
+</defs>
+</svg>  
+</div>
+    </div>
+  </div>
+ </body>
+ </html>

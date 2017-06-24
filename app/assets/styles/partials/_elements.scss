@@ -1,0 +1,382 @@
+/* MAIN PAGE */
+
+#icon {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+#venn-maindiv {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  width: 500px;
+  height: 300px;
+  display: flex;
+}
+
+#leftcircle {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #ff0000;
+  color: #FFF;
+  opacity: 0.8;
+  font: 25px "josefin sans", arial;
+}
+
+#rightcircle {
+  display: table-cell;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #18bc9c;
+  margin-left: -50px;
+  color: #FFF;
+  opacity: 0.8;
+  font: 25px "josefin sans", arial;
+}
+
+#textleft, #textright {
+  position: relative;
+  top: 50%;
+}
+
+.mainpagetext {
+  position: absolute;
+  top: 70%;
+  left: 41%;
+  font-size: 35px;
+  font-family: arial;
+  color: #666666;
+  font-weight: 900;
+}
+
+.descriptions {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  display: flex;
+}
+
+#left-top {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.headtext {
+  font-size: 70px;
+  opacity: 0.2;
+}
+
+.subtext {
+  font-size: 20px;
+  margin-left: -20px;
+  margin-top: 50px;
+}
+
+#left-middle {
+  position: absolute;
+  top: 40%;
+  left: 17%;
+}
+
+#left-bottom {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+}
+
+#right-top {
+  position: absolute;
+  top: 30%;
+  left: 64%;
+}
+
+#right-middle {
+  position: absolute;
+  top: 40%;
+  left: 67%;
+}
+
+#right-bottom {
+  position: absolute;
+  top: 50%;
+  left: 64%;
+}
+
+.nav-div-down {
+  background-color: #b22222;
+  height: 45px;
+  width: 90px;
+  border-radius: 90px 90px 0 0;
+  border: solid 10px #b77777;
+  border-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 43.6%;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  top: 45%;
+  left: 45%;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrowtext {
+  position: absolute;
+  bottom: 55px;
+  left: 45%;
+  font-size: 20px;
+}
+
+/* DESIGNER PAGE */
+
+.mainborder-ds {
+  background-color: #18bc9c;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  left: 95%;
+}
+
+/**#icon {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}**/
+
+.bordertextds {
+  position: relative;
+  top: 40%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+.rotateds {
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  /* IE */
+  -ms-transform: rotate(90deg);
+  /* Opera */
+  -o-transform: rotate(90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#headings-ds {
+  color: #f00;
+  font-size: 40px;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 14%;
+  left: 8%;
+}
+
+#horizontalrule-ds {
+  background-color: #f00;
+  position: absolute;
+  top: 20.5%;
+  left: 8%;
+  width: 5%;
+  height: 0.7%;
+}
+
+.superdiv-ds {
+  position: absolute;
+  top: 24%;
+  left: 6%;
+  right: 8%;
+  height: 76%;
+}
+
+img.ds {
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 20% 20% 21% 21%;
+  -moz-border-radius: 20% 20% 21% 21%;
+  border-radius: 20% 20% 21% 21%;
+}
+
+.nav-div-cross {
+  background-color: #b22222;
+  height: 45px;
+  width: 90px;
+  border-radius: 90px 90px 0 0;
+  border: solid 10px #b77777;
+  border-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+/* Developer Page */
+
+.bodyborder-dv{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5%;
+  height: 100%;
+  background: red;
+  align-content: center;
+}
+.bordertext-dv{
+  position: relative;
+  top: 50%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 40px;
+}
+.rotate-dv {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+#headings-dv{
+  color: #18bc9c;
+  font-size: 40px;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 10%;
+  left: 83%;
+}
+#horizontalrule-dv{
+  background-color: #18bc9c;
+  position: absolute;
+  top: 16.5%;
+  left: 89.6%;
+  width: 5%;
+  height: 0.7%;
+}
+.superdiv-dv{
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  right: 5%;
+  overflow: auto;
+  height: 80%;
+}
+img.dv{
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 20% 20% 21% 21%;
+  -moz-border-radius: 20% 20% 21% 21%;
+  border-radius: 20% 20% 21% 21%;
+}
+
+/* Alumni location page */
+
+.alumni-location {
+  position: absolute;
+  right: 7%;
+  left: 20%;
+  height: 70%;
+  top: 25%;
+  bottom: 10%;
+}
+
+img.expand {
+  width: 80em;
+}
+
+.svg50 {
+  position: absolute;
+  top: 45%;
+  right: 29%;
+}
+
+.svg20 {
+  position: absolute;
+  top: 36%;
+  left: 28%;
+}
+
+.svg10sam {
+  position: absolute;
+  bottom: 25%;
+  left: 36%;
+}
+
+.svg10eu {
+  position: absolute;
+  top: 30%;
+  left: 52%;
+}
+
+.svg10saf {
+  position: absolute;
+  bottom: 26%;
+  left: 53%;
+}
+
+.alumnihead {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  right: 32%;
+  color: #b22222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.navup {
+  background-color: #b22222;
+  height: 45px;
+  width: 90px;
+  border-radius: 0 0 90px 90px;
+  border: solid 10px #b77777;
+  border-top: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  left: 45%;
+  top: 30%;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}

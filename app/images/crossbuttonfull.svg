@@ -1,0 +1,28 @@
+<svg width="56" height="56" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group.svg</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1750 -663)">
+<g id="Group">
+<g id="Ellipse 2">
+<use xlink:href="#path0_fill" transform="translate(1750 663)" fill="#8A1C19" fill-opacity="0.8"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path1_fill" transform="translate(1755.6 670.467)" fill="#8A1C19"/>
+</g>
+<g id="Capa 1 2">
+<g id="Group">
+<g id="close">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="matrix(1 0 0 -1 1770.53 698.467)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 56 28C 56 43.464 43.464 56 28 56C 12.536 56 0 43.464 0 28C 0 12.536 12.536 0 28 0C 43.464 0 56 12.536 56 28Z"/>
+<path id="path1_fill" d="M 44.8 22.4C 44.8 34.7712 34.7712 44.8 22.4 44.8C 10.0288 44.8 0 34.7712 0 22.4C 0 10.0288 10.0288 0 22.4 0C 34.7712 0 44.8 10.0288 44.8 22.4Z"/>
+<path id="path2_fill" d="M 14.9333 1.49333L 13.44 0L 7.46667 5.97333L 1.49333 0L 0 1.49333L 5.97333 7.46667L 0 13.44L 1.49333 14.9333L 7.46667 8.96L 13.44 14.9333L 14.9333 13.44L 8.96 7.46667L 14.9333 1.49333Z"/>
+</defs>
+</svg>

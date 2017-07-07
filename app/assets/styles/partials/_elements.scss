@@ -380,3 +380,87 @@ i {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
+
+/** ALUMNI PAGE **/
+#icon {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.alumnihead {
+  position: absolute;
+  top: 12%;
+  left: 42%;
+  right: 42%;
+  color: #b22222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.alumnipicdiv {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  right: 9%;
+}
+
+.column-6-left, .column-6-middle, .column-6-right {
+  width: 16.5%;
+  float: left;
+}
+
+.parts img {
+  border-radius: 50%;
+  height: 70%;
+  width: 70%;
+}
+
+.name {
+  position: relative;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-left: 23%;
+}
+
+.work {
+  position: relative;
+  color: #b22222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-left: 25%;
+}
+
+.company {
+  position: relative;
+  color: #b22222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  margin-left: 16%;
+}
+
+.contactslinks {
+  display: flex;
+}
+
+.leftimg {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  margin-left: 15%;
+}
+
+.rightimg {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  margin-right: 15%;
+}
+
+.navcrossfull {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  padding: 5px;
+}

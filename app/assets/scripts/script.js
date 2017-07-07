@@ -6,6 +6,7 @@ jQuery(document).ready(function($){
 		"designerpage": "designerpage",
 		"/developerpage": "developerpage",
 		"alumnilocationpage": "alumnilocationpage",
+		"alumnipage": "alumnipage",
 		"/": "root"
 	};
 
@@ -13,7 +14,8 @@ jQuery(document).ready(function($){
 		0 : "/",
 		1 : "/designerpage",
 		2 : "/developerpage",
-		3 : "/alumnilocationpage"
+		3 : "/alumnilocationpage",
+		4 : "/alumnipage"
 	};
 
 	var designerVennButton = $('#designer-venn-button');
@@ -85,6 +87,13 @@ jQuery(document).ready(function($){
 			$(pages[nextSlideIndex]).addClass('selected');
 		}
 
+		else if (prevSlideIndex == 4 && nextSlideIndex == 0) {
+			$(pages[prevSlideIndex]).addClass('fade-away');
+			$(pages[nextSlideIndex]).addClass('fade-in');
+			$(pages[prevSlideIndex]).removeClass('selected');
+			$(pages[nextSlideIndex]).addClass('selected');
+		}
+
 		setTimeout(function() {
 			removeClasses(prevSlideIndex);
 			removeClasses(nextSlideIndex);
@@ -104,7 +113,7 @@ jQuery(document).ready(function($){
 			navUpButton.hide();
 		}
 
-		else  if(slide == 3) {
+		else if(slide == 3) {
 			navUpButton.show();
 			navDownButton.hide();
 			crossButton.hide();
@@ -123,6 +132,22 @@ jQuery(document).ready(function($){
 		$(pages[index]).removeClass('leave-left-dv');
 		$(pages[index]).removeClass('leave-right-ds');
 	}
+
+	var navClick = {
+		down : function() {
+			matchUrl(pageUrls[3]);
+		},
+		up : function() {
+			matchUrl(pageUrls[0]);
+		},
+		cross : function() {
+			matchUrl(pageUrls[0]);
+		}
+	}
+
+	navUpButton.on('click', navClick.up);
+	navDownButton.on('click', navClick.down);
+	crossButton.on('click', navClick.cross);
 
 	
 

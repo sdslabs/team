@@ -2,7 +2,9 @@
  <html>
  <head>
    <title>SDSLabs Team</title>
-   <link rel="stylesheet" type="text/css" href="/assets/styles/main.scss">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
  </head>
  <body>
   <div class="page-container">
@@ -12,12 +14,14 @@
   <img src="./images/logo.png" style="height: 60px; width: 180px;">
 </div>
 <div id = "venn-maindiv">
-  <div id="leftcircle">
-    <img src="designers.svg" style="position: relative; top: 40%;">
+  
+  <div class="leftcircle" id="designer-venn-button">
+    <img src="./images/designers.svg" style="position: relative; top: 40%;">
   </div>
-  <div id="rightcircle">
-    <img src="developers.svg" style="top: 40%; position: relative;">
+  <div class="rightcircle" id="developer-venn-button">
+     <img src="./images/developers.svg" style="top: 40%; position: relative;">
   </div>
+  
 </div>
 <div class="mainpagetext">
   Meet the team
@@ -81,7 +85,7 @@
       <div id="icon">
   <img src="./images/logo.png" style="height: 70px; width: 200px;">
 </div>
-<div class="mainborder-ds">
+<div class="mainborder-ds" id="developer-side-bar">
 <div class="bordertextds rotateds">
   Developers
 </div>  
@@ -134,12 +138,11 @@
 </div>
 <div class="nav-div-cross">
   <div class="close">
-    <img src="./close-button.jpg" style="position: relative; top: 45%; left: 45%; height: 10px; width: 10px;">
   </div>
 </div>
     </div>
     <div class="page" id="developerpage">
-      <div class="bodyborder-dv">
+      <div class="bodyborder-dv" id="designer-side-bar">
 <div class="bordertext-dv rotate-dv">Designers</div>
 </div>
 <div id="icon">
@@ -241,11 +244,7 @@
 </div>
 <div class="nav-div-cross">
 <div class="close">
-<img src="./close-button.jpg" style="position: relative;
-  top: 45%;
-  left: 45%;
-  height: 10px;
-  width: 10px;"></div></div>
+</div></div>
     </div>
     <div class="page" id="alumnilocationpage">
         <div class="navup">
@@ -258,9 +257,9 @@
     <b>Alumni</b><small> around the world</small>
   </div>
   <div class="alumni-location">
-    <img src="worldmap.png" class="expand">
+    <img src="./images/worldmap.png" class="expand">
   </div>
-<div class="svg50">
+<div class="svg50" id="svg-icon">
 
 <svg width="148" height="133" viewBox="0 0 148 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Group.svg</title>
@@ -481,7 +480,7 @@
   </div>
   </div><br><br><br>
   <div class="navcrossfull">
-  <img src="./crossbuttonfull.svg">
+  <img src="./images/crossbuttonfull.svg">
 </div>
 </div>
 
@@ -489,5 +488,10 @@
     </div>
   </div>
  </body>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <script type="text/javascript" src="/assets/scripts/script.js"></script>
+ <script>
+  console.log("Check")
+</script>
  </html>

@@ -154,136 +154,132 @@ jQuery(document).ready(function($) {
 	}
 
 		else if(prevSlideIndex == 1 && nextSlideIndex == 2) {
-
+			$('#developer-side-bar').animateCss('fadeOutLeft');
+			$('.designerpage-elements').animateCss('fadeOut zoomOut');
 			setTimeout(delay12, 300);
 			function delay12(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
+			$('#designer-side-bar').animateCss('fadeInRight');
+			$('.developerpage-elements').animateCss('zoomIn fadeIn');
 		}
 	}
 
 		else if (prevSlideIndex == 2 && nextSlideIndex == 1) {
-
+			$('#designer-side-bar').animateCss('fadeOutRight');
+			$('.developerpage-elements').animateCss('zoomOut fadeOut');
 			setTimeout(delay21, 300);
 			function delay21(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
+			$('#developer-side-bar').animateCss('fadeInLeft');
+			$('.designerpage-elements').animateCss('fadeIn zoomIn');
 		}
 	}
 
 		else if (prevSlideIndex == 0 && nextSlideIndex == 3) {
-
+			$('#designer-venn-button').animateCss('fadeOut zoomOut');
+			$('.mainpage-elements').animateCss('fadeOut');
+			$('#developer-venn-button').animateCss('fadeOut zoomOut');
+			$('.alumnihead').hide();
+			$('.alumni-location').hide();
+			$('.svgs').hide();
 			setTimeout(delay03, 300);
 			function delay03() {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
+			$('.alumnihead').show().animateCss('fadeIn');
+			setTimeout(domino1, 200);
+			function domino1(){
+			$('.alumni-location').show().animateCss('fadeIn');
+			}
+			setTimeout(domino2, 600);
+			function domino2() {
+			$('.svgs').show().animateCss('zoomIn');
+			}
 		}
 	}
 
 		else if (prevSlideIndex == 3 && nextSlideIndex == 0) {
-
-			setTimeout(delay30, 300);
+			$('.alumnilocationpage-elements').animateCss('fadeOut');
+			$('.svgs').animateCss('fadeOut zoomOut');
+			setTimeout(delay30, 400);
 			function delay30() {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
-
+			$('#designer-venn-button').animateCss('fadeIn zoomIn');
+			$('.mainpage-elements').animateCss('fadeIn');
+			$('#developer-venn-button').animateCss('fadeIn zoomIn');
 		}
 	}
 
 		else if(prevSlideIndex == 4 && nextSlideIndex ==3) {
-
+			$('.alumnipage-elements').animateCss('fadeOut');
+			$('.parts').animateCss('zoomOut');
+			$('.alumnihead').hide();
+			$('.alumni-location').hide();
+			$('.svgs').hide();
 			setTimeout(delay43, 300);
 			function delay43() {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
+			$('.alumnihead').show().animateCss('fadeIn');
+			setTimeout(domino1, 200);
+			function domino1(){
+			$('.alumni-location').show().animateCss('fadeIn');
+			}
+			setTimeout(domino2, 600);
+			function domino2() {
+			$('.svgs').show().animateCss('zoomIn');
+			}
 		}
 	}
 
 		else if (prevSlideIndex == 3 && nextSlideIndex == 4) {
-
+			$('.alumnilocationpage-elements').animateCss('fadeOut');
+			$('.svgs').animateCss('zoomOut');
 			setTimeout(delay34, 300);
 			function delay34() {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
+			$('.alumnipage-elements').animateCss('fadeIn');
+			$('.parts').animateCss('zoomIn');
 		}
 	}
 
-		/*setTimeout(function() {
-			removeClasses(prevSlideIndex);
-			removeClasses(nextSlideIndex);
-		}, 500);*/
-
 		slide = nextSlideIndex;
-
-		/*if(slide == 0) {
-			navDownButton.show();
-			navUpButton.hide();
-			crossButton.hide();
-		}
-
-		else if(slide == 1 || slide == 2) {
-			crossButton.show();
-			navDownButton.hide();
-			navUpButton.hide();
-		}
-
-		else if(slide == 3) {
-			navUpButton.show();
-			navDownButton.hide();
-			crossButton.hide();
-		}*/
 	}
 
 	function removeClasses(index) {
-		/*$(pages[index]).removeClass('fade-in-ds');
-		$(pages[index]).removeClass('fade-in-dv');
-		$(pages[index]).removeClass('fade-in-dv');
-		$(pages[index]).removeClass('fade-away-dv');
-		$(pages[index]).removeClass('fade-away');
-		$(pages[index]).removeClass('fade-in');
-		$(pages[index]).removeClass('enter-left-ds');
-		$(pages[index]).removeClass('enter-right-dv');
-		$(pages[index]).removeClass('leave-left-dv');
-		$(pages[index]).removeClass('leave-right-ds');*/
 	}
 
 	var navClick = {
 		down : function() {
 			matchUrl(pageUrls[3]);
-			/*display(3);*/
 		},
 		up : function() {
 			matchUrl(pageUrls[0]);
-			/*display(0);*/
 		},
 		cross : function() {
 			matchUrl(pageUrls[0]);
-			/*display(0);*/
-			
 		},
 		crossre : function() {
 			matchUrl(pageUrls[3]);
-			/*display(3);*/
 		},
 		ds : function() {
 			matchUrl(pageUrls[1]);
-			/*display(1);*/
 		},	
 		dv : function() {
 			matchUrl(pageUrls[2]);
-			// display(2);
 		},
 		dsbar : function() {
 			matchUrl(pageUrls[1]);
-			/*display(1);*/
 		},
 		dvbar : function() {
 			matchUrl(pageUrls[2]);
-			/*display(2);*/
 		},
 		numsvg : function() {
 			matchUrl(pageUrls[4]);
-			/*display(4);*/
 		}
 
 	}

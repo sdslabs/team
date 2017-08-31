@@ -1,12 +1,13 @@
-jQuery(document).ready(function($){
+jQuery(document).ready(function($) {
 	
 	var slide = 0;
-	var routes ={
-		"designerpage": "designerpage",
+	var routes = {
+		"/": "root",
+		"/designerpage": "designerpage",
 		"/developerpage": "developerpage",
-		"alumnilocationpage": "alumnilocationpage",
-		"alumnipage": "alumnipage",
-		"/": "root"
+		"/alumnilocationpage": "alumnilocationpage",
+		"/alumnipage": "alumnipage"
+
 	};
 
 	var pageUrls = {
@@ -21,33 +22,42 @@ jQuery(document).ready(function($){
 	var developerVennButton = $('#developer-venn-button');
 	var navUpButton = $('#nav-up-button');
 	var navDownButton = $('#nav-down-button');
-	var crossButton = $('#cross-button');
+	var crossButton = $('.cross-button');
+	var crossButtonRe = $('.cross-button-re');
 	var pageContainer = $('.page-container');
 	var designerSideBar = $('#designer-side-bar');
 	var developerSideBar = $('#developer-side-bar');
 	var svgIcon = $('#svg-icon');
+	var mainpageElements = $('.mainpage-elements');
+	var designerpageElements = $('.designerpage-elements');
+	var developerpageElements = $('.developerpage-elements');
+	var alumnilocationpageElements = $('.alumnilocationpage-elements');
+	var alumnipageElements = $('.alumnipage-elements');
 
 	var pages = pageContainer.children('.page');
 
 	function matchUrl(url){
+		console.log(url);
 		for (var index in routes)
 		{
 			if(url==index)
-			{
+			{	
 				if(url != document.location.pathname) {
 					window.history.pushState(null, null, url);
 				}
 				for(var key in pageUrls){
 					if(pageUrls[key] === index){
+						console.log("Selected key");
 						updateSlide(parseInt(slide), parseInt(key));
+						break;
 					}
 				}
-				break;
 			}
 		}
 	}
 
 	function display(index) {
+		$(pages[index]).removeClass('hidden');
 		$(pages[index]).addClass('selected');
 		$(pages[index-1]).removeClass('selected');
 		$(pages[index-1]).addClass('hidden');
@@ -69,7 +79,8 @@ jQuery(document).ready(function($){
 	}
 
 	window.onpopstate =function(event) {
-		matchUrl(document.location.href);
+		console.log(window.location.host);
+		matchUrl('/designerpage');
 	}
 
 	function firstPage(){
@@ -77,55 +88,74 @@ jQuery(document).ready(function($){
 	}
 
 	function updateSlide(prevSlideIndex, nextSlideIndex) {
+		console.log(prevSlideIndex);
+		console.log(nextSlideIndex);
 
-		if(prevSlideIndex == 0 && nextSlideIndex == 1) {
-			$(pages[nextSlideIndex]).addClass('fade-in-ds');
-			$(pages[prevSlideIndex]).addClass('fade-away-ds');
+		if(prevSlideIndex === 0 && nextSlideIndex === 1) {
+			
+			
+			$('#designer-venn-button').addClass('translate-ds-di animated fadeOut zoomOut');
+			$('.mainpage-elements').addClass('animated fadeOut');
+			$('#developer-venn-button').addClass('translate-dv-st animated fadeOut zoomOut');
+			$('.developerpage-elements').addClass('animated zoomIn');
+			$('#developer-side-bar').addClass('animated translate-dv-bar fadeIn');
+			$(pages[prevSlideIndex]).removeClass('selected');
+			$(pages[nextSlideIndex]).addClass('selected');
+		
+	}
+
+		else if(prevSlideIndex == 1 && nextSlideIndex == 0) {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 		}
 
 		else if(prevSlideIndex == 0 && nextSlideIndex == 2) {
-			$(pages[nextSlideIndex]).addClass('fade-in-dv');
-			$(pages[prevSlideIndex]).addClass('fade-away-dv');
+			$(pages[prevSlideIndex]).removeClass('selected');
+			$(pages[nextSlideIndex]).addClass('selected');
+		}
+
+		else if(prevSlideIndex == 2 && nextSlideIndex == 0) {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 		}
 
 		else if(prevSlideIndex == 1 && nextSlideIndex == 2) {
-			$(pages[nextSlideIndex]).addClass('enter-right-dv');
-			$(pages[prevSlideIndex]).addClass('leave-right-ds');
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 		}
 
 		else if (prevSlideIndex == 2 && nextSlideIndex == 1) {
-			$(pages[nextSlideIndex]).addClass('enter-left-ds');
-			$(pages[prevSlideIndex]).addClass('leave-left-dv');
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 		}
 
-		else if (prevSlideIndex == 0 && nextSlideIndex == 3 || prevSlideIndex == 3 && nextSlideIndex == 0) {
-			$(pages[nextSlideIndex]).addClass('fade-in');
-			$(pages[prevSlideIndex]).addClass('fade-away');
+		else if (prevSlideIndex == 0 && nextSlideIndex == 3) {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 		}
 
-		else if (prevSlideIndex == 4 && nextSlideIndex == 0) {
-			$(pages[prevSlideIndex]).addClass('fade-away');
-			$(pages[nextSlideIndex]).addClass('fade-in');
+		else if (prevSlideIndex == 3 && nextSlideIndex == 0) {
+			$(pages[prevSlideIndex]).removeClass('selected');
+			$(pages[nextSlideIndex]).addClass('selected');
+
+		}
+
+		else if(prevSlideIndex == 4 && nextSlideIndex ==3) {
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 		}
 
-		setTimeout(function() {
+		else if (prevSlideIndex == 3 && nextSlideIndex == 4) {
+			$(pages[prevSlideIndex]).removeClass('selected');
+			$(pages[nextSlideIndex]).addClass('selected');
+		}
+
+		/*setTimeout(function() {
 			removeClasses(prevSlideIndex);
 			removeClasses(nextSlideIndex);
-		}, 500);
+		}, 500);*/
 
-		slide = nextSlideIndex;
+		/*slide = nextSlideIndex;
 
 		if(slide == 0) {
 			navDownButton.show();
@@ -143,11 +173,11 @@ jQuery(document).ready(function($){
 			navUpButton.show();
 			navDownButton.hide();
 			crossButton.hide();
-		}
+		}*/
 	}
 
 	function removeClasses(index) {
-		$(pages[index]).removeClass('fade-in-ds');
+		/*$(pages[index]).removeClass('fade-in-ds');
 		$(pages[index]).removeClass('fade-in-dv');
 		$(pages[index]).removeClass('fade-in-dv');
 		$(pages[index]).removeClass('fade-away-dv');
@@ -156,7 +186,7 @@ jQuery(document).ready(function($){
 		$(pages[index]).removeClass('enter-left-ds');
 		$(pages[index]).removeClass('enter-right-dv');
 		$(pages[index]).removeClass('leave-left-dv');
-		$(pages[index]).removeClass('leave-right-ds');
+		$(pages[index]).removeClass('leave-right-ds');*/
 	}
 
 	var navClick = {
@@ -171,6 +201,11 @@ jQuery(document).ready(function($){
 		cross : function() {
 			matchUrl(pageUrls[0]);
 			display(0);
+			
+		},
+		crossre : function() {
+			matchUrl(pageUrls[3]);
+			display(3);
 		},
 		ds : function() {
 			matchUrl(pageUrls[1]);
@@ -198,6 +233,7 @@ jQuery(document).ready(function($){
 	navUpButton.on('click', navClick.up);
 	navDownButton.on('click', navClick.down);
 	crossButton.on('click', navClick.cross);
+	crossButtonRe.on('click', navClick.crossre);
 	designerVennButton.on('click', navClick.ds);
 	developerVennButton.on('click', navClick.dv);
 	designerSideBar.on('click', navClick.dsbar);

@@ -49,7 +49,7 @@
 .mainpagetext {
   position: absolute;
   top: 70%;
-  left: 41%;
+  left: 42.5%;
   font-size: 35px;
   font-family: arial;
   color: #666666;
@@ -121,7 +121,7 @@
   border-bottom: 0;
   position: absolute;
   bottom: 0;
-  left: 43.6%;
+  left: 46%;
 }
 
 i {
@@ -142,7 +142,7 @@ i {
 .arrowtext {
   position: absolute;
   bottom: 55px;
-  left: 45%;
+  left: 46.7%;
   font-size: 20px;
 }
 
@@ -213,12 +213,6 @@ img.ds {
 }
 
 .nav-div-cross {
-  background-color: #b22222;
-  height: 45px;
-  width: 90px;
-  border-radius: 90px 90px 0 0;
-  border: solid 10px #b77777;
-  border-bottom: 0;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -342,7 +336,6 @@ img.expand {
   position: absolute;
   top: 12%;
   left: 40%;
-  right: 32%;
   color: #b22222;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
@@ -357,7 +350,7 @@ img.expand {
   border-top: 0;
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 46%;
 }
 
 i {
@@ -485,6 +478,39 @@ i {
 
 .page-container, body, html {
   height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  background-clip: content-box;
+  padding: 15px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ff0000;
+  -webkit-border-radius: 20% 20% 21% 21%;
+  -moz-border-radius: 20% 20% 21% 21%;
+  border-radius: 20% 20% 21% 21%;
+}
+
+.col-sm-3:hover .overlay {
+  opacity: 0.6;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 

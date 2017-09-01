@@ -39,6 +39,7 @@
   color: #FFF;
   opacity: 0.8;
   font: 25px "josefin sans", arial;
+  transition: translate-dev-venn 1s ease-in-out;
 }
 
 #textleft, #textright {
@@ -553,3 +554,7 @@ i {
   opacity: 0.6;
 }
 
+translate-dev-venn {
+  transform: translate(350px,0);
+  -webkit-transform: translate(350px,0);
+}

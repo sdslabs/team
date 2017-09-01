@@ -80,7 +80,8 @@ jQuery(document).ready(function($) {
 
 	window.onpopstate =function(event) {
 		console.log(window.location.host);
-		matchUrl('/designerpage');
+		matchUrl(window.location.pathname);
+		event.preventDefault();
 	}
 
 	function firstPage(){

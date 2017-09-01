@@ -507,7 +507,7 @@ i {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -516,3 +516,40 @@ i {
 #developer-side-bar {
   animation-duration: 0.3s;
 }
+
+.contacticons{
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  display:flex;
+}
+
+.fbico, .githubico, .twitterico, .behanceico, .emailico {
+
+  height: 80px;
+  width: 80px;
+  padding: 15px;
+}
+
+.overlay-dv {
+  position: absolute;
+  background-clip: content-box;
+  padding: 15px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #18bc9c;
+  -webkit-border-radius: 20% 20% 21% 21%;
+  -moz-border-radius: 20% 20% 21% 21%;
+  border-radius: 20% 20% 21% 21%;
+}
+
+.col-sm-3:hover .overlay-dv {
+  opacity: 0.6;
+}
+

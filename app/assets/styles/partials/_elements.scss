@@ -154,7 +154,8 @@ i {
   width: 5%;
   height: 100%;
   position: absolute;
-  left: 95%;
+  left: 50%;
+  opacity: 0.05;
 }
 
 .bordertextds {
@@ -183,7 +184,7 @@ i {
   font-size: 40px;
   position: absolute;
   font-family: 'Montserrat', sans-serif;
-  top: 14%;
+  top: 22%;
   left: 8%;
 }
 
@@ -192,7 +193,7 @@ i {
   position: absolute;
   top: 20.5%;
   left: 8%;
-  width: 5%;
+  width: 0%;
   height: 0.7%;
 }
 
@@ -205,9 +206,9 @@ i {
 }
 
 img.ds {
-  padding: 15px;
-  height: 100%;
-  width: 100%;
+  margin: 15px;
+  height: 200px;
+  width: calc(100% - 30px);
   -webkit-border-radius: 20% 20% 21% 21%;
   -moz-border-radius: 20% 20% 21% 21%;
   border-radius: 20% 20% 21% 21%;
@@ -224,7 +225,8 @@ img.ds {
 .bodyborder-dv{
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
+  opacity: 0.01;
   width: 5%;
   height: 100%;
   background: red;
@@ -260,15 +262,15 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   font-size: 40px;
   position: absolute;
   font-family: 'Montserrat', sans-serif;
-  top: 10%;
+  top: 18%;
   left: 83%;
 }
 #horizontalrule-dv{
   background-color: #18bc9c;
   position: absolute;
   top: 16.5%;
-  left: 89.6%;
-  width: 5%;
+  right: 5.4%;
+  width: 0%;
   height: 0.7%;
 }
 .superdiv-dv{
@@ -280,9 +282,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   height: 80%;
 }
 img.dv{
-  padding: 15px;
-  height: 100%;
-  width: 100%;
+  margin: 15px;
+  height: 200px;
+  width: calc(100% - 30px);
   -webkit-border-radius: 20% 20% 21% 21%;
   -moz-border-radius: 20% 20% 21% 21%;
   border-radius: 20% 20% 21% 21%;
@@ -404,12 +406,16 @@ i {
   width: 70%;
 }
 
+.parts {
+  text-align: center;
+}
+
 .name {
   position: relative;
   color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  margin-left: 23%;
+  /*margin-left: 10%;*/
 }
 
 .work {
@@ -417,7 +423,7 @@ i {
   color: #b22222;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
-  margin-left: 25%;
+  /*margin-left: 10%;*/
 }
 
 .company {
@@ -425,7 +431,7 @@ i {
   color: #b22222;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
-  margin-left: 16%;
+  /*margin-left: 6%;*/
 }
 
 .contactslinks {
@@ -436,7 +442,7 @@ i {
   position: relative;
   height: 80px;
   width: 80px;
-  margin-left: 15%;
+  margin-left: 25%;
 }
 
 .rightimg {
@@ -485,13 +491,10 @@ i {
 .overlay {
   position: absolute;
   background-clip: content-box;
-  padding: 15px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
+  top: 15px;
+  bottom: 15px;
+  left: 30px;
+  right: 30px;
   opacity: 0;
   transition: .5s ease;
   background-color: #ff0000;
@@ -521,7 +524,7 @@ i {
 .contacticons{
   position: absolute;
   top: 40%;
-  left: 8%;
+  left: 3%;
   display:flex;
 }
 
@@ -535,13 +538,10 @@ i {
 .overlay-dv {
   position: absolute;
   background-clip: content-box;
-  padding: 15px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
+  top: 15px;
+  bottom: 15px;
+  left: 30px;
+  right: 30px;
   opacity: 0;
   transition: .5s ease;
   background-color: #18bc9c;
@@ -554,7 +554,62 @@ i {
   opacity: 0.6;
 }
 
-translate-dev-venn {
+/*.translate-dev-venn {
   transform: translate(350px,0);
   -webkit-transform: translate(350px,0);
+}*/
+
+::-webkit-scrollbar {
+  width: 0px;
 }
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  -webkit-border-radius: 6px;
+}
+
+/*@-webkit-keyframes customrighttranslate {
+  0%   { top: 283.796875px; left: 863.640625px;}
+  100% { top: 283.796875px; right: 10px; }
+}
+@-moz-keyframes customrighttranslate {
+ 0%   { top: 283.796875px; left: 863.640625px;}
+  100% { top: 283.796875px; right: 10px; }
+}
+@-o-keyframes customrighttranslate {
+ 0%   { top: 283.796875px; left: 863.640625px;}
+  100% { top: 283.796875px; right: 10px; }
+}
+@keyframes customrighttranslate {
+  0%   { top: 283.796875px; left: 863.640625px;}
+  100% { top: 283.796875px; right: 10px; }
+}*/
+
+/*.dvvennanim {
+  -webkit-animation: customrighttranslate ; 
+  -moz-animation:    customrighttranslate ; 
+  -o-animation:      customrighttranslate ; 
+  animation-name:    customrighttranslate ; 
+}
+
+.animateDesignHeading {
+  animation-name: comeUp;
+  animation-duration: 0.7s;
+}
+*/
+/*@-webkit-keyframes comeUp {
+  0%   { top: }
+  100% { top: }
+}
+@-moz-keyframes comeUp {
+ 0%   { top: ;}
+  100% { top: ; }
+}
+@-o-keyframes comeUp {
+ 0%   { top: ;}
+  100% { top: ; }
+}
+@keyframes comeUp {
+  0%   { top: ;}
+  100% { top: ; }
+}*/

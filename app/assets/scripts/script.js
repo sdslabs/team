@@ -103,21 +103,24 @@ jQuery(document).ready(function($) {
 		console.log(nextSlideIndex);
 
 		if(prevSlideIndex === 0 && nextSlideIndex === 1) {
-			$('#designer-venn-button').animateCss('fadeOut zoomOut');
 			$('.mainpage-elements').animateCss('fadeOut');
-			$('#developer-venn-button').animateCss('fadeOut zoomOut');
+			$('#designer-venn-button').animate({left: '0%'});
 			setTimeout(delay01, 700);
 			function delay01(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
+			$('#developer-side-bar').animate({left: '95%', opacity: '1'});
+			$('#headings-ds').animate({top: '14%'});
+			$('#horizontalrule-ds').animate({width: '5%'});
 			$('.designerpage-elements').animateCss('zoomIn');
-			$('#developer-side-bar').animateCss('fadeInLeft').animateCss('slideInLeft');
 		}
 	}
 
-		else if(prevSlideIndex == 1 && nextSlideIndex == 0) {
+		 else if(prevSlideIndex == 1 && nextSlideIndex == 0) {
 			$('.designerpage-elements').animateCss('zoomOut');
-			$('#developer-side-bar').animateCss('fadeOutLeft');
+			$('#developer-side-bar').animate({left: '50%', opacity: '0.05'});
+			$('#headings-ds').animate({top: '22%'});
+			$('#horizontalrule-ds').animate({width: '0%'});
 			setTimeout(delay10, 300);
 			function delay10(){
 			$(pages[prevSlideIndex]).removeClass('selected');
@@ -136,44 +139,57 @@ jQuery(document).ready(function($) {
 			function delay02(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
+			$('#headings-dv').animate({top: '10%'});
+			$('#horizontalrule-dv').animate({width: '5%'});
+			$('#designer-side-bar').animate({left: '0%', opacity: '1'});
 			$('.developerpage-elements').animateCss('zoomIn');
-			$('#designer-side-bar').animateCss('fadeInRight').animateCss('slideInRight');
 		}
 	}
 
 		else if(prevSlideIndex == 2 && nextSlideIndex == 0) {
 			$('.developerpage-elements').animateCss('zoomOut');
-			$('#designer-side-bar').animateCss('fadeOutRight');
+			$('#designer-side-bar').animate({left: '50%', opacity: '0.01'});
+			$('#horizontalrule-dv').animate({width: '0%'});
+			$('#headings-dv').animate({top: '18%'});
 			setTimeout(delay20, 300);
 			function delay20(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 			$('#developer-venn-button').animateCss('fadeIn zoomIn');
 			$('.mainpage-elements').animateCss('fadeIn');
+
 			$('#designer-venn-button').animateCss('fadeIn zoomIn');
 		}
 	}
 
 		else if(prevSlideIndex == 1 && nextSlideIndex == 2) {
-			$('#developer-side-bar').animateCss('fadeOutLeft');
+			$('#developer-side-bar').animate({left: '50%', opacity: '0'});
 			$('.designerpage-elements').animateCss('fadeOut zoomOut');
-			setTimeout(delay12, 300);
+			$('#headings-ds').animate({top: '22%'});
+			$('#horizontalrule-ds').animate({width: '0%'});
+			setTimeout(delay12, 500);
 			function delay12(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
-			$('#designer-side-bar').animateCss('fadeInRight');
+			$('#headings-dv').animate({top: '10%'});
+			$('#horizontalrule-dv').animate({width: '5%'});
+			$('#designer-side-bar').animate({left: '0', opacity: '1'});
 			$('.developerpage-elements').animateCss('zoomIn fadeIn');
 		}
 	}
 
 		else if (prevSlideIndex == 2 && nextSlideIndex == 1) {
-			$('#designer-side-bar').animateCss('fadeOutRight');
+			$('#designer-side-bar').animate({left: '50%', opacity: '0'});
 			$('.developerpage-elements').animateCss('zoomOut fadeOut');
-			setTimeout(delay21, 300);
+			$('#horizontalrule-dv').animate({width: '0%'});
+			$('#headings-dv').animate({top: '18%'});
+			setTimeout(delay21, 500);
 			function delay21(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
-			$('#developer-side-bar').animateCss('fadeInLeft');
+			$('#headings-ds').animate({top: '14%'});
+			$('#horizontalrule-ds').animate({width: '5%'});
+			$('#developer-side-bar').animate({left:'95%', opacity: '1'});
 			$('.designerpage-elements').animateCss('fadeIn zoomIn');
 		}
 	}

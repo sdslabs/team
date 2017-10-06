@@ -415,7 +415,6 @@ i {
   color: #000000;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  /*margin-left: 10%;*/
 }
 
 .work {
@@ -423,7 +422,6 @@ i {
   color: #b22222;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
-  /*margin-left: 10%;*/
 }
 
 .company {
@@ -431,7 +429,6 @@ i {
   color: #b22222;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
-  /*margin-left: 6%;*/
 }
 
 .contactslinks {
@@ -554,11 +551,6 @@ i {
   opacity: 0.6;
 }
 
-/*.translate-dev-venn {
-  transform: translate(350px,0);
-  -webkit-transform: translate(350px,0);
-}*/
-
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -568,48 +560,3 @@ i {
   -webkit-border-radius: 6px;
 }
 
-/*@-webkit-keyframes customrighttranslate {
-  0%   { top: 283.796875px; left: 863.640625px;}
-  100% { top: 283.796875px; right: 10px; }
-}
-@-moz-keyframes customrighttranslate {
- 0%   { top: 283.796875px; left: 863.640625px;}
-  100% { top: 283.796875px; right: 10px; }
-}
-@-o-keyframes customrighttranslate {
- 0%   { top: 283.796875px; left: 863.640625px;}
-  100% { top: 283.796875px; right: 10px; }
-}
-@keyframes customrighttranslate {
-  0%   { top: 283.796875px; left: 863.640625px;}
-  100% { top: 283.796875px; right: 10px; }
-}*/
-
-/*.dvvennanim {
-  -webkit-animation: customrighttranslate ; 
-  -moz-animation:    customrighttranslate ; 
-  -o-animation:      customrighttranslate ; 
-  animation-name:    customrighttranslate ; 
-}
-
-.animateDesignHeading {
-  animation-name: comeUp;
-  animation-duration: 0.7s;
-}
-*/
-/*@-webkit-keyframes comeUp {
-  0%   { top: }
-  100% { top: }
-}
-@-moz-keyframes comeUp {
- 0%   { top: ;}
-  100% { top: ; }
-}
-@-o-keyframes comeUp {
- 0%   { top: ;}
-  100% { top: ; }
-}
-@keyframes comeUp {
-  0%   { top: ;}
-  100% { top: ; }
-}*/

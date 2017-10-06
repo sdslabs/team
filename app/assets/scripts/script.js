@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
 
 		if(prevSlideIndex === 0 && nextSlideIndex === 1) {
 			$('.mainpage-elements').animateCss('fadeOut');
-			$('#designer-venn-button').animate({left: '0%'});
+			$('#designer-venn-button').animate({position: 'absolute', left: '0%'});
 			setTimeout(delay01, 700);
 			function delay01(){
 			$(pages[prevSlideIndex]).removeClass('selected');

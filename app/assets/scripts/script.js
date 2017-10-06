@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
 
 		if(prevSlideIndex === 0 && nextSlideIndex === 1) {
 			$('.mainpage-elements').animateCss('fadeOut');
-			$('#designer-venn-button').animate({position: 'absolute', left: '0%'});
+			$('#venn-maindiv').find('#designer-venn-button').animate({position: 'absolute', left: '0%'});
 			setTimeout(delay01, 700);
 			function delay01(){
 			$(pages[prevSlideIndex]).removeClass('selected');
@@ -125,9 +125,9 @@ jQuery(document).ready(function($) {
 			function delay10(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
-			$('#designer-venn-button').animateCss('fadeIn zoomIn');
+			// $('#designer-venn-button').animateCss('fadeIn zoomIn');
 			$('.mainpage-elements').animateCss('fadeIn');
-			$('#developer-venn-button').animateCss('fadeIn zoomIn');
+			// $('#developer-venn-button').animateCss('fadeIn zoomIn');
 		}
 	}
 

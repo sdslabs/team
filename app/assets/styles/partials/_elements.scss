@@ -335,15 +335,6 @@ img.expand {
   left: 53%;
 }
 
-.alumnihead {
-  position: absolute;
-  top: 12%;
-  left: 40%;
-  color: #b22222;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-}
-
 .navup {
   background-color: #b22222;
   height: 45px;
@@ -381,8 +372,16 @@ i {
 .alumnihead {
   position: absolute;
   top: 12%;
+  left: 36%;
+  color: #b22222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.alumniheading {
+  position: absolute;
+  top: 12%;
   left: 42%;
-  right: 42%;
   color: #b22222;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;

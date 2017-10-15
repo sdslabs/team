@@ -2,8 +2,8 @@
 
 #icon {
   position: absolute;
-  top: 5vh;
-  left: 8vw;
+  top: 5%;
+  left: 8%;
 }
 
 #venn-maindiv {
@@ -62,7 +62,7 @@
   top: 30%;
   left: 25%;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 550;
+  font-weight: 600;
   display: flex;
 }
 
@@ -73,14 +73,22 @@
 }
 
 .headtext {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
   font-size: 70px;
+  line-height: normal;
   opacity: 0.2;
 }
 
 .subtext {
+  font-family: 'Catamaran', sans-serif;
+  letter-spacing: 1px;
+  line-height: normal;
+  font-weight: 600;
   font-size: 20px;
   margin-left: -20px;
   margin-top: 50px;
+  color: rgba(51, 51, 51, 0.89);
 }
 
 #left-middle {
@@ -114,12 +122,12 @@
 }
 
 .nav-div-down {
-  background-color: #b22222;
+ /* background-color: #b22222;
   height: 45px;
   width: 90px;
   border-radius: 90px 90px 0 0;
   border: solid 10px #b77777;
-  border-bottom: 0;
+  border-bottom: 0;*/
   position: absolute;
   bottom: 0;
   left: 46%;
@@ -143,7 +151,7 @@ i {
 .arrowtext {
   position: absolute;
   bottom: 55px;
-  left: 46.7%;
+  left: 45.5%;
   font-size: 20px;
 }
 
@@ -294,15 +302,15 @@ img.dv{
 
 .alumni-location {
   position: absolute;
-  right: 7%;
-  left: 20%;
-  height: 70%;
-  top: 25%;
-  bottom: 10%;
+  /*right: 7vw;*/
+  left: 20vw;
+  height: 70vh;
+  top: 25vh;
+  /*bottom: 10%;*/
 }
 
 img.expand {
-  width: 80em;
+  /*width: 80em;*/
 }
 
 .svg50 {
@@ -559,3 +567,11 @@ i {
   -webkit-border-radius: 6px;
 }
 
+.vectorarrow {
+  position: absolute;
+  width: 16px;
+  height: 10px;
+  left: 36%;
+  bottom: 5%;
+  background: #FFFFFF;
+}

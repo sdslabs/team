@@ -33,6 +33,7 @@ jQuery(document).ready(function($) {
 	var developerpageElements = $('.developerpage-elements');
 	var alumnilocationpageElements = $('.alumnilocationpage-elements');
 	var alumnipageElements = $('.alumnipage-elements');
+	var logo = $('#icon');
 
 	var pages = pageContainer.children('.page');
 
@@ -292,6 +293,10 @@ jQuery(document).ready(function($) {
 		dsbar : function() {
 			matchUrl(pageUrls[1]);
 		},
+		logoicon : function() {
+			console.log("I am here");
+			/*matchUrl(pageUrls[0]);*/
+		},
 		dvbar : function() {
 			matchUrl(pageUrls[2]);
 		},
@@ -310,6 +315,7 @@ jQuery(document).ready(function($) {
 	designerSideBar.on('click', navClick.dsbar);
 	developerSideBar.on('click', navClick.dvbar);
 	svgIcon.on('click', navClick.numsvg);
+	logo.on('click', navClick.logoicon);
 
 	firstPage();
 });

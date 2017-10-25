@@ -127,16 +127,11 @@
 }
 
 .nav-div-down {
- /* background-color: #b22222;
-  height: 45px;
-  width: 90px;
-  border-radius: 90px 90px 0 0;
-  border: solid 10px #b77777;
-  border-bottom: 0;*/
   position: absolute;
   bottom: 0;
   left: 46.7vw;
-  z-index: 10;
+  cursor: pointer;
+  z-index: 1000;
 }
 
 i {

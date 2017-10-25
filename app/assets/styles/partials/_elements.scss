@@ -320,11 +320,9 @@ clip-path: polygon(0 6%, 96% 0, 98% 98%, 4% 98%);
 
 .alumni-location {
   position: absolute;
-  /*right: 7vw;*/
   left: 17vw;
   height: 70vh;
   top: 25vh;
-  /*bottom: 10%;*/
 }
 
 img.expand {
@@ -360,19 +358,6 @@ img.expand {
   bottom: 26%;
   left: 53%;
 }
-
-/*.navup {
-  background-color: #b22222;
-  height: 45px;
-  width: 90px;
-  border-radius: 0 0 90px 90px;
-  border: solid 10px #b77777;
-  border-top: 0;
-  position: absolute;
-  top: 0;
-  left: 46%;
-}*/
-
 i {
   border: solid white;
   border-width: 0 3px 3px 0;
@@ -433,18 +418,11 @@ i {
 }
 
 .name {
-  /*position: relative;
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;*/
   font-family: 'Catamaran',sans-serif;
   font-size: 1.4vw;
   line-height: 2.4vw;
   align-content: left;
   font-weight: 600;
-/*Font Size: 20px
-Line Height: 33px
-Align: Left*/
 }
 
 .work {

@@ -1,0 +1,12 @@
+<svg width="60" height="36" viewBox="0 0 60 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Ellipse 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-224 179)">
+<g id="Ellipse 2">
+<use xlink:href="#path0_fill" transform="translate(224 -179)" fill="#8A1C19" fill-opacity="0.8"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 60 30C 60 46.5685 46.5685 60 30 60C 13.4315 60 0 46.5685 0 30C 0 13.4315 13.4315 0 30 0C 46.5685 0 60 13.4315 60 30Z"/>
+</defs>
+</svg>

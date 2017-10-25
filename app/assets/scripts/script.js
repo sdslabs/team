@@ -180,7 +180,7 @@ jQuery(document).ready(function($) {
 	}
 
 		else if (prevSlideIndex == 2 && nextSlideIndex == 1) {
-			$('#designer-side-bar').animate({left: '50%', opacity: '0', width: '50vw'});
+			$('#designer-side-bar').animate({left: '0', opacity: '0', width: '50vw'});
 			$('.developerpage-elements').animateCss('zoomOut fadeOut');
 			$('#horizontalrule-dv').animate({width: '0%'});
 			$('#headings-dv').animate({top: '18%'});
@@ -294,8 +294,7 @@ jQuery(document).ready(function($) {
 			matchUrl(pageUrls[1]);
 		},
 		logoicon : function() {
-			console.log("I am here");
-			/*matchUrl(pageUrls[0]);*/
+			matchUrl(pageUrls[0]);
 		},
 		dvbar : function() {
 			matchUrl(pageUrls[2]);

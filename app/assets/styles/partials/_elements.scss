@@ -309,11 +309,6 @@ img.dv{
   margin: 15px;
   height: 200px;
   width: calc(100% - 30px);
-  -webkit-border-radius: 67px 78px 78px 67px;
-  -moz-border-radius: 67px 78px 78px 67px;
-  border-radius: 67px 78px 78px 67px;
-  -webkit-clip-path: polygon(0 6%, 96% 0, 98% 98%, 4% 98%);
-clip-path: polygon(0 6%, 96% 0, 98% 98%, 4% 98%);
 }
 
 /* Alumni location page */
@@ -550,7 +545,6 @@ i {
 
 .overlay-dv {
   position: absolute;
-  background-clip: content-box;
   top: 15px;
   bottom: 15px;
   left: 30px;
@@ -558,9 +552,6 @@ i {
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(68,189,200,0.6);
-  -webkit-border-radius: 20% 20% 21% 21%;
-  -moz-border-radius: 20% 20% 21% 21%;
-  border-radius: 20% 20% 21% 21%;
 }
 
 .col-sm-3:hover .overlay-dv {
@@ -620,11 +611,23 @@ i {
   left: 46.7vw;
   z-index: 10;
 }
-/*Other clip-paths for the images */
 
-/*-webkit-clip-path: polygon(0 3%, 99% 10%, 100% 91%, 3% 99%);
-clip-path: polygon(0 3%, 99% 10%, 100% 91%, 3% 99%);*/
+.clip1 {
+  -webkit-clip-path: url("#svgClip1");
+  clip-path: url("#svgClip1");
+}
 
-/*-webkit-clip-path: polygon(0 13%, 100% 2%, 100% 99%, 0 93%);
-clip-path: polygon(0 13%, 100% 2%, 100% 99%, 0 93%);*/
+.clip2 {
+  -webkit-clip-path: url("#svgClip2");
+  clip-path: url("#svgClip2");  
+}
 
+.clip3 {
+  -webkit-clip-path: url("#svgClip3");
+  clip-path: url("#svgClip3");    
+}
+
+.clip4 {
+  -webkit-clip-path: url("#svgClip4");
+  clip-path: url("#svgClip4");  
+}

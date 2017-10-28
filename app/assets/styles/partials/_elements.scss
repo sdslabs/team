@@ -198,40 +198,59 @@ i {
 }
 
 #headings-ds {
-  color: #f00;
-  font-size: 36px;
+  color: #fc332f;
+  /*font-size: 36px;
   position: absolute;
   font-family: 'Catamaran', sans-serif;
   top: 22%;
   left: 8%;
   font-weight: bold;
+  letter-spacing: 1.8px;*/
+  font-size: 36px;
+  position: absolute;
+  font-family: 'Catamaran', sans-serif;
+  top: 16.53%;
+  font-weight: bold;
   letter-spacing: 1.8px;
+  left: 16.67vw;
 }
 
 #horizontalrule-ds {
-  background-color: #f00;
+  background-color: #fc332f;
   position: absolute;
   top: 20.5%;
-  left: 8%;
+  left: 16.67vw;
   width: 0%;
   height: 0.7%;
 }
 
 .superdiv-ds {
-  position: absolute;
+  /*position: absolute;
   top: 24%;
   left: 6%;
   right: 8%;
-  height: 76%;
+  height: 76%;*/
+  position: absolute;
+  top: 26.3vh;
+  /*left: 8%;
+  right: 5%;*/
+  left: 15vw;
+  right: 15vw;
+  overflow: auto;
+  /*height: 80%;*/
 }
 
 img.ds {
-  margin: 15px;
+  /*margin: 15px;
   height: 200px;
   width: calc(100% - 30px);
   -webkit-border-radius: 20% 20% 21% 21%;
   -moz-border-radius: 20% 20% 21% 21%;
-  border-radius: 20% 20% 21% 21%;
+  border-radius: 20% 20% 21% 21%;*/
+   margin: 15px;
+  /*height: 200px;*/
+  height: 16.9vh;
+  width: calc(100% - 30px);
 }
 
 .nav-div-cross {
@@ -287,27 +306,30 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   top: 18%;
   font-weight: bold;
   letter-spacing: 1.8px;
-  left: 83%;
+  right: 16.61vw;
 }
 #horizontalrule-dv{
   background-color: #44bdc8;
   position: absolute;
   top: 16.5%;
-  right: 5.4%;
+  right: 16.61vw;
   width: 0%;
   height: 0.7%;
 }
 .superdiv-dv{
   position: absolute;
   top: 20%;
-  left: 8%;
-  right: 5%;
+  /*left: 8%;
+  right: 5%;*/
+  left: 15vw;
+  right: 15vw;
   overflow: auto;
   height: 80%;
 }
 img.dv{
   margin: 15px;
-  height: 200px;
+  /*height: 200px;*/
+  height: 16.9vh;
   width: calc(100% - 30px);
 }
 
@@ -495,7 +517,7 @@ i {
 }
 
 .overlay {
-  position: absolute;
+  /*position: absolute;
   background-clip: content-box;
   top: 15px;
   bottom: 15px;
@@ -506,7 +528,15 @@ i {
   background-color: rgba(252,51,47,0.6);
   -webkit-border-radius: 20% 20% 21% 21%;
   -moz-border-radius: 20% 20% 21% 21%;
-  border-radius: 20% 20% 21% 21%;
+  border-radius: 20% 20% 21% 21%;*/
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 30px;
+  right: 30px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(252,51,47,0.6);
 }
 
 .col-sm-3:hover .overlay {
@@ -520,6 +550,8 @@ i {
   font-family: 'Catamaran', sans-serif;
   top: 30%;
   left: 50%;
+  /*align-content: center;*/
+  text-align: center;
   z-index: 90;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -531,16 +563,17 @@ i {
 
 .contacticons{
   position: absolute;
-  top: 40%;
-  left: 3%;
+  top: 45%;
+  left: 12%;
   display:flex;
 }
 
 .fbico, .githubico, .twitterico, .behanceico, .emailico {
 
-  height: 80px;
-  width: 80px;
-  padding: 15px;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  align-content: center;
 }
 
 .overlay-dv {
@@ -622,7 +655,7 @@ i {
   clip-path: url("#svgClip2");  
 }
 
-.clip3 {
+.clip3 {  
   -webkit-clip-path: url("#svgClip3");
   clip-path: url("#svgClip3");    
 }

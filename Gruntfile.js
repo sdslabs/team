@@ -1,8 +1,6 @@
 module.exports = function(grunt) {
-
+  var rewrite = require('connect-modrewrite');
   require('time-grunt')(grunt);
-
-  // Load Grunt modules
   require('load-grunt-tasks')(grunt);
 
   grunt.initConfig({
@@ -172,6 +170,14 @@ module.exports = function(grunt) {
           port: 4000,
           livereload: true,
           base: '.jekyll',
+          middleware: function(connect, options, middlewares) {
+            // 1. mod-rewrite behavior
+            var rules = [
+                '!\\.html|\\.js|\\.css|\\.svg|\\.jp(e?)g|\\.png|\\.gif|\\.ico$ /index.html'
+            ];
+            middlewares.unshift(rewrite(rules));
+            return middlewares;
+          }
         }
       }
     }

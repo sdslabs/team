@@ -1,0 +1,40 @@
+.alumni-map {
+  @include aspect-ratio(882, 431);
+  width: 88rem;
+  margin: 5rem auto; 
+}
+
+	.country-count-icon {
+	  position: absolute;
+	  background-image: url('../../images/Group.svg');
+	  background-size: cover;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-family: $alumni-map-font-family;
+	  color: $white;
+	}
+
+	.country-count-icon.india {
+	  @include font-size(4.8, 1);
+	  width: 14.5rem;
+	  height: 13.1rem;
+	  top: 45%;
+	  right: 15%;
+	  .country-count {
+	    padding-left: 1.5rem;
+	  }
+	}
+
+	.country-count-icon.usa {
+	  @include font-size(3.2, 1);
+	  top: 27%;
+	  left: 13%;
+	  width: 10rem;
+	  height: 9rem;
+	  .country-count {
+	    padding-left: 1.3rem;
+	  }
+	}
+
+	  

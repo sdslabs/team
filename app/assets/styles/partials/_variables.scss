@@ -1,0 +1,29 @@
+/******BREAKPOINTS******/
+
+$bp-sm: 'only screen and (min-width: 768px)';
+$bp-md: 'only screen and (min-width: 992px)';
+$bp-lg: 'only screen and (min-width: 1200px)';
+$bp-xl: 'only screen and (min-width: 1500px)';
+$bp-xxl: 'only screen and (min-width: 2000px)';
+
+/***FONT SIZES***/
+
+$root-font-size: 8.7847728px;
+$root-font-size-responsive: 0.7320644vw;
+
+/***FONTS****/
+
+$heading-font-family: 'Catamaran', sans-serif;
+$alumni-map-font-family: 'Oswald', sans-serif;
+
+/****COLORS*****/
+
+$alumni-heading-color: hsla(0, 68%, 42%, 1);
+$alumni-info-color: hsla(2, 69%, 32%, 1);
+$cross-background-color: hsla(2, 69%, 32%, 0.8);
+$cross-foreground-color: $alumni-info-color;
+$sidebar-color: hsla(185, 55%, 53%, 1);
+$members-heading-color: hsla(1, 97%, 59%, 1);
+$designers-overlay: hsla(1, 97%, 59%, 0.6);
+$developers-overlay: hsla(185, 55%, 53%, 0.6);
+$white: hsla(0, 0%, 100%, 1);

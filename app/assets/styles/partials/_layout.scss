@@ -1,0 +1,19 @@
+html {
+	font-size: $root-font-size;
+}
+
+@media #{$bp-sm} {
+	html {
+		font-size: $root-font-size-responsive;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.icon svg {
+	width: 4rem;
+	height: auto;
+}

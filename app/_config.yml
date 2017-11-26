@@ -1,9 +1,9 @@
-# Site settings
-title: SDSLabs Team Page
-markdown: kramdown
-permalink: /:categories/:title
+# # Site settings
+# title: SDSLabs Team Page
+# markdown: kramdown
+# permalink: /:categories/:title
 
-# collections:
-#   name_of_collection:
-#     output: true
-#     permalink: /:collection/:title/
+# # collections:
+# #   name_of_collection:
+# #     output: true
+# #     permalink: /:collection/:title/

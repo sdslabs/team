@@ -9,18 +9,22 @@
   padding: 0;
 }
 
-#venn-maindiv {
+/*#venn-maindiv {
   position: absolute;
   top: 30vh;
   left: 35vw;
   width: 500px;
   height: 300px;
   display: flex;
-}
+}*/
 
 .leftcircle {
+  position: absolute;
+  top: 30vh;
+  left: 35vw;
+  display: table-cell;
   height: 29.2vh;
-  width: 16.47vw;
+  width: 29.2vh;
   text-align: center;
   vertical-align: middle;
   border-radius: 50%;
@@ -31,9 +35,12 @@
 }
 
 .rightcircle {
+  position: absolute;
+  top: 30vh;
+  left: 50vw;
   display: table-cell;
   height: 29.2vh;
-  width: 16.47vw;
+  width: 29.2vh;
   text-align: center;
   vertical-align: middle;
   border-radius: 50%;

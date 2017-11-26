@@ -116,6 +116,7 @@ jQuery(document).ready(function($) {
 			$('#right-top').animate({opacity: '0', left: '69.7vw'});
 			$('#right-middle').animate({opacity: '0', left: '72.6vw'});
 			$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
+			$('.mainpagetext').animate({top: '72vh'});
 			setTimeout(delay01, 700);
 			function delay01(){
 			$(pages[prevSlideIndex]).removeClass('selected');
@@ -148,6 +149,7 @@ jQuery(document).ready(function($) {
 			$('#right-top').animate({opacity: '1', left: '67.3vw'});
 			$('#right-middle').animate({opacity: '1', left: '70.2vw'});
 			$('#right-bottom').animate({opacity: '1', left: '67.3vw'});
+			$('.mainpagetext').animate({top: '69.14vh'});
 			// $('#developer-venn-button').animateCss('fadeIn zoomIn');
 		}
 	}
@@ -166,12 +168,13 @@ jQuery(document).ready(function($) {
 			$('#right-top').animate({opacity: '0', left: '69.7vw'});
 			$('#right-middle').animate({opacity: '0', left: '72.6vw'});
 			$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
+			$('.mainpagetext').animate({top: '72vh'});
 			setTimeout(delay02, 700);
 			function delay02(){
 			$(pages[prevSlideIndex]).removeClass('selected');
 			$(pages[nextSlideIndex]).addClass('selected');
 			$('#headings-dv').animate({top: '10%'});
-			
+			$('.mainpagetext').animate({top: '69.14vh'});
 			$('#horizontalrule-dv').animate({width: '5%'});
 			$('#designer-side-bar').animate({left: '0%', opacity: '1', width: '5vw'});
 			$('.developerpage-elements').animateCss('zoomIn');

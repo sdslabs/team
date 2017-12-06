@@ -1,0 +1,32 @@
+---
+- name: Aarti Dwivedi
+  pic: aarti.jpg
+  position: PhD Student
+  location: MIT, USA
+  links:
+    LinkedIn: https://www.linkedin.com/in/aarti-dwivedi-99167746/
+    Twitter: https://twitter.com/aarti_andromeda
+
+- name: Dhaval Kapil
+  pic: dhaval.jpg
+  position: PhD Student
+  location: Georgia Tech, USA
+  links:
+    LinkedIn: https://www.linkedin.com/in/dhavalkapil/
+    Twitter: https://twitter.com/dhaval_kapil
+
+- name: Abhishek Das
+  pic: abhishek.jpg
+  position: 
+  location: Georgia Tech, USA
+  links:
+    LinkedIn: https://www.linkedin.com/in/abhishek-k-das-9876664b/
+    Twitter: https://twitter.com/abhshkdz
+
+- name: Shivam Mangla
+  pic: shivammangla.jpg
+  position:
+  location: Facebook
+  links:
+    LinkedIn: https://www.linkedin.com/in/shivam-mangla-b3b58367/
+    Twitter:

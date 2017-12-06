@@ -104,7 +104,7 @@
             {% for member in site.data.designers %}
               <div class="gallery-member">
                 <div class="maintain-aspect-ratio">  
-                  <img src="./images/{{ member.pic }}" class="ds designerpage-elements clip1">
+                  <img src="./images/members/designers/{{ member.pic }}" class="ds designerpage-elements clip1">
                 </div>
                 <div class="gallery-member-overlay clip1">
                   <div class="gallery-member-overlay-name">
@@ -193,11 +193,11 @@
           <div class="maintain-aspect-ratio">
             <img src="./images/map.svg">
           </div>
-          <div class="country-count-icon india" id="svg-icon">
+          <div class="country-count-icon india svgs" id="svg-icon">
             <span class="country-count">{{ site.data.alumni_india | size }} </span>
           </div>
-          <div class="country-count-icon usa">
-            <span class="country-count">{{ site.data.alumni_india | size }} </span>
+          <div class="country-count-icon usa svgs">
+            <span class="country-count">{{ site.data.alumni_usa | size }} </span>
           </div>  
         </div>
       </div>

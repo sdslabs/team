@@ -119,6 +119,7 @@
 				$('#right-middle').animate({opacity: '0', left: '72.6vw'});
 				$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
 				$('.mainpagetext').animate({top: '72vh'});
+				$('.bordertextds').show();
 				setTimeout(delay01, 700);
 				function delay01(){
 					$(pages[prevSlideIndex]).removeClass('selected');
@@ -127,13 +128,16 @@
 					$('#headings-ds').animate({top: '14rem'});
 					$('#horizontalrule-ds').animate({width: '6.5%'});
 					$('.designerpage-elements').animateCss('zoomIn');
+
 				}
 			}
+
 			else if(prevSlideIndex == 1 && nextSlideIndex == 0) {
 				$('.designerpage-elements').animateCss('zoomOut');
 				$('#developer-side-bar').animate({left: '50%', opacity: '0.05', width: '50vw'});
 				$('#headings-ds').animate({top: '15rem'});
 				$('#horizontalrule-ds').animate({width: '0%'});
+				$('.bordertextds').hide();
 				setTimeout(delay10, 300);
 				function delay10(){
 				$(pages[prevSlideIndex]).removeClass('selected');
@@ -170,12 +174,13 @@
 				$('#right-middle').animate({opacity: '0', left: '72.6vw'});
 				$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
 				$('.mainpagetext').animate({top: '72vh'});
+				$('.bordertext-dv').show();
 				setTimeout(delay02, 700);
 				
 				function delay02() {
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#headings-dv').animate({top: '10%'});
+					$('#headings-dv').animate({top: '14rem'});
 					$('.mainpagetext').animate({top: '69.14vh'});
 					$('#horizontalrule-dv').animate({width: '5%'});
 					$('#designer-side-bar').animate({left: '0%', opacity: '1', width: '5vw'});
@@ -188,6 +193,7 @@
 				$('#designer-side-bar').animate({left: '0vw', opacity: '0.05', width: '50vw'});
 				$('#horizontalrule-dv').animate({width: '0%'});
 				$('#headings-dv').animate({top: '15rem'});
+				$('.bordertext-dv').hide();
 				setTimeout(delay20, 300);
 				function delay20(){
 					$(pages[prevSlideIndex]).removeClass('selected');
@@ -241,11 +247,18 @@
 			}
 
 			else if (prevSlideIndex == 0 && nextSlideIndex == 3) {
-				$('#designer-venn-button').animateCss('fadeOut zoomOut');
+				$('#designer-venn-button').animate({left: '32vw', opacity: '0'});
 				$('.mainpage-elements').animateCss('fadeOut');
-				$('#developer-venn-button').animateCss('fadeOut zoomOut');
+				$('#developer-venn-button').animate({left: '53vw', opacity: '0'});
+				$('#left-top').animate({opacity: '0', left: '17vw'});
+				$('#left-middle').animate({opacity: '0', left: '13.3vw'});
+				$('#left-bottom').animate({opacity: '0', left: '18.7vw'});
+				$('#right-top').animate({opacity: '0', left: '69.7vw'});
+				$('#right-middle').animate({opacity: '0', left: '72.6vw'});
+				$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
+				$('.mainpagetext').animate({top: '72vh'});
 				$('.alumni-heading').hide();
-				$('.alumni-location').hide();
+				$('.alumni-map').hide();
 				$('.svgs').hide();
 				$('.nav-up-container').show();
 				setTimeout(delay03, 300);
@@ -255,7 +268,7 @@
 					$('.alumni-heading').show().animateCss('fadeIn');
 					setTimeout(domino1, 200);
 					function domino1(){
-						$('.alumni-location').show().animateCss('fadeIn');
+						$('.alumni-map').show().animateCss('fadeIn');
 					}
 					setTimeout(domino2, 600);
 					function domino2() {
@@ -271,11 +284,20 @@
 				function delay30() {
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#designer-venn-button').animateCss('fadeIn zoomIn');
+					$('#designer-venn-button').animate({opacity: '1', left: '35vw'});
 					$('.mainpage-elements').animateCss('fadeIn');
-					$('#developer-venn-button').animateCss('fadeIn zoomIn');
+					$('#developer-venn-button').animate({opacity: '1', left: '50vw'});
+					$('#left-top').animate({opacity: '1', left: '19.4vw'});
+					$('#left-middle').animate({opacity: '1', left: '15.7vw'});
+					$('.subtext').css("letter-spacing", "5%");
+					$('#left-bottom').animate({opacity: '1', left: '21.15vw'});
+					$('#right-top').animate({opacity: '1', left: '67.3vw'});
+					$('#right-middle').animate({opacity: '1', left: '70.2vw'});
+					$('#right-bottom').animate({opacity: '1', left: '67.3vw'});
+					$('.mainpagetext').animate({top: '69.14vh'});
 				}
 			}
+
 			else if(prevSlideIndex == 4 && nextSlideIndex == 3) {
 				$('.alumni-member').animateCss('fadeOut');
 				$('.alumni-member-animate-class').animateCss('zoomOut');

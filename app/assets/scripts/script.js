@@ -6,7 +6,8 @@
 			"/designerpage": "designerpage",
 			"/developerpage": "developerpage",
 			"/alumnilocationpage": "alumnilocationpage",
-			"/alumnipage": "alumnipage"
+			"/alumnipage": "alumnipage",
+			"/alumnipageusa": "alumnipageusa"
 
 		};
 
@@ -15,7 +16,8 @@
 			1 : "/designerpage",
 			2 : "/developerpage",
 			3 : "/alumnilocationpage",
-			4 : "/alumnipage"
+			4 : "/alumnipage",
+			5 : "/alumnipageusa"
 		};
 
 		var designerVennButton = $('#designer-venn-button');
@@ -28,6 +30,7 @@
 		var designerSideBar = $('#designer-side-bar');
 		var developerSideBar = $('#developer-side-bar');
 		var svgIcon = $('#svg-icon');
+		var svgIconUsa = $('#svg-icon-usa');
 		var mainpageElements = $('.mainpage-elements');
 		var designerpageElements = $('.designerpage-elements');
 		var developerpageElements = $('.developerpage-elements');
@@ -284,9 +287,9 @@
 				function delay30() {
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#designer-venn-button').animate({opacity: '1', left: '35vw'});
+					$('#designer-venn-button').animate({opacity: '0.8', left: '35vw'});
 					$('.mainpage-elements').animateCss('fadeIn');
-					$('#developer-venn-button').animate({opacity: '1', left: '50vw'});
+					$('#developer-venn-button').animate({opacity: '0.8', left: '50vw'});
 					$('#left-top').animate({opacity: '1', left: '19.4vw'});
 					$('#left-middle').animate({opacity: '1', left: '15.7vw'});
 					$('.subtext').css("letter-spacing", "5%");
@@ -333,6 +336,41 @@
 					$('.alumni-member-animate-class').animateCss('zoomIn');
 				}
 			}
+			else if(prevSlideIndex == 5 && nextSlideIndex == 3) {
+				$('.alumni-member').animateCss('fadeOut');
+				$('.alumni-member-animate-class').animateCss('zoomOut');
+				$('.alumni-heading').hide();
+				$('.alumni-location').hide();
+				$('.nav-cross-container').hide();
+				$('.svgs').hide();
+				$('.nav-up-container').show();
+				setTimeout(delay43, 300);
+				function delay43() {
+					$(pages[prevSlideIndex]).removeClass('selected');
+					$(pages[nextSlideIndex]).addClass('selected');
+					$('.alumni-heading').show().animateCss('fadeIn');
+					setTimeout(domino1, 200);
+					function domino1(){
+						$('.alumni-location').show().animateCss('fadeIn');
+					}
+					setTimeout(domino2, 600);
+					function domino2() {
+						$('.svgs').show().animateCss('zoomIn');
+					}
+				}
+			}
+			else if (prevSlideIndex == 3 && nextSlideIndex == 5) {
+				$('.alumnilocationpage-elements').animateCss('fadeOut');
+				$('.svgs').animateCss('zoomOut');
+				$('.nav-cross-container').show();
+				setTimeout(delay34, 300);
+				function delay34() {
+					$(pages[prevSlideIndex]).removeClass('selected');
+					$(pages[nextSlideIndex]).addClass('selected');
+					$('.alumni-member').animateCss('fadeIn');
+					$('.alumni-member-animate-class').animateCss('zoomIn');
+				}
+			}
 			else if (prevSlideIndex == 4 && nextSlideIndex == 0) {
 				$('.alumni-member').animateCss('fadeOut');
 				$('.alumni-member-animate-class').animateCss('zoomOut');
@@ -351,6 +389,35 @@
 				}
 			}
 			else if (prevSlideIndex == 0 && nextSlideIndex == 4) {
+				$('#designer-venn-button').animateCss('fadeIn zoomIn');
+				$('.mainpage-elements').animateCss('fadeIn');
+				$('#developer-venn-button').animateCss('fadeIn zoomIn');
+				setTimeout(delay04, 400);
+				function  delay04() {
+					$(pages[prevSlideIndex]).removeClass('selected');
+					$(pages[nextSlideIndex]).addClass('selected');
+					$('.alumni-member').animateCss('fadeIn');
+					$('.alumni-member-animate-class').animateCss('zoomIn');
+				}
+			}
+			else if (prevSlideIndex == 5 && nextSlideIndex == 0) {
+				$('.alumni-member').animateCss('fadeOut');
+				$('.alumni-member-animate-class').animateCss('zoomOut');
+				$('.alumni-heading').hide();
+				$('.alumni-location').hide();
+				$('.nav-cross-container').hide();
+				$('.svgs').hide();
+				$('.nav-up-container').show();
+				setTimeout(delay40, 400);
+				function delay40() {
+					$(pages[prevSlideIndex]).removeClass('selected');
+					$(pages[nextSlideIndex]).addClass('selected');
+					$('#designer-venn-button').animateCss('fadeIn zoomIn');
+					$('.mainpage-elements').animateCss('fadeIn');
+					$('#developer-venn-button').animateCss('fadeIn zoomIn');
+				}
+			}
+			else if (prevSlideIndex == 0 && nextSlideIndex == 5) {
 				$('#designer-venn-button').animateCss('fadeIn zoomIn');
 				$('.mainpage-elements').animateCss('fadeIn');
 				$('#developer-venn-button').animateCss('fadeIn zoomIn');
@@ -398,6 +465,9 @@
 			},
 			numsvg : function() {
 				matchUrl(pageUrls[4]);
+			},
+			numsvgusa : function() {
+				matchUrl(pageUrls[5]);
 			}
 		}
 
@@ -410,6 +480,7 @@
 		designerSideBar.on('click', navClick.dsbar);
 		developerSideBar.on('click', navClick.dvbar);
 		svgIcon.on('click', navClick.numsvg);
+		svgIconUsa.on('click', navClick.numsvgusa);
 		logo.on('click', navClick.logoicon);
 		matchUrl(window.location.pathname);
 	});

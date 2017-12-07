@@ -196,7 +196,7 @@
           <div class="country-count-icon india svgs" id="svg-icon">
             <span class="country-count">{{ site.data.alumni_india | size }} </span>
           </div>
-          <div class="country-count-icon usa svgs">
+          <div class="country-count-icon usa svgs" id="svg-icon-usa">
             <span class="country-count">{{ site.data.alumni_usa | size }} </span>
           </div>  
         </div>
@@ -208,6 +208,35 @@
         </div>
         <div class="alumni-members">
           {% for member in site.data.alumni_india %}
+            <div class="alumni-member alumni-member-animate-class">
+              <div class="alumni-member-image-container">
+                <div class="maintain-aspect-ratio">  
+                  <img class="alumni-member-image" src="./images/members/alumni/{{ member.pic }}" alt="{{ member.name }}">
+                </div>
+              </div>  
+              <div class="alumni-member-name">{{ member.name }}</div>
+              <div class="alumni-member-work">{{ member.position }}</div>
+              <div class="alumni-member-company">{{ member.location }}</div>
+              <div class="alumni-member-links">
+                {% for link in member.links %}              
+                  <a class="alumni-member-link" href="{{ link[1] }}" target="_blank">
+                    <div class="maintain-aspect-ratio">
+                      <img class="alumni-member-link-icon" src="./images/{{ link[0]|downcase }}.png">
+                    </div>  
+                  </a>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="page" id="alumnipageusa">
+        <div class="alumni-heading">
+          <span class="alumni-heading-bold">Alumni</span>
+          <span class="alumni-heading-small">&nbsp;in USA</span>
+        </div>
+        <div class="alumni-members">
+          {% for member in site.data.alumni_usa %}
             <div class="alumni-member alumni-member-animate-class">
               <div class="alumni-member-image-container">
                 <div class="maintain-aspect-ratio">  

@@ -383,9 +383,17 @@
 				function delay40() {
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#designer-venn-button').animateCss('fadeIn zoomIn');
+					$('#designer-venn-button').animate({opacity: '0.8', left: '35vw'});
 					$('.mainpage-elements').animateCss('fadeIn');
-					$('#developer-venn-button').animateCss('fadeIn zoomIn');
+					$('#developer-venn-button').animate({opacity: '0.8', left: '50vw'});
+					$('#left-top').animate({opacity: '1', left: '19.4vw'});
+					$('#left-middle').animate({opacity: '1', left: '15.7vw'});
+					$('.subtext').css("letter-spacing", "5%");
+					$('#left-bottom').animate({opacity: '1', left: '21.15vw'});
+					$('#right-top').animate({opacity: '1', left: '67.3vw'});
+					$('#right-middle').animate({opacity: '1', left: '70.2vw'});
+					$('#right-bottom').animate({opacity: '1', left: '67.3vw'});
+					$('.mainpagetext').animate({top: '69.14vh'});
 				}
 			}
 			else if (prevSlideIndex == 0 && nextSlideIndex == 4) {
@@ -412,9 +420,17 @@
 				function delay40() {
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#designer-venn-button').animateCss('fadeIn zoomIn');
+					$('#designer-venn-button').animate({opacity: '0.8', left: '35vw'});
 					$('.mainpage-elements').animateCss('fadeIn');
-					$('#developer-venn-button').animateCss('fadeIn zoomIn');
+					$('#developer-venn-button').animate({opacity: '0.8', left: '50vw'});
+					$('#left-top').animate({opacity: '1', left: '19.4vw'});
+					$('#left-middle').animate({opacity: '1', left: '15.7vw'});
+					$('.subtext').css("letter-spacing", "5%");
+					$('#left-bottom').animate({opacity: '1', left: '21.15vw'});
+					$('#right-top').animate({opacity: '1', left: '67.3vw'});
+					$('#right-middle').animate({opacity: '1', left: '70.2vw'});
+					$('#right-bottom').animate({opacity: '1', left: '67.3vw'});
+					$('.mainpagetext').animate({top: '69.14vh'});
 				}
 			}
 			else if (prevSlideIndex == 0 && nextSlideIndex == 5) {

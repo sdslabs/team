@@ -27,7 +27,7 @@
         </div>
         <div class="descriptions mainpage-elements" id="left-top">
           <div class="headtext">
-            11
+            {{ site.data.designers | size }}
           </div>
           <div class="subtext">
             Designers
@@ -35,7 +35,7 @@
         </div>
         <div class="descriptions mainpage-elements" id="left-middle">
           <div class="headtext">
-            36
+            {{ site.data.developers | size }}
           </div>
           <div class="subtext">
             Developers
@@ -43,7 +43,7 @@
         </div>
         <div class="descriptions mainpage-elements" id="left-bottom">
           <div class="headtext">
-            65
+            {{ site.data.alumni_india + site.data.alumni_usa | size }}
           </div>
           <div class="subtext">
             Alumni

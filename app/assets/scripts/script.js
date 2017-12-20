@@ -222,6 +222,7 @@
 				$('.designerpage-elements').animateCss('fadeOut zoomOut');
 				$('#headings-ds').animate({top: '15rem'});
 				$('#horizontalrule-ds').animate({width: '0%'});
+				$('.bordertextds').hide();
 				setTimeout(delay12, 500);
 				function delay12(){
 					$(pages[prevSlideIndex]).removeClass('selected');
@@ -230,6 +231,7 @@
 					$('#horizontalrule-dv').animate({width: '6.5%'});
 					$('#designer-side-bar').animate({left: '0', opacity: '0.85', width: '5vw'});
 					$('.developerpage-elements').animateCss('zoomIn fadeIn');
+					$('.bordertext-dv').show();
 				}
 			}
 
@@ -238,6 +240,7 @@
 				$('.developerpage-elements').animateCss('zoomOut fadeOut');
 				$('#horizontalrule-dv').animate({width: '0%'});
 				$('#headings-dv').animate({top: '15rem'});
+				$('.bordertext-dv').hide();
 				setTimeout(delay21, 500);
 				function delay21(){
 					$(pages[prevSlideIndex]).removeClass('selected');
@@ -246,6 +249,7 @@
 					$('#horizontalrule-ds').animate({width: '6.5%'});
 					$('#developer-side-bar').animate({left:'95%', opacity: '0.75', width: '5vw'});
 					$('.designerpage-elements').animateCss('fadeIn zoomIn');
+					$('.bordertextds').show();
 				}
 			}
 

@@ -103,6 +103,8 @@
   color: #FFF;
   opacity: 0.8;
   font: 25px "josefin sans", arial;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .rightcircle {
@@ -120,6 +122,7 @@
   color: #FFF;
   opacity: 0.8;
   font: 25px "josefin sans", arial;
+  cursor: pointer;
 }
 
 #textleft, #textright {
@@ -380,4 +383,8 @@ i {
 .clip4 {
   -webkit-clip-path: url("#svgClip4");
   clip-path: url("#svgClip4");  
+}
+
+.india, .usa {
+  cursor: pointer;
 }

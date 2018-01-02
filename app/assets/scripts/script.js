@@ -287,6 +287,7 @@
 			else if (prevSlideIndex == 3 && nextSlideIndex == 0) {
 				$('.alumnilocationpage-elements').animateCss('fadeOut');
 				$('.svgs').animateCss('fadeOut zoomOut');
+				$('.nav-up-container').hide();
 				setTimeout(delay30, 400);
 				function delay30() {
 					$(pages[prevSlideIndex]).removeClass('selected');
@@ -382,7 +383,7 @@
 				$('.alumni-location').hide();
 				$('.nav-cross-container').hide();
 				$('.svgs').hide();
-				$('.nav-up-container').show();
+				$('.nav-up-container').hide();
 				setTimeout(delay40, 400);
 				function delay40() {
 					$(pages[prevSlideIndex]).removeClass('selected');
@@ -419,7 +420,7 @@
 				$('.alumni-location').hide();
 				$('.nav-cross-container').hide();
 				$('.svgs').hide();
-				$('.nav-up-container').show();
+				$('.nav-up-container').hide();
 				setTimeout(delay40, 400);
 				function delay40() {
 					$(pages[prevSlideIndex]).removeClass('selected');

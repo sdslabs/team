@@ -43,7 +43,7 @@
         </div>
         <div class="descriptions mainpage-elements" id="left-bottom">
           <div class="headtext">
-            {{ site.data.alumni_india + site.data.alumni_usa | size }}
+            {{ site.data.alumni_india | add site.data.alumni_usa | size  }}
           </div>
           <div class="subtext">
             Alumni

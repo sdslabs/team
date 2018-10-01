@@ -1,6 +1,6 @@
-#Team Page of SDSLabs.
+# Team Page of SDSLabs.
 
-##Setup instructions
+## Setup instructions
 
 1. `gem install bundler`
 2. `bundle install`

@@ -1,4 +1,4 @@
-# Team Page of SDSLabs.
+# Team Page of SDSLabs
 
 ## Setup instructions
 
@@ -9,4 +9,5 @@
 5. `grunt build`
 
 For local deployment, run `grunt serve`
+
 The page will be available on http://localhost:4000

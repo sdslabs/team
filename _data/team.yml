@@ -253,7 +253,7 @@
 
 - name: Kriti Singh
   pic: kriti.jpg
-  links: 
+  links:
     Facebook: https://www.facebook.com/kritisingh1.ks
     EMail: mailto:kritisingh1.ks@gmail.com
     GitHub: https://github.com/kritisingh1
@@ -446,6 +446,13 @@
     Facebook: https://www.facebook.com/ankitkataria28
     Email: mailto:ankitkataria28@gmail.com
     GitHub: https://github.com/ankitkataria
+ 
+- name: Vaibhav
+  pic: vrongmeal.jpg
+  links:
+    Facebook: https://www.facebook.com/vrongmeal
+    Email: mailto:vrongmeal@gmail.com
+    Github: https://github.com/vrongmeal
 
 - name: Harshit Maurya
   pic: harshit.jpg
@@ -453,3 +460,10 @@
     Facebook: https://www.facebook.com/harshit.maurya.7547
     Email: mailto:hmaurya999@gmail.com
     GitHub: https://github.com/hacksdump
+
+- name: Palak Goenka
+  pic: palak.jpg
+  links:
+    Facebook: https://www.facebook.com/palak.goenka.560
+    Email: mailto:goenkapalak11@gmail.com
+    GitHub: https://github.com/palakg11

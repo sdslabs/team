@@ -3,21 +3,21 @@
 		var slide = 0;
 		var routes = {
 			"/": "root",
-			"/designerpage": "designerpage",
-			"/developerpage": "developerpage",
-			"/alumnilocationpage": "alumnilocationpage",
-			"/alumnipage": "alumnipage",
-			"/alumnipageusa": "alumnipageusa"
+			"/designers": "designers",
+			"/developers": "developers",
+			"/alumni": "alumni",
+			"/alumni/india": "alumni/india",
+			"/alumni/usa": "alumni/usa"
 
 		};
 
 		var pageUrls = {
 			0 : "/",
-			1 : "/designerpage",
-			2 : "/developerpage",
-			3 : "/alumnilocationpage",
-			4 : "/alumnipage",
-			5 : "/alumnipageusa"
+			1 : "/designers",
+			2 : "/developers",
+			3 : "/alumni",
+			4 : "/alumni/india",
+			5 : "/alumni/usa"
 		};
 
 		var designerVennButton = $('#designer-venn-button');

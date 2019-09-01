@@ -16,61 +16,69 @@
     </div>
     <div class="page-container">
       <div class="page" id="mainpage">
-        <div class="leftcircle" id="designer-venn-button">
-          <img src="./images/designers.svg" style="position: relative; top: 40%;">
-        </div>     
-        <div class="rightcircle" id="developer-venn-button">
-          <img src="./images/developers.svg" style="top: 40%; position: relative;">
+        <div class="circle-container">
+          <div class="leftcircle circle" id="designer-venn-button">
+            <img src="./images/designers.svg" />
+          </div>
+          <div class="rightcircle circle" id="developer-venn-button">
+            <img src="./images/developers.svg" />
+          </div>
         </div>
         <div class="mainpagetext mainpage-elements">
           Meet the team
         </div>
-        <div class="descriptions mainpage-elements" id="left-top">
-          <div class="headtext">
-            {{ site.data.designers | size }}
+        <div class="team-stats">
+          <div class="left-column-stats">
+            <div class="descriptions mainpage-elements" id="left-top">
+              <div class="headtext">
+                {{ site.data.designers | size }}
+              </div>
+              <div class="subtext">
+                Designers
+              </div>
+            </div>
+            <div class="descriptions mainpage-elements" id="left-middle">
+              <div class="headtext">
+                {{ site.data.developers | size }}
+              </div>
+              <div class="subtext">
+                Developers
+              </div>
+            </div>
+            <div class="descriptions mainpage-elements" id="left-bottom">
+              <div class="headtext">
+                {{ site.data.alumni_india | add site.data.alumni_usa | size  }}
+              </div>
+              <div class="subtext">
+                Alumni
+              </div>
+            </div>
           </div>
-          <div class="subtext">
-            Designers
-          </div>
-        </div>
-        <div class="descriptions mainpage-elements" id="left-middle">
-          <div class="headtext">
-            {{ site.data.developers | size }}
-          </div>
-          <div class="subtext">
-            Developers
-          </div>
-        </div>
-        <div class="descriptions mainpage-elements" id="left-bottom">
-          <div class="headtext">
-            {{ site.data.alumni_india | add site.data.alumni_usa | size  }}
-          </div>
-          <div class="subtext">
-            Alumni
-          </div>  
-        </div>
-        <div class="descriptions mainpage-elements" id="right-top">
-          <div class="headtext">
-            40%
-          </div>
-          <div class="subtext">
-            CS Undergrads
-          </div>
-        </div>
-        <div class="descriptions mainpage-elements" id="right-middle">
-          <div class="headtext">
-            60%
-          </div>
-          <div class="subtext">
-            Non-CS Undergrads
-          </div>
-        </div>
-        <div class="descriptions mainpage-elements" id="right-bottom">
-          <div class="headtext">
-            65%
-          </div>
-          <div class="subtext">
-            Non-Vegetarians
+          <div class="right-column-stats">
+            <div class="descriptions mainpage-elements" id="right-top">
+              <div class="headtext">
+                40%
+              </div>
+              <div class="subtext">
+                CS Undergrads
+              </div>
+            </div>
+            <div class="descriptions mainpage-elements" id="right-middle">
+              <div class="headtext">
+                60%
+              </div>
+              <div class="subtext">
+                Non-CS Undergrads
+              </div>
+            </div>
+            <div class="descriptions mainpage-elements" id="right-bottom">
+              <div class="headtext">
+                65%
+              </div>
+              <div class="subtext">
+                Non-Vegetarians
+              </div>
+            </div>
           </div>
         </div>
         <div class="footer">

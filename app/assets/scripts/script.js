@@ -109,19 +109,15 @@
 			}
 
 			if(prevSlideIndex === 0 && nextSlideIndex === 1) {
-				$('.mainpage-elements').animateCss('fadeOut');
-				$('#designer-venn-button').animate({opacity: '0', width: '3vw', height: '5vh', top: '14%', left: '15vw'});
-				$('#developer-venn-button').animate({opacity: '0', width:'3vw', height: '5vh', left: '90%'});
-				$('#des-svg').css("opacity", "0");
-				$('#dev-svg').css("opacity", "0");
-				$('.subtext').css("letter-spacing", "10%");
-				$('#left-top').animate({opacity: '0', left: '17vw'});
-				$('#left-middle').animate({opacity: '0', left: '13.3vw'});
-				$('#left-bottom').animate({opacity: '0', left: '18.7vw'});
-				$('#right-top').animate({opacity: '0', left: '69.7vw'});
-				$('#right-middle').animate({opacity: '0', left: '72.6vw'});
-				$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
-				$('.mainpagetext').animate({top: '72vh'});
+				$('.mainpagetext').animateCss('fadeOut');
+				$('#designer-venn-button').toggle('circle');
+				$('#developer-venn-button').toggle('circle');
+				$('#left-top').toggle('descriptions');
+				$('#left-middle').toggle('descriptions');
+				$('#left-bottom').toggle('descriptions');
+				$('#right-top').toggle('descriptions');
+				$('#right-middle').toggle('descriptions');
+				$('#right-bottom').toggle('descriptions');
 				$('.bordertextds').show();
 				setTimeout(delay01, 700);
 				function delay01(){
@@ -145,38 +141,28 @@
 				function delay10(){
 				$(pages[prevSlideIndex]).removeClass('selected');
 				$(pages[nextSlideIndex]).addClass('selected');
-				$('#des-svg').css("opacity", "1");
-				$('#dev-svg').css("opacity", "1");
-				// $('#designer-venn-button').animateCss('fadeIn zoomIn');
-				$('#developer-venn-button').animate({opacity: '0.8', top: '30vh', left: '50vw', width: '15.3vw', height: '29.2vh'});
-				$('#designer-venn-button').animate({opacity: '0.8', left: '35vw', width: '15.3vw', height: '29.2vh', top: '30vh'});
-				$('#left-top').animate({opacity: '1', left: '19.4vw'});
-				$('#left-middle').animate({opacity: '1', left: '15.7vw'});
-				$('.subtext').css("letter-spacing", "5%");
-				$('#left-bottom').animate({opacity: '1', left: '21.15vw'});
-				$('#right-top').animate({opacity: '1', left: '67.3vw'});
-				$('#right-middle').animate({opacity: '1', left: '70.2vw'});
-				$('#right-bottom').animate({opacity: '1', left: '67.3vw'});
-				$('.mainpagetext').animate({top: '69.14vh'});
-				// $('#developer-venn-button').animateCss('fadeIn zoomIn');
+				$('#left-top').toggle('descriptions');
+				$('#left-middle').toggle('descriptions');
+				$('#left-bottom').toggle('descriptions');
+				$('#right-top').toggle('descriptions');
+				$('#right-middle').toggle('descriptions');
+				$('#right-bottom').toggle('descriptions');
+				$('#designer-venn-button').toggle('circle');
+				$('#developer-venn-button').toggle('circle');
+				$('.mainpagetext').animateCss('fadeIn');
 				}
 			}
 
 			else if(prevSlideIndex == 0 && nextSlideIndex == 2) {
-				/*$('#developer-venn-button').animateCss('fadeOut zoomOut');*/
-				$('#developer-venn-button').animate({opacity: '0', width: '3vw', height: '5vh', top: '14%', left: '80%'});
 				$('.mainpage-elements').animateCss('fadeOut');
-				$('#designer-venn-button').animate({opacity: '0', width: '3vw', height: '5vh', left: '10vw', top: '49vh'});
-				$('#des-svg').css("opacity", "0");
-				$('#dev-svg').css("opacity", "0");
-				$('.subtext').css("letter-spacing", "10%");
-				$('#left-top').animate({opacity: '0', left: '17vw'});
-				$('#left-middle').animate({opacity: '0', left: '13.3vw'});
-				$('#left-bottom').animate({opacity: '0', left: '18.7vw'});
-				$('#right-top').animate({opacity: '0', left: '69.7vw'});
-				$('#right-middle').animate({opacity: '0', left: '72.6vw'});
-				$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
-				$('.mainpagetext').animate({top: '72vh'});
+				$('#designer-venn-button').toggle('circle');
+				$('#developer-venn-button').toggle('circle');
+				$('#left-top').toggle('descriptions');
+				$('#left-middle').toggle('descriptions');
+				$('#left-bottom').toggle('descriptions');
+				$('#right-top').toggle('descriptions');
+				$('#right-middle').toggle('descriptions');
+				$('#right-bottom').toggle('descriptions');
 				$('.bordertext-dv').show();
 				setTimeout(delay02, 700);
 				
@@ -201,19 +187,15 @@
 				function delay20(){
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					/*$('#developer-venn-button').animateCss('fadeIn zoomIn');*/
-					$('.mainpage-elements').animateCss('fadeIn');
-					$('#des-svg').css("opacity", "1");
-					$('#dev-svg').css("opacity", "1");
-					$('#left-top').animate({opacity: '1', left: '19.4vw'});
-					$('#left-middle').animate({opacity: '1', left: '15.7vw'});
-					$('.subtext').css("letter-spacing", "5%");
-					$('#left-bottom').animate({opacity: '1', left: '21.15vw'});
-					$('#right-top').animate({opacity: '1', left: '67.3vw'});
-					$('#right-middle').animate({opacity: '1', left: '70.2vw'});
-					$('#right-bottom').animate({opacity: '1', left: '67.3vw'});
-					$('#developer-venn-button').animate({opacity: '0.8', top: '30vh', left: '50vw', width: '15.3vw', height: '29.2vh'});
-					$('#designer-venn-button').animate({opacity: '0.8', left: '35vw', width: '15.3vw', height: '29.2vh', top: '30vh'});
+					$('#left-top').toggle('descriptions');
+					$('#left-middle').toggle('descriptions');
+					$('#left-bottom').toggle('descriptions');
+					$('#right-top').toggle('descriptions');
+					$('#right-middle').toggle('descriptions');
+					$('#right-bottom').toggle('descriptions');
+					$('#designer-venn-button').toggle('circle');
+					$('#developer-venn-button').toggle('circle');
+					$('.mainpagetext').animateCss('fadeIn');
 				}
 			}
 
@@ -254,16 +236,16 @@
 			}
 
 			else if (prevSlideIndex == 0 && nextSlideIndex == 3) {
-				$('#designer-venn-button').animate({left: '32vw', opacity: '0'});
 				$('.mainpage-elements').animateCss('fadeOut');
-				$('#developer-venn-button').animate({left: '53vw', opacity: '0'});
-				$('#left-top').animate({opacity: '0', left: '17vw'});
-				$('#left-middle').animate({opacity: '0', left: '13.3vw'});
-				$('#left-bottom').animate({opacity: '0', left: '18.7vw'});
-				$('#right-top').animate({opacity: '0', left: '69.7vw'});
-				$('#right-middle').animate({opacity: '0', left: '72.6vw'});
-				$('#right-bottom').animate({opacity: '0', left: '69.7vw'});
-				$('.mainpagetext').animate({top: '72vh'});
+				$('#designer-venn-button').toggle('circle');
+				$('#developer-venn-button').toggle('circle');
+				$('#left-top').toggle('descriptions');
+				$('#left-middle').toggle('descriptions');
+				$('#left-bottom').toggle('descriptions');
+				$('#right-top').toggle('descriptions');
+				$('#right-middle').toggle('descriptions');
+				$('#right-bottom').toggle('descriptions');
+				$('.bordertext-dv').show();
 				$('.alumni-heading').hide();
 				$('.alumni-map').hide();
 				$('.svgs').hide();
@@ -292,17 +274,15 @@
 				function delay30() {
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#designer-venn-button').animate({opacity: '0.8', left: '35vw'});
-					$('.mainpage-elements').animateCss('fadeIn');
-					$('#developer-venn-button').animate({opacity: '0.8', left: '50vw'});
-					$('#left-top').animate({opacity: '1', left: '19.4vw'});
-					$('#left-middle').animate({opacity: '1', left: '15.7vw'});
-					$('.subtext').css("letter-spacing", "5%");
-					$('#left-bottom').animate({opacity: '1', left: '21.15vw'});
-					$('#right-top').animate({opacity: '1', left: '67.3vw'});
-					$('#right-middle').animate({opacity: '1', left: '70.2vw'});
-					$('#right-bottom').animate({opacity: '1', left: '67.3vw'});
-					$('.mainpagetext').animate({top: '69.14vh'});
+					$('#left-top').toggle('descriptions');
+					$('#left-middle').toggle('descriptions');
+					$('#left-bottom').toggle('descriptions');
+					$('#right-top').toggle('descriptions');
+					$('#right-middle').toggle('descriptions');
+					$('#right-bottom').toggle('descriptions');
+					$('#designer-venn-button').toggle('circle');
+					$('#developer-venn-button').toggle('circle');
+					$('.mainpagetext').animateCss('fadeIn');
 				}
 			}
 

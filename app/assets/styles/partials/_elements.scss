@@ -80,49 +80,61 @@
   padding: 0;
 }
 
-/*#venn-maindiv {
+.circle-container {
   position: absolute;
   top: 30vh;
-  left: 35vw;
-  width: 500px;
-  height: 300px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  width: 55vh;
   display: flex;
-}*/
+  justify-content: space-between;
+}
 
-.leftcircle {
-  position: absolute;
-  top: 30vh;
-  left: 35vw;
-  display: table-cell;
+.circle {
   height: 29.2vh;
   width: 29.2vh;
   text-align: center;
   vertical-align: middle;
   border-radius: 50%;
-  background: #fc332f;
+  cursor: pointer;
+  font-size: 0.5vw;
   color: #FFF;
   opacity: 0.8;
-  font: 25px "josefin sans", arial;
+  -webkit-animation: fadeOut .25s linear;
+  -moz-animation: fadeOut .25s linear;
+  -o-animation: fadeOut .25s linear;
+  animation: fadeOut .25s linear;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0.8;
+    transform: scale(100%);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(10%);
+  }
+}
+
+
+.circle>img {
+  position: relative;
+  top: 40%;
+  height: 8vh;
+}
+
+.leftcircle {
+  background: #fc332f;
   z-index: 1;
-  cursor: pointer;
 }
 
 .rightcircle {
-  position: absolute;
-  top: 30vh;
-  left: 50vw;
-  display: table-cell;
-  height: 29.2vh;
-  width: 29.2vh;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
   background: #44bdc8;
-  margin-left: -50px;
-  color: #FFF;
-  opacity: 0.8;
-  font: 25px "josefin sans", arial;
-  cursor: pointer;
+  margin-left: -10vh;
 }
 
 #textleft, #textright {
@@ -144,17 +156,24 @@
 
 .descriptions {
   position: absolute;
-  top: 30%;
-  left: 25%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   display: flex;
+  -webkit-animation: fadeX .25s linear;
+  -moz-animation: fadeX .25s linear;
+  -o-animation: fadeX .25s linear;
+  animation: fadeX .25s linear;
 }
 
-#left-top {
-  position: absolute;
-  top: 30vh;
-  left: 19.4vw;
+@keyframes fadeX {
+  0% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
 }
 
 .headtext {
@@ -177,35 +196,92 @@
   color: rgba(51, 51, 51, 0.89);
 }
 
+
+#left-top {
+  top: 26vh;
+  right: 70vw;
+}
+
 #left-middle {
-  position: absolute;
   top: 41.1vh;
-  left: 15.7vw;
+  right: 75vw;
 }
 
 #left-bottom {
-  position: absolute;
   top: 52.3vh;
-  left: 21.15vw;
+  right: 70vw;
 }
 
 #right-top {
-  position: absolute;
-  top: 30vh;
-  left: 67.3vw;
+  top: 26vh;
+  left: 70vw;
 }
 
 #right-middle {
-  position: absolute;
-  top: 41.1vh;
-  left: 70.2vw;
+  top: 41vh;
+  left: 75vw;
 }
 
 #right-bottom {
-  position: absolute;
-  top: 52.3vh;
-  left: 67.3vw;
+  top: 56vh;
+  left: 70vw;
 }
+
+@media only screen and (max-width: 800px) {
+  .circle-container {
+    width: 50vw;
+  }
+
+  .circle {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  .circle>img {
+    height: 10vw;
+  }
+
+  .rightcircle {
+    margin-left: -5vw;
+  }
+
+  .descriptions {
+    position: unset;
+  }
+
+  .team-stats {
+    position: absolute;
+    top: 75vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    justify-content: space-evenly;
+  }
+    .right-column-stats, .left-column-stats {
+      display: flex;
+      flex-direction: column;
+    }
+    .headtext, .subtext {
+      font-style: normal;
+      font-size: 2.5vw;
+      padding-left: 1vw;
+      line-height: 5.2vw;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    #left-top, #left-middle, #left-bottom,
+    #right-top, #right-middle, #right-bottom {
+      top: 0;
+      left: 0;
+    }
+
+}
+
+
 
 .nav-div-down {
   position: absolute;

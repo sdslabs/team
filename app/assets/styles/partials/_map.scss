@@ -1,7 +1,13 @@
+.alumni-map-container {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
 .alumni-map {
   @include aspect-ratio(882, 431);
   width: 88rem;
-  margin: 5rem auto; 
+  margin:auto;
 }
 
 	.country-count-icon {

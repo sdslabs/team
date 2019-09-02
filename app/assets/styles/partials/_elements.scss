@@ -103,10 +103,21 @@
   font-size: 0.5vw;
   color: #FFF;
   opacity: 0.8;
-  -webkit-animation: fadeOut .25s linear;
-  -moz-animation: fadeOut .25s linear;
-  -o-animation: fadeOut .25s linear;
-  animation: fadeOut .25s linear;
+}
+
+.circle-animate-in {
+  -webkit-animation: fadeOut .5s linear;
+  -moz-animation: fadeOut .5s linear;
+  -o-animation: fadeOut .5s linear;
+  animation: fadeOut .5s linear;
+}
+
+.circle-animate-out {
+  animation-direction:reverse;
+  -webkit-animation: fadeOut .5s linear;
+  -moz-animation: fadeOut .5s linear;
+  -o-animation: fadeOut .5s linear;
+  animation: fadeOut .5s linear;
 }
 
 @keyframes fadeOut {
@@ -159,10 +170,22 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   display: flex;
-  -webkit-animation: fadeX .25s linear;
-  -moz-animation: fadeX .25s linear;
-  -o-animation: fadeX .25s linear;
-  animation: fadeX .25s linear;
+}
+
+.descriptions-animate-in {
+  -webkit-animation: fadeX .5s linear;
+  -moz-animation: fadeX .5s linear;
+  -o-animation: fadeX .5s linear;
+  animation: fadeX .5s linear;
+}
+
+.descriptions-animate-out {
+  animation-direction:reverse;
+  -webkit-animation: fadeX .5s linear;
+  -moz-animation: fadeX .5s linear;
+  -o-animation: fadeX .5s linear;
+  animation: fadeX .5s linear;
+
 }
 
 @keyframes fadeX {

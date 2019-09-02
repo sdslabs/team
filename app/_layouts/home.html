@@ -197,16 +197,18 @@
           <span class="alumni-heading-bold">Alumni</span>
           <span class="alumni-heading-small">&nbsp;around the World</span>
         </div>
-        <div class="alumni-map alumnilocationpage-elements">
-          <div class="maintain-aspect-ratio">
-            <img src="./images/map.svg">
+        <div class="alumni-map-container">
+          <div class="alumni-map alumnilocationpage-elements">
+            <div class="maintain-aspect-ratio">
+              <img src="./images/map.svg">
+            </div>
+            <div class="country-count-icon india svgs" id="svg-icon">
+              <span class="country-count">{{ site.data.alumni_india | size }} </span>
+            </div>
+            <div class="country-count-icon usa svgs" id="svg-icon-usa">
+              <span class="country-count">{{ site.data.alumni_usa | size }} </span>
+            </div>
           </div>
-          <div class="country-count-icon india svgs" id="svg-icon">
-            <span class="country-count">{{ site.data.alumni_india | size }} </span>
-          </div>
-          <div class="country-count-icon usa svgs" id="svg-icon-usa">
-            <span class="country-count">{{ site.data.alumni_usa | size }} </span>
-          </div>  
         </div>
       </div>
       <div class="page" id="alumnipage">

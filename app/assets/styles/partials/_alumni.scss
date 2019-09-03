@@ -1,4 +1,6 @@
 .alumni-heading {
+  position: absolute;
+  top: 0;
   padding-top: 7rem;
   text-align: center;
   width: 100%;
@@ -17,20 +19,34 @@
 	}
 
 .alumni-members {
-    position: relative;
+	position: absolute;
 	z-index: 1;
+	top: 15vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	width: 103.4rem;
-	margin: 0 auto;
-	align-items: center;
+	width: 80vw;
+	margin: 0 10vw;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-top: 1.2rem;
+	margin-top: 3.2rem;
+	height: 80vh;
+	overflow-y: scroll;
 }
 
 	.alumni-member {
+		display: flex;
+		flex-direction: column;
 		text-align: center;
-		width: 25%;
+		width: 19.4rem;
+		height: 25rem;
 		padding: 1.2rem 0;
+		justify-content: space-between;
 	}
 
 		.alumni-member-image-container {

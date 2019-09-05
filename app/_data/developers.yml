@@ -38,7 +38,7 @@
   pic: tanmay.jpg
   links:
     FB: https://www.facebook.com/tnmy44
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/tnmy44
 
 - name: Ketan Gupta
@@ -66,7 +66,7 @@
   pic: csoni111.jpg
   links:
     FB: https://www.facebook.com/cmaheshwari11
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/csoni111
 
 - name: Sahil Grover
@@ -80,14 +80,14 @@
   pic: agrim.jpg
   links:
     FB: https://www.facebook.com/agrimittal
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/agrim123
 
 - name: Nisha Agarwal
   pic: nisha.jpg
   links:
     FB: https://www.facebook.com/profile.php?id=100009467509734
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/na0710
 
 - name: Utsav Mangal
@@ -101,28 +101,28 @@
   pic: anish.jpg
   links:
     FB: https://www.facebook.com/anish.mukherjee1996
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/alphadose
 
 - name: Ankit kataria
   pic: ankit.jpg
   links:
     FB: https://www.facebook.com/ankitkataria28
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/ankitkataria
 
 - name: Deepesh Pathak
   pic: deepesh.jpg
   links:
     FB: https://www.facebook.com/deepshpathak
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/fristonio
 
 - name: Harsh jain
   pic: harsh.jpg
   links:
     FB: https://www.facebook.com/harsh.elygmi
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/h4r5h-ja1n
 
 - name: Harsha  Sharma
@@ -143,14 +143,14 @@
   pic: karan.jpg
   links:
     FB: https://www.facebook.com/karan.shrivastav.1999
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/KARS1801
 
-- name: Kartikey Pandey 
+- name: Kartikey Pandey
   pic: kartikey.jpg
   links:
     FB: https://www.facebook.com/kartikey.pandey.900
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/kartik-25
 
 - name: Kriti Singh
@@ -164,21 +164,21 @@
   pic: manan.jpg
   links:
     FB: https://www.facebook.com/jn.manan25
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/m4n4n
 
 - name: Nikhil kaushik
   pic: nikhil.jpg
   links:
     FB: https://www.facebook.com/nikhil.kaushik.984
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/c0dzilla
 
 - name: Shiva Gupta
   pic: shiva.jpg
   links:
     FB: https://www.facebook.com/shiva.gandhi.5
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/SHIVA-sopho
 
 - name: Twarit Waikar
@@ -192,8 +192,15 @@
   pic: utkarsh858.jpg
   links:
     FB: https://www.facebook.com/utkarsh.shukla.92317
-    Twitter1: 
+    Twitter1:
     Github: https://github.com/utkarsh858
+
+- name: Vaibhav
+  pic: vaibhav.jpg
+  links:
+    FB: https://www.facebook.com/vrongmeal
+    Twitter1: https://twitter.com/vrongmeal
+    Github: https://github.com/vrongmeal
 
 - name: Vedansh Bhartia
   pic: vedansh.jpg

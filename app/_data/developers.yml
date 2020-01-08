@@ -243,6 +243,13 @@
     Twitter1:
     Github: https://github.com/shubhamgupta2956
 
+- name: Kanav Gupta
+  pic: kanav.jpg
+  links:
+    Twitter1: https://twitter.com/kanavgupta99
+    Github: https://github.com/kanav99
+    FB: https://www.facebook.com/iamkanavgupta
+
 - name: Adrij Shikhar
   pic: adrij.jpeg
   links:
@@ -257,3 +264,9 @@
     Twitter1: https://twitter.com/SubhamS26083216
     Github: https://github.com/subham103
 
+- name: Supratik Das
+  pic: supratik.jpg
+  links:
+    FB: https://www.facebook.com/supra.das08
+    Twitter1: https://twitter.com/supratik_08
+    Github: https://github.com/supra08

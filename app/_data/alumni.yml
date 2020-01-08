@@ -57,16 +57,16 @@
    
 - name: Rishabh Chhabra
   pic: chhabra.jpg
-  position: Software Engineer
-  location: Oracle India
+  position:
+  location:
   links:
     LinkedIn: https://www.linkedin.com/in/rishabh-chhabra-31080687/
     Twitter:
       
 - name: Sopan Khosla
   pic: sopan.jpg
-  position: Software Engineer
-  location: Adobe Research 
+  position: 
+  location:  
   links:
     LinkedIn: https://www.linkedin.com/in/sopan-khosla-56319999/
     Twitter: https://twitter.com/KhoslaSopan
@@ -120,9 +120,9 @@
     Twitter: https://twitter.com/apsdehal
    
 - name: Ankur Garg
-  pic: ankurgagr.jpg
-  position: Software Engineer
-  location: Adobe Research
+  pic: ankur.jpg
+  location: UT Austin
+  position: Graduate Student
   links:
     LinkedIn: https://www.linkedin.com/in/ankurgarg101/
     Twitter: 
@@ -169,7 +169,7 @@
       
 - name: Deepali Jain
   pic: deepali.jpg
-  location: Adobe Research
+  location: Google AI
   position: Software Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/deepali-jain-50106565/
@@ -289,7 +289,7 @@
       
 - name: Shagun Sodhani
   pic: shagun.jpg
-  location: Adobe
+  location: 
   position: 
   links:
     LinkedIn: https://www.linkedin.com/in/shagunsodhani/
@@ -384,6 +384,8 @@
 
 - name: Ketan Gupta
   pic: ketan.jpg
+  location: Goldman Sachs
+  position: Analyst
   links:
     FB: https://www.facebook.com/ketanhwr
     Twitter1: https://twitter.com/ketanhwr
@@ -405,6 +407,8 @@
 
 - name: Agrim Mittal
   pic: agrim.jpg
+  location: Zomato
+  position: SDE
   links:
     FB: https://www.facebook.com/agrimittal
     Twitter1:
@@ -412,6 +416,8 @@
 
 - name: Nisha Agarwal
   pic: nisha.jpg
+  location: Bidgely
+  position: Data Scientist
   links:
     FB: https://www.facebook.com/profile.php?id=100009467509734
     Twitter1:
@@ -440,6 +446,8 @@
 
 - name: Pramit Singhi
   pic: pramit.jpg
+  location: Zoomcar
+  position: Product Designer
   links:
     FB: https://www.facebook.com/pramit.singhi
     Twitter1: https://twitter.com/pramit_1997

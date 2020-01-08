@@ -1,12 +1,4 @@
 ---
-- name: Akashdeep Goel
-  pic: akashdeep.jpg
-  location: Microsoft
-  position: Software Engineer
-  links:
-    LinkedIn: https://www.linkedin.com/in/akashdeepgoel
-    Twitter: https://twitter.com/goelakashiitr
-      
 - name: Ashish Chaudhary
   pic: ashish.jpg
   location: Rapyuta Robotics
@@ -38,15 +30,7 @@
   links:
     LinkedIn: https://www.linkedin.com/in/aryanraj/
     Twitter: https://twitter.com/arynrj
-      
-- name: Dhaval Kapil
-  pic: dhaval.jpg
-  location: Facebook
-  position: Security Engineer
-  links:
-    LinkedIn: https://www.linkedin.com/in/dhavalkapil/
-    Twitter: https://twitter.com/dhaval_kapil
-      
+    
 - name: Gautham Goli
   pic: goli.jpg
   position: Software Engineer
@@ -290,6 +274,8 @@
 
 - name: Ketan Gupta
   pic: ketan.jpg
+  location: Goldman Sachs
+  position: Analyst
   links:
     FB: https://www.facebook.com/ketanhwr
     Twitter1: https://twitter.com/ketanhwr
@@ -311,6 +297,8 @@
 
 - name: Agrim Mittal
   pic: agrim.jpg
+  location: Zomato
+  position: SDE
   links:
     FB: https://www.facebook.com/agrimittal
     Twitter1:
@@ -318,6 +306,8 @@
 
 - name: Nisha Agarwal
   pic: nisha.jpg
+  location: Bidgely
+  position: Data Scientist
   links:
     FB: https://www.facebook.com/profile.php?id=100009467509734
     Twitter1:
@@ -346,6 +336,8 @@
 
 - name: Pramit Singhi
   pic: pramit.jpg
+  location: Zoomcar
+  position: Product Designer
   links:
     FB: https://www.facebook.com/pramit.singhi
     Twitter1: https://twitter.com/pramit_1997

@@ -23,14 +23,6 @@
     LinkedIn: https://www.linkedin.com/in/apsdehal/
     Twitter: https://twitter.com/apsdehal
 
-- name: Ankur Garg
-  pic: ankurgagr.jpg
-  position: Software Engineer
-  location: Adobe Research
-  links:
-    LinkedIn: https://www.linkedin.com/in/ankurgarg101/
-    Twitter: 
-
 - name: Ashwini Khare
   pic: ashwini.jpg
   location: Amazon
@@ -49,7 +41,7 @@
 - name: Deepali Jain
   pic: deepali.jpg
   position: Software Engineer
-  location: Adobe Research
+  location: Google AI
   links:
     LinkedIn: https://www.linkedin.com/in/deepali-jain-50106565/
     Twitter: https://twitter.com/Deepali01140419
@@ -96,15 +88,15 @@
   
 - name: Rishabh Chhabra
   pic: chhabra.jpg
-  position: Software Engineer
-  location: Oracle India
+  position:
+  location:
   links:
     LinkedIn: https://www.linkedin.com/in/rishabh-chhabra-31080687/
     Twitter:
     
 - name: Shagun Sodhani
   pic: shagun.jpg
-  location: Adobe
+  location: 
   position: 
   links:
     LinkedIn: https://www.linkedin.com/in/shagunsodhani/
@@ -120,8 +112,8 @@
 
 - name: Sopan Khosla
   pic: sopan.jpg
-  position: Software Engineer
-  location: Adobe Research 
+  position: 
+  location: 
   links:
     LinkedIn: https://www.linkedin.com/in/sopan-khosla-56319999/
     Twitter: https://twitter.com/KhoslaSopan

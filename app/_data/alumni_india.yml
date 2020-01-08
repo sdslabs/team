@@ -7,14 +7,6 @@
     LinkedIn: https://www.linkedin.com/in/akashdeepgoel
     Twitter: https://twitter.com/goelakashiitr
       
-- name: Arpit Singla
-  pic:
-  location: Code Nation
-  position: Software Development Engineer
-  links:
-    LinkedIn: https://www.linkedin.com/in/arpitsingla96/
-    Twitter: 
-      
 - name: Ashish Chaudhary
   pic: ashish.jpg
   location: Rapyuta Robotics
@@ -22,30 +14,14 @@
   links:
     LinkedIn: -
     Twitter: https://twitter.com/tocttou
- 
-- name: Harkirat Singh 
-  pic:
-  location: 
-  position: 
-  links:
-    LinkedIn: 
-    Twitter:  
-      
-- name: Tanmay Tiwari 
-  pic:
-  location: 
-  position: 
-  links:
-    LinkedIn: 
-    Twitter: 
-      
+
 - name: Aditya Prakash
   pic: aditya_pra.jpg
-  location: 
-  position: 
+  location: Amazon India
+  position: Software Engineer
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/adiityaprakash/
+    Twitter: https://twitter.com/adiityaPra
       
 - name: Agniva Si 
   pic: agniva.jpg
@@ -60,8 +36,8 @@
   location: 
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/aryanraj/
+    Twitter: https://twitter.com/arynrj
       
 - name: Dhaval Kapil
   pic: dhaval.jpg
@@ -73,19 +49,19 @@
       
 - name: Gautham Goli
   pic: goli.jpg
-  location: 
-  position: 
+  position: Software Engineer
+  location: Rivigo
   links:
-    LinkedIn: 
-    Twitter: 
- 
+    LinkedIn: https://www.linkedin.com/in/gautham-goli-220560107/
+    Twitter: https://twitter.com/gautham_goli
+
 - name: Abhay Rana
   pic: abhay.jpg
-  location: 
+  location: Razorpay
   position: 
   links:
     LinkedIn: 
-    Twitter: 
+    Twitter: https://twitter.com/captn3m0
                
 - name: Akshay Deshraj
   pic: akshaydes.jpg
@@ -97,26 +73,26 @@
           
 - name: Ankush Agrawal
   pic: ankushagr.jpg
-  location: 
-  position: 
+  position:
+  location: ServiceNow
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/ankush557/
+    Twitter: https://twitter.com/AnkushAgr
             
 - name: Astuti Sharma
   pic: astuti.jpg
-  location: 
-  position: 
+  location: Goldman Sachs
+  position: Software Engineer
   links:
-    LinkedIn: 
-    Twitter: 
-      
+    LinkedIn: https://www.linkedin.com/in/astuti-sharma-80331b57/
+    Twitter: https://twitter.com/AstutiSharma
+        
 - name: Ayush Agarwal
   pic: aayush.jpg
-  location: 
+  location: NTPC Delhi 
   position: 
   links:
-    LinkedIn: 
+    LinkedIn: https://www.linkedin.com/in/aayush-agarwal-88a8ba52/
     Twitter: 
       
 - name: Chetty Arun
@@ -126,23 +102,23 @@
   links:
     LinkedIn: https://www.linkedin.com/in/chettyarun/
     Twitter: https://twitter.com/chettyarun
-           
+
 - name: Divij bindlish
   pic: divij.jpg
-  location: 
-  position: 
+  location: Google India
+  position: Software Engineer
   links:
-    LinkedIn: 
-    Twitter: 
-      
+    LinkedIn: https://www.linkedin.com/in/divijbindlish/
+    Twitter: https://twitter.com/divijbindlish
+
 - name: Giridaran Manivannan
   pic: giridaran.jpg
-  location: 
-  position: 
+  location: Razorpay
+  position: Software Engineer
   links:
-    LinkedIn: 
+    LinkedIn: https://www.linkedin.com/in/giridaranm/
     Twitter: 
-      
+
 - name: Harshil Mathur
   pic: harshil.jpg
   location: Razorpay
@@ -153,42 +129,42 @@
       
 - name: Jayant Jain
   pic: jayant.jpg
-  location: 
-  position: 
+  position: Software Engineer
+  location: Housing
   links:
-    LinkedIn: 
-    Twitter: 
-      
+     LinkedIn: https://www.linkedin.com/in/jayant-jain-23285693/
+     Twitter: 
+ 
 - name: Kumar Ishan
   pic: kumar_ishan.jpg
-  location: 
-  position: 
+  location: GoShopLane
+  position: Software Engineer
   links:
-    LinkedIn: 
-    Twitter: 
-      
+    LinkedIn: https://www.linkedin.com/in/kumarishan/
+    Twitter: https://twitter.com/kumar_ishan
+
 - name: Mohit Tibrewal
   pic: mohit.jpg
-  location: 
-  position: 
+  location: Flipkart
+  position: Software Engineer
   links:
-    LinkedIn: 
+    LinkedIn: https://www.linkedin.com/in/mohit-agarwal/
     Twitter: 
-      
+
 - name: Neeraj Gangwar
   pic: neeraj.jpg
-  location: 
+  location: GoShopLane
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/gangwarneeraj/
+    Twitter: https://twitter.com/neeraj_gangwar
       
 - name: Parag Nandi
   pic: parag.jpg
   location: Samsung Research
   position: Lead Designer
   links:
-    LinkedIn: https://linkedin.com/in/paragnandi/
+    LinkedIn: https://www.linkedin.com/in/paragnandi/
     Twitter: https://twitter.com/parag9d
       
 - name: Pranav Gupta
@@ -201,59 +177,58 @@
           
 - name: Rahul Shankar
   pic: rahul.jpg
-  location: 
+  location: C Dot
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
- 
-      
+    LinkedIn: https://www.linkedin.com/in/rahulshankar5/
+    Twitter: https://twitter.com/rahulshankar5
+     
 - name: Ravi Kishore R
   pic: ravikishore.jpg
-  location: 
+  location: Qualcomm
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
-      
+    LinkedIn: https://www.linkedin.com/in/ravi-kishore-r-70268768/
+    Twitter: https://twitter.com/ravikishore1993
+
 - name: Sagar Saxena
   pic: sagar.jpg
-  location: 
+  location: Razorpay
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
-      
+    LinkedIn: https://www.linkedin.com/in/sagarsaxena/
+    Twitter: https://twitter.com/saxenasagar91
+
 - name: Sethu Nachiappan
   pic: sethu.jpg
-  location: 
+  location: Goldman Sachs
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/sethu-nachiappan-60a86436/
+    Twitter:
          
 - name: Shashank Kumar
   pic: shashankkr.jpg
-  location: 
+  location: Razorpay
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
-      
+    LinkedIn: https://www.linkedin.com/in/kumarshashank/
+    Twitter: https://twitter.com/shashank_kr
+
 - name: Shashank Mehta
   pic: shashank_mehta.jpg
-  location: 
+  location: Razorpay
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/mehta-shashank/
+    Twitter: https://twitter.com/leostatic
       
 - name: Shikhar Shrivastav
   pic: shikhar.jpg
-  location: 
+  location: Flipkart
   position: 
   links:
-    LinkedIn: 
+    LinkedIn: https://www.linkedin.com/in/shikharshrivastav/
     Twitter: 
       
 - name: Shivam Gupta
@@ -274,33 +249,30 @@
       
 - name: Shobhit Singh
   pic: shobhit.jpg
-  location: 
+  location: Commonfloor
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/singhshobhit/
+    Twitter: https://twitter.com/shobhitsingh03
       
 - name: Vikalp Gupta
   pic: vikalp.jpg
-  location: 
+  location: Razorpay
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/vikalp02/
+    Twitter: https://twitter.com/vkalpgupta
 
 - name: Arpit Singla
   pic: arpit.jpg
+  location: Code Nation
+  position: Software Development Engineer
   links:
     FB: https://www.facebook.com/arpit270896
     Twitter1: https://twitter.com/arpit270896
     Github: https://github.com/arpitsingla96
+    LinkedIn: https://www.linkedin.com/in/arpitsingla96/ 
 
-- name: Asutosh Palai
-  pic: palai.jpg
-  links:
-    FB: https://www.facebook.com/asupalai
-    Twitter1: https://twitter.com/asupalai
-    Github: https://github.com/asutoshpalai
 
 - name: Harkirat Singh
   pic: kira.jpg

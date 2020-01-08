@@ -20,13 +20,13 @@
   location: Facebook AI Research
   position: Research Engineer
   links:
-    LinkedIn: 
+    LinkedIn: https://www.linkedin.com/in/apsdehal/
     Twitter: https://twitter.com/apsdehal
 
 - name: Ankur Garg
-  pic: ankur.jpg
-  location: UT Austin
-  position: Graduate Student
+  pic: ankurgagr.jpg
+  position: Software Engineer
+  location: Adobe Research
   links:
     LinkedIn: https://www.linkedin.com/in/ankurgarg101/
     Twitter: 
@@ -40,21 +40,20 @@
     Twitter: https://twitter.com/khare_ashwini
 
 - name: Asutosh Palai
-  pic:
-  location: 
-  position: 
+  pic: palai.jpg
   links:
-    LinkedIn: 
-    Twitter: 
+    FB: https://www.facebook.com/asupalai
+    Twitter1: https://twitter.com/asupalai
+    Github: https://github.com/asutoshpalai
 
 - name: Deepali Jain
   pic: deepali.jpg
-  location: 
-  position: 
+  position: Software Engineer
+  location: Adobe Research
   links:
-    LinkedIn: 
-    Twitter: 
-    
+    LinkedIn: https://www.linkedin.com/in/deepali-jain-50106565/
+    Twitter: https://twitter.com/Deepali01140419
+
 - name: Dhaval Kapil
   pic: dhaval.jpg
   position: PhD Student
@@ -92,25 +91,25 @@
   location: Google
   position: Software Engineer
   links:
-    LinkedIn: 
+    LinkedIn: https://www.linkedin.com/in/priyanshusheth/
     Twitter: 
   
 - name: Rishabh Chhabra
   pic: chhabra.jpg
-  location: 
-  position: 
+  position: Software Engineer
+  location: Oracle India
   links:
-    LinkedIn: 
-    Twitter: 
- 
+    LinkedIn: https://www.linkedin.com/in/rishabh-chhabra-31080687/
+    Twitter:
+    
 - name: Shagun Sodhani
   pic: shagun.jpg
-  location: 
+  location: Adobe
   position: 
   links:
-    LinkedIn: 
-    Twitter: 
-   
+    LinkedIn: https://www.linkedin.com/in/shagunsodhani/
+    Twitter: https://twitter.com/shagunsodhani
+
 - name: Shivam Mangla
   pic: shivammangla.jpg
   position:
@@ -121,9 +120,9 @@
 
 - name: Sopan Khosla
   pic: sopan.jpg
-  location: 
-  position: 
+  position: Software Engineer
+  location: Adobe Research 
   links:
-    LinkedIn: 
-    Twitter: 
+    LinkedIn: https://www.linkedin.com/in/sopan-khosla-56319999/
+    Twitter: https://twitter.com/KhoslaSopan
     

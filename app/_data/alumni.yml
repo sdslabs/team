@@ -6,15 +6,7 @@
   links:
     LinkedIn: https://www.linkedin.com/in/akashdeepgoel
     Twitter: https://twitter.com/goelakashiitr
-      
-- name: Arpit Singla
-  pic:
-  location: Code Nation
-  position: Software Development Engineer
-  links:
-    LinkedIn: https://www.linkedin.com/in/arpitsingla96/
-    Twitter: 
-      
+          
 - name: Ashish Chaudhary
   pic: ashish.jpg
   location: Rapyuta Robotics
@@ -23,30 +15,6 @@
     LinkedIn: -
     Twitter: https://twitter.com/tocttou
 
-- name: Asutosh Palai
-  pic:
-  location: 
-  position: 
-  links:
-    LinkedIn: 
-    Twitter: 
-      
-- name: Harkirat Singh 
-  pic:
-  location: 
-  position: 
-  links:
-    LinkedIn: 
-    Twitter:  
-      
-- name: Tanmay Tiwari 
-  pic:
-  location: 
-  position: 
-  links:
-    LinkedIn: 
-    Twitter: 
-      
 - name: Aditya Prakash
   pic: aditya_pra.jpg
   location: 
@@ -386,10 +354,13 @@
 
 - name: Arpit Singla
   pic: arpit.jpg
+  location: Code Nation
+  position: Software Development Engineer
   links:
     FB: https://www.facebook.com/arpit270896
     Twitter1: https://twitter.com/arpit270896
     Github: https://github.com/arpitsingla96
+    LinkedIn: https://www.linkedin.com/in/arpitsingla96/
 
 - name: Asutosh Palai
   pic: palai.jpg
@@ -404,13 +375,6 @@
     FB: https://www.facebook.com/hkirathsk
     Twitter1: https://twitter.com/harkirat961
     Github: https://github.com/hkirat
-
-- name: Akashdeep Goel
-  pic: akash.jph
-  links:
-    FB: https://www.facebook.com/akashdeep.goel96
-    Twitter1: https://twitter.com/goelakashiitr
-    Github: https://github.com/akashdeepgoel
 
 - name: Tanmay Tiwari
   pic: tanmay.jpg
@@ -460,20 +424,6 @@
     FB: https://www.facebook.com/mangalutsav
     Twitter1: https://twitter.com/mangaluts
     Github: https://github.com/mangalutsav
-
-- name: Shiva Gupta
-  pic: shiva.jpg
-  links:
-    FB: https://www.facebook.com/shiva.gandhi.5
-    Twitter1:
-    Github: https://github.com/SHIVA-sopho
-
-- name: Naman Rajput
-  pic: naman.jpg
-  links:
-    FB: https://www.facebook.com/namanrjpt
-    Twitter1: 
-    Behance: https://www.behance.net/namanrjpt
 
 - name: Parinishtha Yadav
   pic: parinishtha.jpg

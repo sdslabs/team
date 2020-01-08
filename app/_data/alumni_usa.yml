@@ -1,5 +1,13 @@
 ---
-- name: Aarti Dwivedi
+- name: Akashdeep Goel
+  pic: akashdeep.jpg
+  location: Microsoft
+  position: Software Engineer
+  links:
+    LinkedIn: https://www.linkedin.com/in/akashdeepgoel
+    Twitter: https://twitter.com/goelakashiitr
+      
+- name: Aarti Kumari Dwivedi
   pic: aarti.jpg
   position: PhD Student
   location: MIT, USA
@@ -7,6 +15,46 @@
     LinkedIn: https://www.linkedin.com/in/aarti-dwivedi-99167746/
     Twitter: https://twitter.com/aarti_andromeda
 
+- name: Amanpreet Singh
+  pic: amanpreet.jpeg
+  location: Facebook AI Research
+  position: Research Engineer
+  links:
+    LinkedIn: 
+    Twitter: https://twitter.com/apsdehal
+
+- name: Ankur Garg
+  pic: ankur.jpg
+  location: UT Austin
+  position: Graduate Student
+  links:
+    LinkedIn: https://www.linkedin.com/in/ankurgarg101/
+    Twitter: 
+
+- name: Ashwini Khare
+  pic: ashwini.jpg
+  location: Amazon
+  position: Software Development Engineer
+  links:
+    LinkedIn: https://www.linkedin.com/in/khareashwini/
+    Twitter: https://twitter.com/khare_ashwini
+
+- name: Asutosh Palai
+  pic:
+  location: 
+  position: 
+  links:
+    LinkedIn: 
+    Twitter: 
+
+- name: Deepali Jain
+  pic: deepali.jpg
+  location: 
+  position: 
+  links:
+    LinkedIn: 
+    Twitter: 
+    
 - name: Dhaval Kapil
   pic: dhaval.jpg
   position: PhD Student
@@ -23,6 +71,46 @@
     LinkedIn: https://www.linkedin.com/in/abhishek-k-das-9876664b/
     Twitter: https://twitter.com/abhshkdz
 
+- name: Abhishek Kandoi
+  pic: kandoi.jpg
+  location: UC San Diego
+  position: Graduate Student (MS in ECE; Robotics + Computer Vision + Electronics)
+  links:
+    LinkedIn: https://in.linkedin.com/in/abhishek-kandoi
+    Twitter: N/A
+
+- name: Ankur Garg
+  pic: ankur.jpg
+  location: UT Austin
+  position: Graduate Student
+  links:
+    LinkedIn: https://www.linkedin.com/in/ankurgarg101/
+    Twitter: 
+
+- name: Priyanshu Sheth
+  pic: priyanshu.jpg
+  location: Google
+  position: Software Engineer
+  links:
+    LinkedIn: 
+    Twitter: 
+  
+- name: Rishabh Chhabra
+  pic: chhabra.jpg
+  location: 
+  position: 
+  links:
+    LinkedIn: 
+    Twitter: 
+ 
+- name: Shagun Sodhani
+  pic: shagun.jpg
+  location: 
+  position: 
+  links:
+    LinkedIn: 
+    Twitter: 
+   
 - name: Shivam Mangla
   pic: shivammangla.jpg
   position:
@@ -30,3 +118,12 @@
   links:
     LinkedIn: https://www.linkedin.com/in/shivam-mangla-b3b58367/
     Twitter:
+
+- name: Sopan Khosla
+  pic: sopan.jpg
+  location: 
+  position: 
+  links:
+    LinkedIn: 
+    Twitter: 
+    

@@ -1,102 +1,4 @@
 ---
-- name: Arpit Singla
-  pic: arpit.jpg
-  links:
-    FB: https://www.facebook.com/arpit270896
-    Twitter1: https://twitter.com/arpit270896
-    Github: https://github.com/arpitsingla96
-
-- name: Asutosh Palai
-  pic: palai.jpg
-  links:
-    FB: https://www.facebook.com/asupalai
-    Twitter1: https://twitter.com/asupalai
-    Github: https://github.com/asutoshpalai
-
-- name: Harkirat Singh
-  pic: kira.jpg
-  links:
-    FB: https://www.facebook.com/hkirathsk
-    Twitter1: https://twitter.com/harkirat961
-    Github: https://github.com/hkirat
-
-- name: Akashdeep Goel
-  pic: akash.jph
-  links:
-    FB: https://www.facebook.com/akashdeep.goel96
-    Twitter1: https://twitter.com/goelakashiitr
-    Github: https://github.com/akashdeepgoel
-
-- name: Karan Desai
-  pic: kd.jpg
-  links:
-    FB: https://www.facebook.com/karand3sai
-    Twitter1: https://twitter.com/karand3sai
-    Github: https://github.com/karandesai-96
-
-- name: Tanmay Tiwari
-  pic: tanmay.jpg
-  links:
-    FB: https://www.facebook.com/tnmy44
-    Twitter1:
-    Github: https://github.com/tnmy44
-
-- name: Ketan Gupta
-  pic: ketan.jpg
-  links:
-    FB: https://www.facebook.com/ketanhwr
-    Twitter1: https://twitter.com/ketanhwr
-    Github: https://github.com/ketanhwr
-
-- name: Utkarsh Gupta
-  pic: uttu357.jpg
-  links:
-    FB: https://www.facebook.com/utkarsh357
-    Twitter1: https://twitter.com/uttu357
-    Github: https://github.com/uttu357
-
-- name: Haresh Khanna
-  pic: haresh.jpg
-  links:
-    FB: https://www.facebook.com/hareshkhanna01
-    Twitter1: https://twitter.com/haresh_kh
-    Github: https://github.com/hareshkh
-
-- name: Chirag Maheshwari
-  pic: csoni111.jpg
-  links:
-    FB: https://www.facebook.com/cmaheshwari11
-    Twitter1:
-    Github: https://github.com/csoni111
-
-- name: Sahil Grover
-  pic: sahil.jpg
-  links:
-    FB: https://www.facebook.com/sahil.grover.1412
-    Twitter1: https://twitter.com/kryptox_1412
-    Github: https://github.com/sahilgrover
-
-- name: Agrim Mittal
-  pic: agrim.jpg
-  links:
-    FB: https://www.facebook.com/agrimittal
-    Twitter1:
-    Github: https://github.com/agrim123
-
-- name: Nisha Agarwal
-  pic: nisha.jpg
-  links:
-    FB: https://www.facebook.com/profile.php?id=100009467509734
-    Twitter1:
-    Github: https://github.com/na0710
-
-- name: Utsav Mangal
-  pic: utsav.jpg
-  links:
-    FB: https://www.facebook.com/mangalutsav
-    Twitter1: https://twitter.com/mangaluts
-    Github: https://github.com/mangalutsav
-
 - name: Anish Mukherjee
   pic: anish.jpg
   links:
@@ -118,33 +20,12 @@
     Twitter1:
     Github: https://github.com/fristonio
 
-- name: Harsh jain
-  pic: harsh.jpg
-  links:
-    FB: https://www.facebook.com/harsh.elygmi
-    Twitter1:
-    Github: https://github.com/h4r5h-ja1n
-
-- name: Harsha  Sharma
-  pic: harsha.jpg
-  links:
-    FB: https://www.facebook.com/harshaiitr
-    Twitter1: https://twitter.com/harshasha256
-    Github: https://github.com/harshaiitr
-
 - name: Hritvi Bhandari
   pic: hritvi.jpg
   links:
     FB: https://www.facebook.com/hritvi.bhandari.9
     Twitter1: https://twitter.com/HritviBhandari
     Github: https://github.com/hritvi
-
-- name: Karan shrivastav
-  pic: karan.jpg
-  links:
-    FB: https://www.facebook.com/karan.shrivastav.1999
-    Twitter1:
-    Github: https://github.com/KARS1801
 
 - name: Kartikey Pandey
   pic: kartikey.jpg
@@ -174,26 +55,12 @@
     Twitter1:
     Github: https://github.com/c0dzilla
 
-- name: Shiva Gupta
-  pic: shiva.jpg
-  links:
-    FB: https://www.facebook.com/shiva.gandhi.5
-    Twitter1:
-    Github: https://github.com/SHIVA-sopho
-
 - name: Twarit Waikar
   pic: twarit.jpg
   links:
     FB: https://www.facebook.com/twaritw
     Twitter1: https://twitter.com/TwaritW
     Github: https://github.com/IronicallySerious
-
-- name: Utkarsh shukla
-  pic: utkarsh858.jpg
-  links:
-    FB: https://www.facebook.com/utkarsh.shukla.92317
-    Twitter1:
-    Github: https://github.com/utkarsh858
 
 - name: Vaibhav
   pic: vaibhav.jpg

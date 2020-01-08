@@ -1,39 +1,10 @@
 ---
-- name: Parinishtha Yadav
-  pic: parinishtha.jpg
-  links:
-    FB: https://www.facebook.com/parinishtha.yadav
-    Twitter1: https://twitter.com/ParinishthaY
-    Behance: https://www.behance.net/parinishtha
-
-- name: Amandeep Duhan
-  pic: amandeep.jpg
-  links:
-    FB: https://www.facebook.com/amndp23
-    Twitter1: https://twitter.com/ad23aman
-    Behance: https://www.behance.net/amndp23
-
-- name: Pramit Singhi
-  pic: pramit.jpg
-  links:
-    FB: https://www.facebook.com/pramit.singhi
-    Twitter1: https://twitter.com/pramit_1997
-    Behance: https://www.behance.net/Pramit_Singhi
-
 - name: Nipun Vashistha
   pic: nipun.jpg
   links:
     FB: https://www.facebook.com/SatanicPope
     Twitter1: 
     Behance: https://www.behance.net/nipunvashicfc7
-
-
-- name: Naman Rajput
-  pic: naman.jpg
-  links:
-    FB: https://www.facebook.com/namanrjpt
-    Twitter1: 
-    Behance: https://www.behance.net/namanrjpt
 
 - name: Samar Singh Karnawat
   pic: samar.jpg
@@ -48,13 +19,3 @@
     FB: https://www.facebook.com/milan.maheshwari.940
     Twitter1: 
     Behance: https://www.behance.net/milanmundr0322
-
-- name: Chirag Sharma
-  pic: chirag.jpg
-  links:
-    FB: https://www.facebook.com/profile.php?id=100013130043386
-    Twitter1:
-    Behance:
-
-
-

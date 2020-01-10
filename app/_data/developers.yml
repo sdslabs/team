@@ -1,4 +1,5 @@
----
+--
+i
 - name: Anish Mukherjee
   pic: anish.jpg
   links:
@@ -158,3 +159,10 @@
     FB: https://www.facebook.com/piyushsethia1999
     Twitter1: https://twitter.com/PiyushSethia7
     Github: https://github.com/kokil87
+
+- name: Aniket Kumar
+  pic: aniket.jpg
+  links:
+    FB: https://www.facebook.com/aniket.kumar.7370
+    Github: https://github.com/ani1998ket
+

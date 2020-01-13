@@ -95,9 +95,10 @@
   }
 
 .gallery-member {
-  @include aspect-ratio(210, 130);
-  width: 19.4rem;
-  margin: 1.25rem 1rem;
+  @include aspect-ratio(1, 1);
+      border-radius: 50%; 
+      width: 15rem;
+      margin: 1.25rem;
 
   &:hover {
     .gallery-member-overlay {
@@ -119,6 +120,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
   }
 
   .dv-gallery-member-overlay {
@@ -139,8 +141,6 @@
 
       .gallery-member-overlay-link {
         display: block;
-        height: 2.8rem;
-        width: 2.8rem; 
         margin: 0 0.7rem;
       }
 

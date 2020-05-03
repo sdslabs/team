@@ -133,5 +133,8 @@ DEPENDENCIES
   github-pages
   jekyll (= 2.4.0)
 
+RUBY VERSION
+   ruby 2.3.8p459
+
 BUNDLED WITH
-   1.15.1
+   1.17.3

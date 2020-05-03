@@ -346,7 +346,7 @@
 - name: Vikalp Gupta
   pic: vikalp.jpg
   location: Razorpay
-  position: 
+  position: UX Designer
   links:
     LinkedIn: https://www.linkedin.com/in/vikalp02/
     Twitter: https://twitter.com/vkalpgupta
@@ -354,7 +354,7 @@
 - name: Arpit Singla
   pic: arpit.jpg
   location: Code Nation
-  position: Software Development Engineer
+  position: SDE
   links:
     FB: https://www.facebook.com/arpit270896
     Twitter1: https://twitter.com/arpit270896
@@ -362,7 +362,7 @@
     LinkedIn: https://www.linkedin.com/in/arpitsingla96/
 
 - name: Asutosh Palai
-  pic: palai.jpg
+  pic: asutoshpalai.jpg
   links:
     FB: https://www.facebook.com/asupalai
     Twitter1: https://twitter.com/asupalai
@@ -370,6 +370,8 @@
 
 - name: Harkirat Singh
   pic: kira.jpg
+  location: Mozilla
+  position: Developer
   links:
     FB: https://www.facebook.com/hkirathsk
     Twitter1: https://twitter.com/harkirat961
@@ -377,6 +379,8 @@
 
 - name: Tanmay Tiwari
   pic: tanmay.jpg
+  location: Goldman Sachs
+  position: SDE
   links:
     FB: https://www.facebook.com/tnmy44
     Twitter1:
@@ -392,10 +396,13 @@
     Github: https://github.com/ketanhwr
 
 - name: Utkarsh Gupta
-  pic: uttu357.jpg
+  pic: uttu.jpg
+  location: Harness
+  position: SDE
   links:
     FB: https://www.facebook.com/utkarsh357
-    Twitter1: https://twitter.com/uttu357
+    LinkedIn: https://in.linkedin.com/in/utkarsh357
+    Twitter: https://twitter.com/uttu357
     Github: https://github.com/uttu357
 
 - name: Sahil Grover
@@ -432,6 +439,8 @@
 
 - name: Parinishtha Yadav
   pic: parinishtha.jpg
+  location: Microsoft
+  position: UX Designer
   links:
     FB: https://www.facebook.com/parinishtha.yadav
     Twitter1: https://twitter.com/ParinishthaY
@@ -439,6 +448,8 @@
 
 - name: Amandeep Duhan
   pic: amandeep.jpg
+  location: Flipkart
+  position: Product Designer
   links:
     FB: https://www.facebook.com/amndp23
     Twitter1: https://twitter.com/ad23aman

@@ -1,5 +1,5 @@
 # Team Page of SDSLabs
-Team page shows all the current SDSLabs members and their profiles.
+Team page shows all the current as well as past SDSLabs members and their profiles.
 
 ## Setup instructions
 

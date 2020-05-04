@@ -105,10 +105,16 @@
     Github: https://github.com/murex971
 
 - name: Manas Chaudhary
-  pic: manas.png
+  pic: manas.jpg
   links:
     FB: https://www.facebook.com/manas.chaudhary1
     Github: https://github.com/sin3point14
+
+- name: Mohit Sharma
+  pic: mohit.jpg
+  links:
+    FB: https://www.facebook.com/profile.php?id=100006011772369
+    Github: https://github.com/Scar26
 
 - name: Shubham Gupta
   pic: shubham.jpg
@@ -159,9 +165,38 @@
     Twitter1: https://twitter.com/PiyushSethia7
     Github: https://github.com/kokil87
 
+ 
 - name: Sanjana Narayan
   pic: sanjana.jpeg
   links: 
     FB: https://www.facebook.com/sanjana.narayan.564
     Twitter1: https://twitter.com/SanjanaNarayan5
     Github: https://github.com/shadowoflight
+    
+- name: Ashutosh Bharambe
+  pic: ashutosh.jpeg
+  links:
+    FB: https://www.facebook.com/ashutosh.bharambe.7/
+    Github: https://github.com/ashutosh-b-b
+    
+- name: Karanpreet Singh
+  pic: karanpreet.jpg
+  links:
+    FB: https://www.facebook.com/karan0299
+    Twitter1:
+    Github: https://github.com/karan0299
+
+- name: Mahak Gupta
+  pic: mahak.jpeg
+  links:
+    FB: https://www.facebook.com/mahak.gupta.73307
+    Twitter1:
+    Github: https://github.com/mhk19
+
+- name: Smith Pereira
+  pic: smith.png
+  links:
+    FB: https://www.facebook.com/smith.pereira
+    Github: https://github.com/CapriciousRebel
+    
+

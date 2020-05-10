@@ -16,7 +16,7 @@
     Twitter: https://twitter.com/aarti_andromeda
 
 - name: Amanpreet Singh
-  pic: amanpreet.jpeg
+  pic: amanpreet.jpg
   location: Facebook AI Research
   position: Research Engineer
   links:
@@ -26,13 +26,13 @@
 - name: Ashwini Khare
   pic: ashwini.jpg
   location: Amazon
-  position: Software Development Engineer
+  position: SDE
   links:
     LinkedIn: https://www.linkedin.com/in/khareashwini/
     Twitter: https://twitter.com/khare_ashwini
 
 - name: Asutosh Palai
-  pic: palai.jpg
+  pic: asutoshpalai.jpg
   links:
     FB: https://www.facebook.com/asupalai
     Twitter1: https://twitter.com/asupalai
@@ -65,7 +65,7 @@
 - name: Abhishek Kandoi
   pic: kandoi.jpg
   location: UC San Diego
-  position: Graduate Student (MS in ECE; Robotics + Computer Vision + Electronics)
+  position: Graduate Student
   links:
     LinkedIn: https://in.linkedin.com/in/abhishek-kandoi
     Twitter: N/A

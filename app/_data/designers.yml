@@ -67,14 +67,14 @@
 
 - name: Lakshay Bajaj
   pic:
-  links:
+  links: lakshay.jpg
     FB: https://www.facebook.com/Lakshayyyy
     Twitter1: https://twitter.com/_LakshayBajaj_
     Behance: https://www.behance.net/3rbyta7atr1c05
 
 - name: Tanvee Moghe
   pic:
-  links:
+  links: tanvee.jpg
     FB: https://www.facebook.com/tanvee.moghe
     Twitter1: https://twitter.com/TanveeMoghe
     Behance: https://www.behance.net/tanveemoghd879
@@ -84,4 +84,3 @@
   links:
     FB: https://www.facebook.com/amitesh.uppal
     Behance: https://www.behance.net/amiteshuppal
-

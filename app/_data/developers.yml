@@ -17,8 +17,9 @@
   pic: ayan.jpg
   links:
     FB: https://www.facebook.com/ayan.choudhary.790
-    Twitter1:
+    Twitter1: https://twitter.com/ayan_darkrider
     Github: https://github.com/AyanChoudhary
+    LinkedIn: https://www.linkedin.com/in/ayanchoudhary
 
 - name: Deepesh Pathak
   pic: deepesh.jpg
@@ -33,6 +34,8 @@
     FB: https://www.facebook.com/hritvi.bhandari.9
     Twitter1: https://twitter.com/HritviBhandari
     Github: https://github.com/hritvi
+    Blog: https://hritvi.github.io
+    LinkedIn: https://www.linkedin.com/in/hritvibhandari
 
 - name: Kartikey Pandey
   pic: kartikey.jpg
@@ -59,8 +62,10 @@
   pic: nikhil.jpg
   links:
     FB: https://www.facebook.com/nikhil.kaushik.984
-    Twitter1:
+    Twitter1: https://twitter.com/more_breadcrumb
     Github: https://github.com/c0dzilla
+    Blog: https://nikhilkaushik.co
+    LinkedIn: https://www.linkedin.com/in/codzilla/
 
 - name: Shiva Gupta
   pic: shiva.jpg
@@ -75,6 +80,8 @@
     FB: https://www.facebook.com/twaritw
     Twitter1: https://twitter.com/TwaritW
     Github: https://github.com/IronicallySerious
+    Blog: https://medium.com/@twaritwaikar
+    LinkedIn: https://www.linkedin.com/in/twaritwaikar
 
 - name: Vaibhav
   pic: vaibhav.jpg
@@ -82,6 +89,8 @@
     FB: https://www.facebook.com/vrongmeal
     Twitter1: https://twitter.com/vrongmeal
     Github: https://github.com/vrongmeal
+    Blog: https://vrongmeal.github.io
+    LinkedIn: https://www.linkedin.com/in/vrongmeal
 
 - name: Vedansh Bhartia
   pic: vedansh.jpg
@@ -101,8 +110,8 @@
   pic: nupur.jpg
   links:
     FB: https://www.facebook.com/murex971
-    Twitter1:
     Github: https://github.com/murex971
+    LinkedIn: https://www.linkedin.com/in/murex
 
 - name: Manas Chaudhary
   pic: manas.jpg
@@ -218,6 +227,7 @@
     FB: https://www.facebook.com/kambli.angad
     Twitter1: https://twitter.com/angadkambli
     Github: https://github.com/angad-k
+    LinkedIn: www.linkedin.com/in/angad-kambli
 
 - name: Shreyaa Sharma
   pic: shreya.jpg
@@ -231,3 +241,24 @@
   links:
     FB: https://www.facebook.com/profile.php?id=100037880827886
     Github: https://github.com/vrngupta53
+
+- name: Gautam Bafna
+  pic: 
+  links:
+    FB: https://www.facebook.com/gautam.bafna.58367
+    Github: https://github.com/allrounder27
+    LinkedIn: https://www.linkedin.com/in/gautam-bafna-4767211a2
+
+- name: Gaurav Genani
+  pic: 
+  links:
+    FB: https://www.facebook.com/gaurav.genani.7
+    Github: https://github.com/h3llix
+    LinkedIn: https://www.linkedin.com/in/gaurav-genani-9063541a1
+
+- name: Aryaman Behera
+  pic:
+  links:
+    FB: https://www.facebook.com/aryaman.behera
+    Github: https://github.com/aryaman-titan
+    LinkedIn: https://www.linkedin.com/in/aryaman-behera-b4a64b190

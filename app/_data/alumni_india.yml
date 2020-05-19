@@ -252,109 +252,93 @@
   location: Code Nation
   position: SDE
   links:
-    FB: https://www.facebook.com/arpit270896
     LinkedIn: https://www.linkedin.com/in/arpitsingla96/ 
     Twitter: https://twitter.com/arpit270896
-    Github: https://github.com/arpitsingla96
-
 
 - name: Harkirat Singh
   pic: kira.jpg
   location: Mozilla
   position: Developer
   links:
-    FB: https://www.facebook.com/hkirathsk
-    Twitter1: https://twitter.com/harkirat961
-    Github: https://github.com/hkirat
+    LinkedIn: https://www.facebook.com/hkirathsk
+    Twitter: https://twitter.com/harkirat961
 
 - name: Tanmay Tiwari
   pic: tanmay.jpg
   location: Goldman Sachs
   position: SDE
   links:
-    FB: https://www.facebook.com/tnmy44
-    Twitter1:
-    Github: https://github.com/tnmy44
+    LinkedIn:
+    Twitter:
 
 - name: Ketan Gupta
   pic: ketan.jpg
   location: Goldman Sachs
   position: Analyst
   links:
-    FB: https://www.facebook.com/ketanhwr
-    Twitter1: https://twitter.com/ketanhwr
-    Github: https://github.com/ketanhwr
+    LinkedIn: https://www.linkedin.com/in/ketanhwr?trk=people-guest_people_search-card
+    Twitter: https://twitter.com/ketanhwr
 
 - name: Utkarsh Gupta
   pic: uttu.jpg
   location: Harness
   position: SDE
   links:
-    FB: https://www.facebook.com/utkarsh357
     LinkedIn: https://in.linkedin.com/in/utkarsh357
     Twitter: https://twitter.com/uttu357
-    Github: https://github.com/uttu357
 
 - name: Sahil Grover
   pic: sahil.jpg
   location: UMass Amherst
   position: Graduate Student
   links:
-    FB: https://www.facebook.com/sahil.grover.1412
-    Twitter1: https://twitter.com/kryptox_1412
-    Github: https://github.com/sahilgrover
+    LinkedIn: https://www.linkedin.com/in/sahil-grover?trk=people-guest_people_search-card
+    Twitter: https://twitter.com/kryptox_1412
 
 - name: Agrim Mittal
   pic: agrim.jpg
   location: Zomato
   position: SDE
   links:
-    FB: https://www.facebook.com/agrimittal
-    Twitter1:
-    Github: https://github.com/agrim123
+    LinkedIn: https://www.linkedin.com/in/agrimmittal?trk=people-guest_people_search-card
+    Twitter: https://twitter.com/agrimittal
 
 - name: Nisha Agarwal
   pic: nisha.jpg
   location: Bidgely
   position: Data Scientist
   links:
-    FB: https://www.facebook.com/profile.php?id=100009467509734
-    Twitter1:
     LinkedIn: https://www.linkedin.com/in/nisha-agarwal-91904a122
-    Github: https://github.com/na0710
+    Twitter:
 
 - name: Utsav Mangal
   pic: utsav.jpg
   location: Goldman Sachs
   position: Financial Analyst
   links:
-    FB: https://www.facebook.com/mangalutsav
-    Twitter1: https://twitter.com/mangaluts
-    Github: https://github.com/mangalutsav
+    LinkedIn: https://www.linkedin.com/in/mangalutsav?trk=people-guest_people_search-card
+    Twitter: https://twitter.com/mangaluts
 
 - name: Parinishtha Yadav
   pic: parinishtha.jpg
   location: Microsoft
   position: UX Designer
   links:
-    FB: https://www.facebook.com/parinishtha.yadav
-    Twitter1: https://twitter.com/ParinishthaY
     Behance: https://www.behance.net/parinishtha
+    Twitter: https://twitter.com/ParinishthaY
 
 - name: Amandeep Duhan
   pic: amandeep.jpg
   location: Flipkart
   position: Product Designer
   links:
-    FB: https://www.facebook.com/amndp23
-    Twitter1: https://twitter.com/ad23aman
     Behance: https://www.behance.net/amndp23
+    Twitter: https://twitter.com/ad23aman
 
 - name: Pramit Singhi
   pic: pramit.jpg
   location: Zoomcar
   position: Product Designer
   links:
-    FB: https://www.facebook.com/pramit.singhi
-    Twitter1: https://twitter.com/pramit_1997
     Behance: https://www.behance.net/Pramit_Singhi
+    Twitter: https://twitter.com/pramit_1997

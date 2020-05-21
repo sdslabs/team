@@ -3,14 +3,12 @@
   pic: anish.jpg
   links:
     FB: https://www.facebook.com/anish.mukherjee1996
-    Twitter1:
     Github: https://github.com/alphadose
 
 - name: Ankit kataria
   pic: kataria.jpg
   links:
     FB: https://www.facebook.com/ankitkataria28
-    Twitter1:
     Github: https://github.com/ankitkataria
 
 - name: Ayan Choudhary
@@ -19,28 +17,23 @@
     FB: https://www.facebook.com/ayan.choudhary.790
     Twitter1: https://twitter.com/ayan_darkrider
     Github: https://github.com/AyanChoudhary
-    LinkedIn: https://www.linkedin.com/in/ayanchoudhary
 
 - name: Deepesh Pathak
   pic: pathak.jpeg
   links:
     FB: https://www.facebook.com/deepshpathak
-    Twitter1:
     Github: https://github.com/fristonio
 
 - name: Hritvi Bhandari
   pic: hritvi.jpg
   links:
     FB: https://www.facebook.com/hritvi.bhandari.9
-    Twitter1: https://twitter.com/HritviBhandari
     Github: https://github.com/hritvi
-    Blog: https://hritvi.github.io
-    LinkedIn: https://www.linkedin.com/in/hritvibhandari
+    Portfolio: https://hritvi.github.io
 
 - name: Kartikey Pandey
   pic: kp.jpg
   links:
-    FB:
     Twitter1: https://twitter.com/pandeykartikey_
     Github: https://github.com/pandeykartikey
 
@@ -55,23 +48,19 @@
   pic: manan.jpeg
   links:
     FB: https://www.facebook.com/jn.manan25
-    Twitter1:
     Github: https://github.com/m4n4n
 
 - name: Nikhil kaushik
   pic: nikhil.jpeg
   links:
     FB: https://www.facebook.com/nikhil.kaushik.984
-    Twitter1: https://twitter.com/more_breadcrumb
     Github: https://github.com/c0dzilla
-    Blog: https://nikhilkaushik.co
-    LinkedIn: https://www.linkedin.com/in/codzilla/
+    Portfolio: https://nikhilkaushik.co
 
 - name: Shiva Gupta
   pic: shiva.jpeg
   links:
     FB: https://www.facebook.com/shiva.gandhi.5
-    Twitter1:
     Github: https://github.com/SHIVA-sopho
 
 - name: Twarit Waikar
@@ -80,17 +69,13 @@
     FB: https://www.facebook.com/twaritw
     Twitter1: https://twitter.com/TwaritW
     Github: https://github.com/IronicallySerious
-    Blog: https://medium.com/@twaritwaikar
-    LinkedIn: https://www.linkedin.com/in/twaritwaikar
 
 - name: Vaibhav
   pic: vaibhav.jpg
   links:
     FB: https://www.facebook.com/vrongmeal
-    Twitter1: https://twitter.com/vrongmeal
     Github: https://github.com/vrongmeal
-    Blog: https://vrongmeal.github.io
-    LinkedIn: https://www.linkedin.com/in/vrongmeal
+    Portfolio: https://vrongmeal.github.io
 
 - name: Vedansh Bhartia
   pic: vedansh.jpg
@@ -111,7 +96,7 @@
   links:
     FB: https://www.facebook.com/murex971
     Github: https://github.com/murex971
-    LinkedIn: https://www.linkedin.com/in/murex
+    LinkedIn1: https://www.linkedin.com/in/murex
 
 - name: Manas Chaudhary
   pic: manas.jpg
@@ -129,15 +114,14 @@
   pic: shubham.jpg
   links:
     FB: https://www.facebook.com/shubham.gupta2956
-    Twitter1:
     Github: https://github.com/shubhamgupta2956
 
 - name: Kanav Gupta
   pic: kanav.jpg
   links:
+    FB: https://www.facebook.com/iamkanavgupta
     Twitter1: https://twitter.com/kanavgupta99
     Github: https://github.com/kanav99
-    FB: https://www.facebook.com/iamkanavgupta
 
 - name: Adrij Shikhar
   pic: adrij.jpeg
@@ -178,7 +162,6 @@
   pic: leshna.jpg
   links:
     FB: https://www.facebook.com/leshna.balara
-    Twitter1:
     Github: https://github.com/leshnabalara
  
 - name: Sanjana Narayan
@@ -198,14 +181,12 @@
   pic: karanpreet.jpg
   links:
     FB: https://www.facebook.com/karan0299
-    Twitter1:
     Github: https://github.com/karan0299
 
 - name: Mahak Gupta
   pic: mahak.jpeg
   links:
     FB: https://www.facebook.com/mahak.gupta.73307
-    Twitter1:
     Github: https://github.com/mhk19
 
 - name: Smith Pereira
@@ -218,7 +199,6 @@
   pic: ishan.jpg
   links:
     FB: https://www.facebook.com/ishan.rawat.963
-    Twitter1:
     Github: https://github.com/Ishan-002
     
 - name: Angad Kambli
@@ -227,13 +207,10 @@
     FB: https://www.facebook.com/kambli.angad
     Twitter1: https://twitter.com/angadkambli
     Github: https://github.com/angad-k
-    LinkedIn: www.linkedin.com/in/angad-kambli
 
 - name: Shreyaa Sharma
   pic: shreya.jpg
   links:
-    FB: 
-    Twitter1: 
     Github: https://github.com/shreyaa_s
 
 - name: Varun Gupta
@@ -247,19 +224,31 @@
   links:
     FB: https://www.facebook.com/gautam.bafna.58367
     Github: https://github.com/allrounder27
-    LinkedIn: https://www.linkedin.com/in/gautam-bafna-4767211a2
+    LinkedIn1: https://www.linkedin.com/in/gautam-bafna-4767211a2
 
 - name: Gaurav Genani
   pic: gaurav.jpeg
   links:
     FB: https://www.facebook.com/gaurav.genani.7
     Github: https://github.com/h3llix
-    LinkedIn: https://www.linkedin.com/in/gaurav-genani-9063541a1
+    LinkedIn1: https://www.linkedin.com/in/gaurav-genani-9063541a1
 
 - name: Aryaman Behera
   pic: aryaman.jpeg
   links:
     FB: https://www.facebook.com/aryaman.behera
     Github: https://github.com/aryaman-titan
-    LinkedIn: https://www.linkedin.com/in/aryaman-behera-b4a64b190
+    LinkedIn1: https://www.linkedin.com/in/aryaman-behera-b4a64b190
+
+- name: Harsh Bhartiya
+  pic: harsh.jpg
+  links:
+    FB: https://www.facebook.com/harshhx17
+    Twitter1: https://twitter.com/harshhx17
+    Github: https://github.com/harshhx17
     
+- name : Aviral Jain
+  pic: aviral.jpeg
+  links:
+    FB: https://www.facebook.com/aviral.jain.12177
+    Github: https://github.com/burnerlee

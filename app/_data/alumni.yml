@@ -12,7 +12,6 @@
   location: Rapyuta Robotics
   position: Software Engineer
   links:
-    LinkedIn:
     Twitter: https://twitter.com/tocttou
 
 - name: Aditya Prakash
@@ -61,7 +60,6 @@
   location:
   links:
     LinkedIn: https://www.linkedin.com/in/rishabh-chhabra-31080687/
-    Twitter:
 
 - name: Sopan Khosla
   pic: sopan.jpg
@@ -84,15 +82,13 @@
   location:
   position:
   links:
-    LinkedIn:
-    Twitter:
+    Twitter: https://twitter.com/captn3m0
 
 - name: Abhishek Das
   pic: abhishek.jpg
   location: Georgia Tech
   position: PhD student
   links:
-    LinkedIn:
     Twitter: https://twitter.com/abhshkdz
 
 - name: Abhishek Kandoi
@@ -101,7 +97,6 @@
   position: Graduate Student (MS in ECE; Robotics + Computer Vision + Electronics)
   links:
     LinkedIn: https://in.linkedin.com/in/abhishek-kandoi
-    Twitter: N/A
 
 - name: Akshay Deshraj
   pic: akshaydes.jpg
@@ -125,7 +120,6 @@
   position: Graduate Student
   links:
     LinkedIn: https://www.linkedin.com/in/ankurgarg101/
-    Twitter:
 
 - name: Ankush Agrawal
   pic: ankushagr.jpg
@@ -157,7 +151,6 @@
   position:
   links:
     LinkedIn: https://www.linkedin.com/in/aayush-agarwal-88a8ba52/
-    Twitter:
 
 - name: Chetty Arun
   pic: chetty.jpg
@@ -189,7 +182,6 @@
   position: Software Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/giridaranm/
-    Twitter:
 
 - name: Harshil Mathur
   pic: harshil.jpg
@@ -205,7 +197,6 @@
   location: Housing
   links:
     LinkedIn: https://www.linkedin.com/in/jayant-jain-23285693/
-    Twitter:
 
 - name: Kumar Ishan
   pic: kumar_ishan.jpg
@@ -221,7 +212,6 @@
   position: Software Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/mohit-agarwal/
-    Twitter:
 
 - name: Neeraj Gangwar
   pic: neeraj.jpg
@@ -253,7 +243,6 @@
   position: Software Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/priyanshusheth/
-    Twitter:
 
 - name: Rahul Shankar
   pic: rahul.jpg
@@ -285,7 +274,6 @@
   position:
   links:
     LinkedIn: https://www.linkedin.com/in/sethu-nachiappan-60a86436/
-    Twitter:
 
 - name: Shagun Sodhani
   pic: shagun.jpg
@@ -357,7 +345,7 @@
   position: SDE
   links:
     FB: https://www.facebook.com/arpit270896
-    Twitter1: https://twitter.com/arpit270896
+    Twitter: https://twitter.com/arpit270896
     Github: https://github.com/arpitsingla96
     LinkedIn: https://www.linkedin.com/in/arpitsingla96/
 
@@ -365,7 +353,7 @@
   pic: asutoshpalai.jpg
   links:
     FB: https://www.facebook.com/asupalai
-    Twitter1: https://twitter.com/asupalai
+    Twitter: https://twitter.com/asupalai
     Github: https://github.com/asutoshpalai
 
 - name: Harkirat Singh
@@ -374,7 +362,7 @@
   position: Developer
   links:
     FB: https://www.facebook.com/hkirathsk
-    Twitter1: https://twitter.com/harkirat961
+    Twitter: https://twitter.com/harkirat961
     Github: https://github.com/hkirat
 
 - name: Tanmay Tiwari
@@ -383,7 +371,6 @@
   position: SDE
   links:
     FB: https://www.facebook.com/tnmy44
-    Twitter1:
     Github: https://github.com/tnmy44
 
 - name: Ketan Gupta
@@ -392,7 +379,7 @@
   position: Analyst
   links:
     FB: https://www.facebook.com/ketanhwr
-    Twitter1: https://twitter.com/ketanhwr
+    Twitter: https://twitter.com/ketanhwr
     Github: https://github.com/ketanhwr
 
 - name: Utkarsh Gupta
@@ -409,7 +396,7 @@
   pic: sahil.jpg
   links:
     FB: https://www.facebook.com/sahil.grover.1412
-    Twitter1: https://twitter.com/kryptox_1412
+    Twitter: https://twitter.com/kryptox_1412
     Github: https://github.com/sahilgrover
 
 - name: Agrim Mittal
@@ -418,7 +405,6 @@
   position: SDE
   links:
     FB: https://www.facebook.com/agrimittal
-    Twitter1:
     Github: https://github.com/agrim123
 
 - name: Nisha Agarwal
@@ -427,14 +413,13 @@
   position: Data Scientist
   links:
     FB: https://www.facebook.com/profile.php?id=100009467509734
-    Twitter1:
     Github: https://github.com/na0710
 
 - name: Utsav Mangal
   pic: utsav.jpg
   links:
     FB: https://www.facebook.com/mangalutsav
-    Twitter1: https://twitter.com/mangaluts
+    Twitter: https://twitter.com/mangaluts
     Github: https://github.com/mangalutsav
 
 - name: Parinishtha Yadav
@@ -443,7 +428,7 @@
   position: UX Designer
   links:
     FB: https://www.facebook.com/parinishtha.yadav
-    Twitter1: https://twitter.com/ParinishthaY
+    Twitter: https://twitter.com/ParinishthaY
     Behance: https://www.behance.net/parinishtha
 
 - name: Amandeep Duhan
@@ -452,7 +437,7 @@
   position: Product Designer
   links:
     FB: https://www.facebook.com/amndp23
-    Twitter1: https://twitter.com/ad23aman
+    Twitter: https://twitter.com/ad23aman
     Behance: https://www.behance.net/amndp23
 
 - name: Pramit Singhi
@@ -461,5 +446,5 @@
   position: Product Designer
   links:
     FB: https://www.facebook.com/pramit.singhi
-    Twitter1: https://twitter.com/pramit_1997
+    Twitter: https://twitter.com/pramit_1997
     Behance: https://www.behance.net/Pramit_Singhi

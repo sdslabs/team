@@ -3,33 +3,25 @@
   pic: nipun.png
   links:
     FB: https://www.facebook.com/SatanicPope
-    Twitter1: 
     Behance: https://www.behance.net/nipunvashicfc7
 
 - name: Naman Rajput
   pic: naman.jpeg
   links:
     FB: https://www.facebook.com/namanrjpt
-    Twitter1: 
     Behance: https://www.behance.net/namanrjpt
 
 - name: Samar Singh Karnawat
   pic: samar.jpeg
   links:
     FB: https://www.facebook.com/samarkarnawat
-    Twitter1:
-    Behance:
 
 - name: Milan Maheshwari
   pic: milan.jpeg
   links:
     FB: https://www.facebook.com/milanmundra98
-    Twitter1: https://twitter.com/milanmundra98
     Behance: https://www.behance.net/milanmundra98
-    Blog: https://medium.com/@milanmundra98
-    Dribble: https://dribbble.com/milanmundra98
-    Github: https://github.com/milanmaheshwari
-    LinkedIn: https://www.linkedin.com/in/milan98
+    LinkedIn1: https://www.linkedin.com/in/milan98
 
 - name: Yash Choudhary
   pic: sofu.jpg
@@ -42,22 +34,15 @@
   pic: zedd.jpg
   links:
     FB: https://www.facebook.com/saurabhsingh.chandravanshi7
-    Twitter1: https://twitter.com/saurabh_sangam
     Behance: https://www.behance.net/saurabhsangam
-    Dribble: https://dribbble.com/sangam78
-    Github: https://github.com/SaurabhS78
-    LinkedIn: https://www.linkedin.com/in/saurabh-sangam-1aa673190/
+    LinkedIn1: https://www.linkedin.com/in/saurabh-sangam-1aa673190/
 
 - name: Stuti Lilani
   pic: stuti.jpg
   links:
     FB: https://www.facebook.com/stuti.lilani.9
-    Twitter1: https://twitter.com/stuti_lilani
     Behance: https://www.behance.net/stutililani
-    Blog: https://medium.com/@stuti_l
-    Dribble: https://dribbble.com/stutililani
-    Github: https://github.com/stuts23
-    LinkedIn: https://www.linkedin.com/in/stuti-lilani-b79893199
+    LinkedIn1: https://www.linkedin.com/in/stuti-lilani-b79893199
 
 - name: Shivam Jaiswal
   pic: shivam.jpeg

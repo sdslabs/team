@@ -3,6 +3,10 @@ Team page shows all the current as well as past SDSLabs members and their profil
 
 ## Setup instructions
 
+Run `team.sh` in the project directory.
+
+Or else you can follow the following steps:-
+
 1. `gem install bundler`
 2. `bundle install`
 3. `npm install`

@@ -20,9 +20,17 @@ then
 	fi
 else
 	echo -e "rvm already installed..."
+	rvm install "ruby-2.3.8"
+	if [ $? -eq 0 ];
+	then
+		echo -e "successfully installed ruby-2.3.8..."
+	else
+		echo -e "ruby-2.3.8 installation failed. Please try again later..."
+		exit 1
+	fi
 	if `gem list bundler -i`;
 	then
-		echo -e "bundle already installed"
+		echo -e "bundle already installed..."
 		echo -e "running "bundle install"..."
 	else
 		gem install bundler

@@ -1,7 +1,7 @@
 echo "Hello..."
 if ! command -v rvm > /dev/null;
 then
-	echo -e "rvm not found...! Install rvm? (y/N) \c";
+	echo "rvm not found...! Install rvm? (y/N) \c";
 	read $REPLY
 	if "$REPLY" = "y";
 	then
@@ -9,73 +9,73 @@ then
 		\curl -sSL https://get.rvm.io | bash -s stable --ruby;
 		if ! command -v rvm > /dev/null;
 		then
-			echo -e "error while installing rvm. Please try again..."
+			echo "error while installing rvm. Please try again..."
 			exit 1
 		else
-			echo -e "rvm successfully installed."
+			echo "rvm successfully installed."
 		fi
 	else
-		echo -e "exiting..."
+		echo "exiting..."
 		exit 1
 	fi
 else
-	echo -e "rvm already installed..."
+	echo "rvm already installed..."
 	rvm install "ruby-2.3.8"
 	if [ $? -eq 0 ];
 	then
-		echo -e "successfully installed ruby-2.3.8..."
+		echo "successfully installed ruby-2.3.8..."
 	else
-		echo -e "ruby-2.3.8 installation failed. Please try again later..."
+		echo "ruby-2.3.8 installation failed. Please try again later..."
 		exit 1
 	fi
 	if `gem list bundler -i`;
 	then
-		echo -e "bundle already installed..."
-		echo -e "running "bundle install"..."
+		echo "bundle already installed..."
+		echo "running "bundle install"..."
 	else
 		gem install bundler
 		if [ $? -eq 0 ];
 		then
-			echo -e "bundler successfully installed"
-			echo -e "running "bundle install"..."
+			echo "bundler successfully installed"
+			echo "running "bundle install"..."
 		else
-			echo -e "bundler installed failed. Please try again..."
+			echo "bundler installed failed. Please try again..."
 			exit 1
 		fi
 	fi
 	bundle install
 	if [ $? -eq 0 ];
 	then
-		echo -e "command "bundle install" successful..."
-		echo -e "running "npm install"..."
+		echo "command "bundle install" successful..."
+		echo "running "npm install"..."
 	else
-		echo -e "command "bundle install" failed. Please try again..."
+		echo "command "bundle install" failed. Please try again..."
 		exit 1
 	fi
 	npm install
 	if [ $? -eq 0 ];
 	then
-		echo -e "command "npm install" successful..."
-		echo -e "running "bower install"..."
+		echo "command "npm install" successful..."
+		echo "running "bower install"..."
 	else
-		echo -e "command "npm install" failed. Please try again..."
+		echo "command "npm install" failed. Please try again..."
 		exit 1
 	fi
 	bower install
 	if [ $? -eq 0 ];
 	then
-		echo -e "command "bower install" successful..."
-		echo -e "running "grunt build"..."
+		echo "command "bower install" successful..."
+		echo "running "grunt build"..."
 	else
-		echo -e "command "bower install" failed. Please try again..."
+		echo "command "bower install" failed. Please try again..."
 		exit 1
 	fi
 	grunt build
 	if [ $? -eq 0 ];
 	then
-		echo -e "command "grunt build" successful..."
+		echo "command "grunt build" successful..."
 	else
-		echo -e "command "grunt build" failed. Please try again..."
+		echo "command "grunt build" failed. Please try again..."
 		exit 1
 	fi
 fi

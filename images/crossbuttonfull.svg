@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Capa 1 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(2 0 0 2 -3546 332)">
+<g id="Capa 1 2">
+<g id="Group">
+<g id="close">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(1 0 0 -1 1773 -150)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 16 1.6L 14.4 0L 8 6.4L 1.6 0L 0 1.6L 6.4 8L 0 14.4L 1.6 16L 8 9.6L 14.4 16L 16 14.4L 9.6 8L 16 1.6Z"/>
+</defs>
+</svg>

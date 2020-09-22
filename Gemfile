@@ -1,4 +1,10 @@
-source 'https://rubygems.org'
-gem 'github-pages'
-gem 'jekyll', '2.4.0'
-ruby "2.3.8"
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.1.1"
+gem "sass", "~> 3.7.4"
+
+group :jekyll_plugins do
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag", "~> 2.6"
+end

@@ -1,0 +1,42 @@
+name: Continuous Deployment
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Install gems
+      run: bundle install
+
+    - name: Install node modules
+      run: npm install
+
+    - name: Bower
+      run: npx bower install
+
+    - name: Build site
+      run: npx grunt build
+
+    - name: Add CNAME
+      run: cp CNAME ./_dist
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: dist
+        FOLDER: _dist

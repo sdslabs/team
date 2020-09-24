@@ -33,6 +33,8 @@
 
 - name: Asutosh Palai
   pic: asutoshpalai.jpg
+  location: VMware
+  position: Member of Technical Staff
   links:
     LinkedIn: https://www.linkedin.com/in/asutoshpalai
     Twitter: https://twitter.com/asupalai
@@ -56,8 +58,8 @@
 
 - name: Abhishek Das
   pic: abhishek.jpg
-  position: 
-  location: Georgia Tech, USA
+  position: Software Engineer
+  location: Microsoft
   links:
     LinkedIn: https://www.linkedin.com/in/abhishek-k-das-9876664b/
     Twitter: https://twitter.com/abhshkdz
@@ -85,30 +87,30 @@
   
 - name: Rishabh Chhabra
   pic: chhabra.jpg
-  position:
-  location:
+  position: Security Researcher
+  location: MS CS at UIUC
   links:
     LinkedIn: https://www.linkedin.com/in/rishabh-chhabra-31080687/
     
 - name: Shagun Sodhani
   pic: shagun.jpg
-  location: 
-  position: 
+  location: Facebook AI
+  position: Research Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/shagunsodhani/
     Twitter: https://twitter.com/shagunsodhani
 
 - name: Shivam Mangla
   pic: shivammangla.jpg
-  position:
-  location: Facebook
+  position: Co-Founder
+  location: Rephrase.ai
   links:
     LinkedIn: https://www.linkedin.com/in/shivam-mangla-b3b58367/
 
 - name: Sopan Khosla
   pic: sopan.jpg
-  position: 
-  location: 
+  position: Research Assistant and Masters
+  location: CMU
   links:
     LinkedIn: https://www.linkedin.com/in/sopan-khosla-56319999/
     Twitter: https://twitter.com/KhoslaSopan

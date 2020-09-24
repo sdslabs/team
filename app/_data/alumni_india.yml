@@ -24,8 +24,8 @@
 
 - name: Aryan Raj
   pic: aryan.jpg
-  location:
-  position:
+  location: ASC Infratech P Limited
+  position: Bridge Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/aryanraj/
     Twitter: https://twitter.com/arynrj
@@ -41,7 +41,7 @@
 - name: Abhay Rana
   pic: abhay.jpg
   location: Razorpay
-  position:
+  position: Security and Infrastructure Engineer
   links:
     Twitter: https://twitter.com/captn3m0
 
@@ -55,8 +55,8 @@
 
 - name: Ankush Agrawal
   pic: ankushagr.jpg
-  position:
-  location: ServiceNow
+  position: Macro Financial Analyst
+  location: Goldman Sachs
   links:
     LinkedIn: https://www.linkedin.com/in/ankush557/
     Twitter: https://twitter.com/AnkushAgr
@@ -71,8 +71,8 @@
 
 - name: Ayush Agarwal
   pic: aayush.jpg
-  location: NTPC Delhi
-  position:
+  location: NextBillion AI
+  position: Product Designer
   links:
     LinkedIn: https://www.linkedin.com/in/aayush-agarwal-88a8ba52/
 
@@ -131,8 +131,8 @@
 
 - name: Neeraj Gangwar
   pic: neeraj.jpg
-  location: GoShopLane
-  position:
+  location: Myntra
+  position: Technical Lead
   links:
     LinkedIn: https://www.linkedin.com/in/gangwarneeraj/
     Twitter: https://twitter.com/neeraj_gangwar
@@ -155,8 +155,8 @@
 
 - name: Rahul Shankar
   pic: rahul.jpg
-  location: C Dot
-  position:
+  location: Expedia Group
+  position: Security Engineer II
   links:
     LinkedIn: https://www.linkedin.com/in/rahulshankar5/
     Twitter: https://twitter.com/rahulshankar5
@@ -164,7 +164,7 @@
 - name: Ravi Kishore R
   pic: ravikishore.jpg
   location: Qualcomm
-  position:
+  position: Senior Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/ravi-kishore-r-70268768/
     Twitter: https://twitter.com/ravikishore1993
@@ -172,7 +172,7 @@
 - name: Sagar Saxena
   pic: sagar.jpg
   location: Razorpay
-  position:
+  position: Founding Team
   links:
     LinkedIn: https://www.linkedin.com/in/sagarsaxena/
     Twitter: https://twitter.com/saxenasagar91
@@ -180,30 +180,30 @@
 - name: Sethu Nachiappan
   pic: sethu.jpg
   location: Goldman Sachs
-  position:
+  position: Vice President
   links:
     LinkedIn: https://www.linkedin.com/in/sethu-nachiappan-60a86436/
 
 - name: Shashank Kumar
   pic: shashankkr.jpg
   location: Razorpay
-  position:
+  position: Co-Founder
   links:
     LinkedIn: https://www.linkedin.com/in/kumarshashank/
     Twitter: https://twitter.com/shashank_kr
 
 - name: Shashank Mehta
   pic: shashank_mehta.jpg
-  location: Razorpay
-  position:
+  location: RazorpayX
+  position: General Manager
   links:
     LinkedIn: https://www.linkedin.com/in/mehta-shashank/
     Twitter: https://twitter.com/leostatic
 
 - name: Shikhar Shrivastav
   pic: shikhar.jpg
-  location: Flipkart
-  position:
+  location: Myntra
+  position: Associate Architect
   links:
     LinkedIn: https://www.linkedin.com/in/shikharshrivastav/
 
@@ -225,8 +225,8 @@
 
 - name: Shobhit Singh
   pic: shobhit.jpg
-  location: Commonfloor
-  position:
+  location: MakeMyTrip
+  position: Deputy Manager, Technology
   links:
     LinkedIn: https://www.linkedin.com/in/singhshobhit/
     Twitter: https://twitter.com/shobhitsingh03
@@ -266,6 +266,7 @@
   position: SDE
   links:
     # FB1: https://www.facebook.com/tnmy44
+    LinkedIn: https://www.linkedin.com/in/tanmay-tiwari-81a06b183/
     # Github1: https://# Github.com/tnmy44
 
 - name: Ketan Gupta

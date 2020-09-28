@@ -12,16 +12,16 @@
   </head>
   <body>
     <div id="icon">
-      <img src="./images/logo.svg">
+      <img src="/images/logo.svg">
     </div>
     <div class="page-container">
       <div class="page" id="mainpage">
         <div class="circle-container">
           <div class="leftcircle circle" id="designer-venn-button">
-            <img src="./images/designers.svg" />
+            <img src="/images/designers.svg" />
           </div>
           <div class="rightcircle circle" id="developer-venn-button">
-            <img src="./images/developers.svg" />
+            <img src="/images/developers.svg" />
           </div>
         </div>
         <div class="mainpagetext mainpage-elements">
@@ -86,21 +86,21 @@
             Alumni
           </div>
           <div class="nav-div-down" id="nav-down-button">
-            <img src="./images/rootnav.svg">
+            <img src="/images/rootnav.svg">
             <div class="innersphere">
-              <img src="./images/innersphere.svg">
+              <img src="/images/innersphere.svg">
               <div class="vectorarrow">
                 <i class="arrow down"></i>
               </div>
             </div>
-          </div> 
-        </div> 
+          </div>
+        </div>
       </div>
       <div class="page" id="designerpage">
         <div class="mainborder-ds" id="developer-side-bar">
           <div class="bordertextds rotateds">
             Developers
-          </div>  
+          </div>
         </div>
         <div id="headings-ds">
           Designers
@@ -111,17 +111,17 @@
           <div class="superdiv-child">
             {% for member in site.data.designers %}
               <div class="gallery-member">
-                <div class="maintain-aspect-ratio">  
-                  <img src="./images/members/designers/{{ member.pic }}" class="ds designerpage-elements clip1">
+                <div class="maintain-aspect-ratio">
+                  <img src="/images/members/designers/{{ member.pic }}" class="ds designerpage-elements clip1">
                 </div>
                 <div class="gallery-member-overlay clip1">
                   <div class="gallery-member-overlay-name">
                     {{ member.name }}
                   </div>
                   <div class="gallery-member-overlay-links">
-                  {% for link in member.links %}              
+                  {% for link in member.links %}
                     <a class="gallery-member-overlay-link" href="{{ link[1] }}" target="_blank">
-                      <img class="gallery-member-overlay-link-icon" src="./images/{{ link[0]|downcase }}.png">
+                      <img class="gallery-member-overlay-link-icon" src="/images/{{ link[0]|downcase }}.png">
                     </a>
                   {% endfor %}
                   </div>
@@ -131,7 +131,7 @@
           </div>
         </div>
       </div>
-      <div class="page" id="developerpage"> 
+      <div class="page" id="developerpage">
         <div class="bodyborder-dv" id="designer-side-bar">
           <div class="bordertext-dv rotate-dv">Designers</div>
         </div>
@@ -141,27 +141,27 @@
         <div id="horizontalrule-dv">
         </div>
         <div class="superdiv-ds superdiv-dv">
-          <div class="superdiv-child">  
+          <div class="superdiv-child">
             {% for member in site.data.developers %}
               <div class="gallery-member">
-                <div class="maintain-aspect-ratio">  
-                  <img src="./images/members/developers/{{ member.pic }}" class="ds developerpage-elements clip1">
+                <div class="maintain-aspect-ratio">
+                  <img src="/images/members/developers/{{ member.pic }}" class="ds developerpage-elements clip1">
                 </div>
                 <div class="gallery-member-overlay dv-gallery-member-overlay clip1">
                   <div class="gallery-member-overlay-name">
                     {{ member.name }}
                   </div>
                   <div class="gallery-member-overlay-links">
-                  {% for link in member.links %}              
+                  {% for link in member.links %}
                     <a class="gallery-member-overlay-link" href="{{ link[1] }}" target="_blank">
-                      <img class="gallery-member-overlay-link-icon" src="./images/{{ link[0]|downcase }}.png">
+                      <img class="gallery-member-overlay-link-icon" src="/images/{{ link[0]|downcase }}.png">
                     </a>
                   {% endfor %}
                   </div>
                 </div>
               </div>
             {% endfor %}
-          </div>  
+          </div>
         </div>
         <svg height="0" width="0" style="position: absolute; width: 0; height: 0">
           <defs>
@@ -200,7 +200,7 @@
         <div class="alumni-map-container">
           <div class="alumni-map alumnilocationpage-elements">
             <div class="maintain-aspect-ratio">
-              <img src="./images/map.svg">
+              <img src="/images/map.svg">
             </div>
             <div class="country-count-icon india svgs" id="svg-icon">
               <span class="country-count">{{ site.data.alumni_india | size }} </span>
@@ -220,19 +220,19 @@
           {% for member in site.data.alumni_india %}
             <div class="alumni-member alumni-member-animate-class">
               <div class="alumni-member-image-container">
-                <div class="maintain-aspect-ratio">  
-                  <img class="alumni-member-image" src="./images/members/alumni/{{ member.pic }}" alt="{{ member.name }}">
+                <div class="maintain-aspect-ratio">
+                  <img class="alumni-member-image" src="/images/members/alumni/{{ member.pic }}" alt="{{ member.name }}">
                 </div>
-              </div>  
+              </div>
               <div class="alumni-member-name">{{ member.name }}</div>
               <div class="alumni-member-work">{{ member.position }}</div>
               <div class="alumni-member-company">{{ member.location }}</div>
               <div class="alumni-member-links">
-                {% for link in member.links %}              
+                {% for link in member.links %}
                   <a class="alumni-member-link" href="{{ link[1] }}" target="_blank">
                     <div class="maintain-aspect-ratio">
-                      <img class="alumni-member-link-icon" src="./images/{{ link[0]|downcase }}.png">
-                    </div>  
+                      <img class="alumni-member-link-icon" src="/images/{{ link[0]|downcase }}.png">
+                    </div>
                   </a>
                 {% endfor %}
               </div>
@@ -249,19 +249,19 @@
           {% for member in site.data.alumni_usa %}
             <div class="alumni-member alumni-member-animate-class">
               <div class="alumni-member-image-container">
-                <div class="maintain-aspect-ratio">  
-                  <img class="alumni-member-image" src="./images/members/alumni/{{ member.pic }}" alt="{{ member.name }}">
+                <div class="maintain-aspect-ratio">
+                  <img class="alumni-member-image" src="/images/members/alumni/{{ member.pic }}" alt="{{ member.name }}">
                 </div>
-              </div>  
+              </div>
               <div class="alumni-member-name">{{ member.name }}</div>
               <div class="alumni-member-work">{{ member.position }}</div>
               <div class="alumni-member-company">{{ member.location }}</div>
               <div class="alumni-member-links">
-                {% for link in member.links %}              
+                {% for link in member.links %}
                   <a class="alumni-member-link" href="{{ link[1] }}" target="_blank">
                     <div class="maintain-aspect-ratio">
-                      <img class="alumni-member-link-icon" src="./images/{{ link[0]|downcase }}.png">
-                    </div>  
+                      <img class="alumni-member-link-icon" src="/images/{{ link[0]|downcase }}.png">
+                    </div>
                   </a>
                 {% endfor %}
               </div>
@@ -272,14 +272,14 @@
       <div class="nav-up-container nav-container">
         <div class="nav-up-outer nav-outer" id="nav-up-button">
           <div class="nav-up-inner nav-inner">
-            <img class="nav-up-icon nav-icon" src="./images/arrow_up.svg">
-          </div>  
+            <img class="nav-up-icon nav-icon" src="/images/arrow_up.svg">
+          </div>
         </div>
       </div>
       <div class="nav-cross-container nav-container">
         <div class="nav-cross-outer nav-outer">
           <div class="nav-cross-inner nav-inner">
-            <img class="nav-cross-icon nav-icon" src="./images/crossbuttonfull.svg">
+            <img class="nav-cross-icon nav-icon" src="/images/crossbuttonfull.svg">
           </div>
         </div>
       </div>

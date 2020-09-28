@@ -120,7 +120,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
   }
 
   .dv-gallery-member-overlay {
@@ -142,6 +141,8 @@
       .gallery-member-overlay-link {
         display: block;
         margin: 0 0.7rem;
+        height: 2.8rem;
+        width: 2.8rem;
       }
 
         .gallery-member-overlay-link-icon {

@@ -511,7 +511,7 @@ i {
   font-family: 'Catamaran', sans-serif;
   position: absolute;
   bottom: 5.2vh;
-  left: 46.5vw;
+  left: 47vw;
   font-size: 1.17vw;
   line-height: 1.9vw;
   letter-spacing: 0.8px;
@@ -694,8 +694,6 @@ i {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  border-radius: 50%;
-  background: #eee no-repeat center;
   background-size: cover;
 }
 .gallery-member > .maintain-aspect-ratio img {
@@ -730,7 +728,6 @@ i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 50%;
 }
 
 .dv-gallery-member-overlay {
@@ -759,6 +756,8 @@ i {
 .gallery-member-overlay-link {
   display: block;
   margin: 0 0.7rem;
+  height: 2.8rem;
+  width: 2.8rem;
 }
 
 .gallery-member-overlay-link-icon {
@@ -821,7 +820,7 @@ i {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 3.2rem;
-  height: 80vh;
+  height: 72vh;
   overflow-y: scroll;
 }
 
@@ -862,8 +861,6 @@ i {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  border-radius: 50%;
-  background: #eee no-repeat center;
   background-size: cover;
 }
 .alumni-member-image-container > .maintain-aspect-ratio img {
@@ -934,8 +931,6 @@ i {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  border-radius: 50%;
-  background: #eee no-repeat center;
   background-size: cover;
 }
 .alumni-member-link > .maintain-aspect-ratio img {
@@ -972,8 +967,6 @@ i {
   right: 0;
   bottom: 0;
   overflow: hidden;
-  border-radius: 50%;
-  background: #eee no-repeat center;
   background-size: cover;
 }
 .alumni-map > .maintain-aspect-ratio img {

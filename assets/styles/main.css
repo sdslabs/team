@@ -213,6 +213,14 @@ body {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 800px) {
+  .mainpagetext {
+    font-size: 6vw;
+    left: 27.5vw;
+    width: 45vw;
+    text-align: center;
+  }
+}
 .descriptions {
   position: absolute;
   font-family: 'Montserrat', sans-serif;
@@ -363,7 +371,7 @@ body {
 
   .headtext, .subtext {
     font-style: normal;
-    font-size: 2.5vw;
+    font-size: 3vw;
     padding-left: 1vw;
     line-height: 5.2vw;
     margin-left: 0px;
@@ -379,7 +387,7 @@ body {
 .nav-div-down {
   position: absolute;
   bottom: 0;
-  left: 46.7vw;
+  left: calc(50vw - 30px);
   cursor: pointer;
   z-index: 1000;
 }
@@ -476,7 +484,7 @@ i {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  overflow: auto;
+  overflow: hidden;
 }
 
 .page-container, body, html {
@@ -503,7 +511,7 @@ i {
 
 .innersphere {
   position: absolute;
-  left: 0.45vw;
+  left: calc(50% - 24px);
   bottom: 0;
 }
 
@@ -512,11 +520,19 @@ i {
   position: absolute;
   bottom: 5.2vh;
   left: 47vw;
-  font-size: 1.17vw;
+  font-size: 2vw;
   line-height: 1.9vw;
   letter-spacing: 0.8px;
 }
 
+@media only screen and (max-width: 800px) {
+  .footer-text {
+    font-size: 3.5vw;
+    width: 20vw;
+    text-align: center;
+    left: 40vw;
+  }
+}
 .vectorarrowup {
   position: absolute;
   width: 16px;
@@ -653,7 +669,7 @@ i {
   position: relative;
   margin: 0 10.67vw 0 18.67vw;
   margin-top: 30vh;
-  height: 70vh;
+  height: 68vh;
   overflow: hidden;
 }
 
@@ -666,9 +682,9 @@ i {
           align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -784,6 +800,11 @@ i {
   letter-spacing: 5%;
 }
 
+@media only screen and (max-width: 800px) {
+  .alumni-heading {
+    padding-top: 10rem;
+  }
+}
 .alumni-heading-bold {
   font-size: 36px;
   font-size: 31.62518208px;

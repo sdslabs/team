@@ -129,7 +129,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 				function delay01(){
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#developer-side-bar').animate({left: '95%', opacity: '0.75', width: '5vw'});
+					$('#developer-side-bar').animate({left: '90%', opacity: '0.75', width: '10vw'});
 					$('#headings-ds').animate({top: '14rem'});
 					$('#horizontalrule-ds').animate({width: '6.5%'});
 					$('.designerpage-elements').animateCss('zoomIn');
@@ -177,7 +177,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 					$('#headings-dv').animate({top: '14rem'});
 					$('.mainpagetext').animate({top: '69.14vh'});
 					$('#horizontalrule-dv').animate({width: '5%'});
-					$('#designer-side-bar').animate({left: '0%', opacity: '1', width: '5vw'});
+					$('#designer-side-bar').animate({left: '0%', opacity: '1', width: '10vw'});
 					$('.developerpage-elements').animateCss('zoomIn');
 				}
 			}
@@ -216,7 +216,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 					$(pages[nextSlideIndex]).addClass('selected');
 					$('#headings-dv').animate({top: '14rem'});
 					$('#horizontalrule-dv').animate({width: '6.5%'});
-					$('#designer-side-bar').animate({left: '0', opacity: '0.85', width: '5vw'});
+					$('#designer-side-bar').animate({left: '0', opacity: '0.85', width: '10vw'});
 					$('.developerpage-elements').animateCss('zoomIn fadeIn');
 					$('.bordertext-dv').show();
 				}
@@ -234,7 +234,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 					$(pages[nextSlideIndex]).addClass('selected');
 					$('#headings-ds').animate({top: '14rem'});
 					$('#horizontalrule-ds').animate({width: '6.5%'});
-					$('#developer-side-bar').animate({left:'95%', opacity: '0.75', width: '5vw'});
+					$('#developer-side-bar').animate({left:'90%', opacity: '0.75', width: '10vw'});
 					$('.designerpage-elements').animateCss('fadeIn zoomIn');
 					$('.bordertextds').show();
 				}

@@ -9,6 +9,12 @@
   letter-spacing: 5%;
 }
 
+@media only screen and (max-width: 800px) {
+	.alumni-heading{
+		padding-top: 10rem;
+	}
+}
+
 	.alumni-heading-bold {
 		@include font-size(3.6, 1);
 		font-weight: 700;

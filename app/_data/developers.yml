@@ -1,16 +1,4 @@
 ---
-- name: Anish Mukherjee
-  pic: anish.jpg
-  links:
-    FB: https://www.facebook.com/anish.mukherjee1996
-    Github: https://github.com/alphadose
-
-- name: Ankit kataria
-  pic: kataria.jpg
-  links:
-    FB: https://www.facebook.com/ankitkataria28
-    Github: https://github.com/ankitkataria
-
 - name: Ayan Choudhary
   pic: ayan.jpg
   links:
@@ -18,50 +6,12 @@
     Twitter1: https://twitter.com/ayan_darkrider
     Github: https://github.com/AyanChoudhary
 
-- name: Deepesh Pathak
-  pic: pathak.jpeg
-  links:
-    FB: https://www.facebook.com/deepshpathak
-    Github: https://github.com/fristonio
-
 - name: Hritvi Bhandari
   pic: hritvi.jpg
   links:
     FB: https://www.facebook.com/hritvi.bhandari.9
     Github: https://github.com/hritvi
     Portfolio: https://hritvi.github.io
-
-- name: Kartikey Pandey
-  pic: kp.jpg
-  links:
-    Twitter1: https://twitter.com/pandeykartikey_
-    Github: https://github.com/pandeykartikey
-
-- name: Kriti Singh
-  pic: kriti.jpg
-  links:
-    FB: https://www.facebook.com/kritisingh1.ks
-    Twitter1: https://twitter.com/kritisingh1ks
-    Github: https://github.com/kritisingh1
-
-- name: Manan Jain
-  pic: manan.jpeg
-  links:
-    FB: https://www.facebook.com/jn.manan25
-    Github: https://github.com/m4n4n
-
-- name: Nikhil kaushik
-  pic: nikhil.jpeg
-  links:
-    FB: https://www.facebook.com/nikhil.kaushik.984
-    Github: https://github.com/c0dzilla
-    Portfolio: https://nikhilkaushik.co
-
-- name: Shiva Gupta
-  pic: shiva.jpeg
-  links:
-    FB: https://www.facebook.com/shiva.gandhi.5
-    Github: https://github.com/SHIVA-sopho
 
 - name: Twarit Waikar
   pic: twarit.jpg
@@ -76,20 +26,6 @@
     FB: https://www.facebook.com/vrongmeal
     Github: https://github.com/vrongmeal
     Portfolio: https://vrongmeal.github.io
-
-- name: Vedansh Bhartia
-  pic: vedansh.jpg
-  links:
-    FB: https://www.facebook.com/vedanshbhartia
-    Twitter1: https://twitter.com/vedanshbhartia
-    Github: https://github.com/vedanshbhartia
-
-- name: Yash Dev Lamba
-  pic: lamba.jpg
-  links:
-    FB: https://www.facebook.com/ydlamba
-    Twitter1: https://twitter.com/ydlamba
-    Github: https://github.com/ydlamba
 
 - name: Nupur Agrawal
   pic: nupur.jpg

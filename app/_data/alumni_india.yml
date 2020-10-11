@@ -31,26 +31,26 @@
     Twitter: https://twitter.com/arynrj
 
 - name: Anish Mukherjee
-  pic: anish.jpeg
+  pic: anish.jpg
   location: Goldman Sachs
   position: Software Developer
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/alphadose/
     Twitter: https://twitter.com/alphadose_
 
 - name: Ankit Kataria
-  pic: kataria.jpeg
+  pic: kataria.jpg
   location: Cisco
   position: SDE
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/ankitkataria28/
     Twitter: https://twitter.com/ankitkataria28
 
 - name: Kartikey Pandey
-  pic: kp.jpeg
+  pic: kp.jpg
   location: Microsoft
   position: Software Engineer
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/pandeykartikey/
     Twitter: https://twitter.com/pandeykartikey_
 
@@ -58,7 +58,7 @@
   pic: kriti.jpg
   location: Goldman Sachs
   position: Analyst
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/kriti-singh-9b5bb512b/
     Twitter: https://twitter.com/kritisingh1ks
 
@@ -66,21 +66,21 @@
   pic: nikhil.jpeg
   location: Cohesity
   position: Research Engineer
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/codzilla/
 
 - name: Manan Jain
   pic: manan.jpeg
   location: PhonePe
   position: Software Engineer
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/manan-jain-185a54136/
 
 - name: Vedansh Bhartia
   pic: vedansh.jpg
   location: Zomato
   position: Software Engineer
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/vedanshbhartia/
     Twitter: https://twitter.com/vedanshbhartia
 
@@ -88,17 +88,17 @@
   pic: shiva.jpeg
   location: Nutanix
   position: MTS 2
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/shiva-gupta-127867135/
 
 - name: Yash Dev Lamba
   pic: lamba.jpg
   location: Vernacular.ai
   position: Software Engineer
-  links: 
+  links:
     LinkedIn: https://www.linkedin.com/in/ydlamba/
     Twitter: https://twitter.com/ydlamba
-    
+
 - name: Gautham Goli
   pic: goli.jpg
   position: Software Engineer
@@ -314,7 +314,7 @@
   position: SDE
   links:
     # FB1: https://www.facebook.com/arpit270896
-    LinkedIn: https://www.linkedin.com/in/arpitsingla96/ 
+    LinkedIn: https://www.linkedin.com/in/arpitsingla96/
     Twitter: https://twitter.com/arpit270896
     # Github1: https://# Github.com/arpitsingla96
 
@@ -437,7 +437,7 @@
     # FB: https://www.facebook.com/milanmundra98
     Behance1: https://www.behance.net/milanmundra98
     Twitter: https://twitter.com/millons098
-    
+
 - name: Amandeep Duhan
   pic: amandeep.jpg
   location: Flipkart

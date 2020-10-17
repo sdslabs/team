@@ -56,8 +56,8 @@
 
 - name: Abhishek Das
   pic: abhishek.jpg
-  position: 
-  location: Georgia Tech, USA
+  position: Research Scientist
+  location: Facebook AI
   links:
     LinkedIn: https://www.linkedin.com/in/abhishek-k-das-9876664b/
     Twitter: https://twitter.com/abhshkdz
@@ -71,8 +71,8 @@
 
 - name: Ankur Garg
   pic: ankur.jpg
-  location: UT Austin
-  position: Graduate Student
+  location: Google Assistant NLU
+  position: SWE
   links:
     LinkedIn: https://www.linkedin.com/in/ankurgarg101/
 
@@ -85,8 +85,8 @@
   
 - name: Rishabh Chhabra
   pic: chhabra.jpg
-  position:
-  location:
+  position: Security Researcher
+  location: MS CS at UIUC
   links:
     LinkedIn: https://www.linkedin.com/in/rishabh-chhabra-31080687/
     

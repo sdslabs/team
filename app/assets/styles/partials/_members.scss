@@ -1,4 +1,5 @@
-.mainborder-ds, .bodyborder-dv {
+.mainborder-ds,
+.bodyborder-dv {
   background-color: $sidebar-color;
   width: 50vw;
   height: 100%;
@@ -16,12 +17,13 @@
   animation-duration: 0.3s;
 }
 
-.bodyborder-dv{
+.bodyborder-dv {
   background-color: $members-heading-color;
   left: 0;
 }
 
-.bordertextds, .bordertext-dv {
+.bordertextds,
+.bordertext-dv {
   @include font-size(3.6, 1);
   font-family: $heading-font-family;
   color: $white;
@@ -42,7 +44,8 @@
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-#headings-ds, #headings-dv {
+#headings-ds,
+#headings-dv {
   @include font-size(3.6, 1);
   color: $members-heading-color;
   position: absolute;
@@ -53,13 +56,14 @@
   left: 18.67vw;
 }
 
-#headings-dv{
+#headings-dv {
   color: $sidebar-color;
   left: auto;
   right: 18.67vw;
 }
 
-#horizontalrule-ds, #horizontalrule-dv {
+#horizontalrule-ds,
+#horizontalrule-dv {
   background-color: $members-heading-color;
   position: absolute;
   top: 19rem;
@@ -68,13 +72,14 @@
   height: 0.7%;
 }
 
-#horizontalrule-dv{
+#horizontalrule-dv {
   background-color: $sidebar-color;
   left: auto;
   right: 18.67vw;
 }
 
-.superdiv-ds, .superdiv-dv {
+.superdiv-ds,
+.superdiv-dv {
   position: relative;
   margin: 0 10.67vw 0 18.67vw;
   margin-top: 30vh;
@@ -82,23 +87,24 @@
   overflow: hidden;
 }
 
-  .superdiv-child {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow-y: scroll;
-  }
+.superdiv-child {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: scroll;
+  margin-bottom: 4vh;
+}
 
 .gallery-member {
   @include aspect-ratio(1, 1);
-      border-radius: 50%; 
-      width: 15rem;
-      margin: 1.25rem;
+  border-radius: 50%;
+  width: 15rem;
+  margin: 1.25rem;
 
   &:hover {
     .gallery-member-overlay {
@@ -107,48 +113,48 @@
   }
 }
 
-  .gallery-member-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: all .5s ease;
-    background-color: $designers-overlay;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.gallery-member-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background-color: $designers-overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .dv-gallery-member-overlay {
-    background-color: $developers-overlay;
-  }
+.dv-gallery-member-overlay {
+  background-color: $developers-overlay;
+}
 
-    .gallery-member-overlay-name {
-      @include font-size(2, 1);
-      font-family: $heading-font-family;
-      color: white;
-      text-align: center;
-    }
+.gallery-member-overlay-name {
+  @include font-size(2, 1);
+  font-family: $heading-font-family;
+  color: white;
+  text-align: center;
+}
 
-    .gallery-member-overlay-links {
-      margin-top: 1.8rem;
-      display: flex;
-    }
+.gallery-member-overlay-links {
+  margin-top: 1.8rem;
+  display: flex;
+}
 
-      .gallery-member-overlay-link {
-        display: block;
-        margin: 0 0.7rem;
-        height: 2.8rem;
-        width: 2.8rem;
-      }
+.gallery-member-overlay-link {
+  display: block;
+  margin: 0 0.7rem;
+  height: 2.8rem;
+  width: 2.8rem;
+}
 
-        .gallery-member-overlay-link-icon {
-          height: 100%;
-          width: 100%;
-        }
+.gallery-member-overlay-link-icon {
+  height: 100%;
+  width: 100%;
+}
 
 .rotate-dv {
   -webkit-transform: rotate(-90deg);

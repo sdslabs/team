@@ -24,11 +24,80 @@
 
 - name: Aryan Raj
   pic: aryan.jpg
-  location:
-  position:
+  location: ASC Infratech P Limited
+  position: Bridge Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/aryanraj/
     Twitter: https://twitter.com/arynrj
+
+- name: Anish Mukherjee
+  pic: anish.jpg
+  location: Goldman Sachs
+  position: Software Developer
+  links:
+    LinkedIn: https://www.linkedin.com/in/alphadose/
+    Twitter: https://twitter.com/alphadose_
+
+- name: Ankit Kataria
+  pic: kataria.jpg
+  location: Cisco
+  position: SDE
+  links:
+    LinkedIn: https://www.linkedin.com/in/ankitkataria28/
+    Twitter: https://twitter.com/ankitkataria28
+
+- name: Kartikey Pandey
+  pic: kp.jpg
+  location: Microsoft
+  position: Software Engineer
+  links:
+    LinkedIn: https://www.linkedin.com/in/pandeykartikey/
+    Twitter: https://twitter.com/pandeykartikey_
+
+- name: Kriti Singh
+  pic: kriti.jpg
+  location: Goldman Sachs
+  position: Analyst
+  links:
+    LinkedIn: https://www.linkedin.com/in/kriti-singh-9b5bb512b/
+    Twitter: https://twitter.com/kritisingh1ks
+
+- name: Nikhil kaushik
+  pic: nikhil.jpeg
+  location: Cohesity
+  position: Research Engineer
+  links:
+    LinkedIn: https://www.linkedin.com/in/codzilla/
+
+- name: Manan Jain
+  pic: manan.jpeg
+  location: PhonePe
+  position: Software Engineer
+  links:
+    LinkedIn: https://www.linkedin.com/in/manan-jain-185a54136/
+
+- name: Vedansh Bhartia
+  pic: vedansh.jpg
+  location: Zomato
+  position: Software Engineer
+  links:
+    LinkedIn: https://www.linkedin.com/in/vedanshbhartia/
+    Twitter: https://twitter.com/vedanshbhartia
+
+- name: Shiva Gupta
+  pic: shiva.jpeg
+  location: Nutanix
+  position: MTS 2
+  links:
+    LinkedIn: https://www.linkedin.com/in/shiva-gupta-127867135/
+
+- name: Yash Dev Lamba
+  pic: lamba.jpg
+  location: Vernacular.ai
+  position: Software Engineer
+  links:
+    LinkedIn: https://www.linkedin.com/in/ydlamba/
+    Twitter: https://twitter.com/ydlamba
 
 - name: Gautham Goli
   pic: goli.jpg
@@ -41,7 +110,7 @@
 - name: Abhay Rana
   pic: abhay.jpg
   location: Razorpay
-  position:
+  position: Security and Infrastructure Engineer
   links:
     Twitter: https://twitter.com/captn3m0
 
@@ -55,8 +124,8 @@
 
 - name: Ankush Agrawal
   pic: ankushagr.jpg
-  position:
-  location: ServiceNow
+  position: Macro Financial Analyst
+  location: Goldman Sachs
   links:
     LinkedIn: https://www.linkedin.com/in/ankush557/
     Twitter: https://twitter.com/AnkushAgr
@@ -71,8 +140,8 @@
 
 - name: Ayush Agarwal
   pic: aayush.jpg
-  location: NTPC Delhi
-  position:
+  location: NextBillion AI
+  position: Product Designer
   links:
     LinkedIn: https://www.linkedin.com/in/aayush-agarwal-88a8ba52/
 
@@ -131,8 +200,8 @@
 
 - name: Neeraj Gangwar
   pic: neeraj.jpg
-  location: GoShopLane
-  position:
+  location: Myntra
+  position: Technical Lead
   links:
     LinkedIn: https://www.linkedin.com/in/gangwarneeraj/
     Twitter: https://twitter.com/neeraj_gangwar
@@ -155,8 +224,8 @@
 
 - name: Rahul Shankar
   pic: rahul.jpg
-  location: C Dot
-  position:
+  location: Expedia Group
+  position: Security Engineer II
   links:
     LinkedIn: https://www.linkedin.com/in/rahulshankar5/
     Twitter: https://twitter.com/rahulshankar5
@@ -164,7 +233,7 @@
 - name: Ravi Kishore R
   pic: ravikishore.jpg
   location: Qualcomm
-  position:
+  position: Senior Engineer
   links:
     LinkedIn: https://www.linkedin.com/in/ravi-kishore-r-70268768/
     Twitter: https://twitter.com/ravikishore1993
@@ -172,7 +241,7 @@
 - name: Sagar Saxena
   pic: sagar.jpg
   location: Razorpay
-  position:
+  position: Founding Team
   links:
     LinkedIn: https://www.linkedin.com/in/sagarsaxena/
     Twitter: https://twitter.com/saxenasagar91
@@ -180,30 +249,30 @@
 - name: Sethu Nachiappan
   pic: sethu.jpg
   location: Goldman Sachs
-  position:
+  position: Vice President
   links:
     LinkedIn: https://www.linkedin.com/in/sethu-nachiappan-60a86436/
 
 - name: Shashank Kumar
   pic: shashankkr.jpg
   location: Razorpay
-  position:
+  position: Co-Founder
   links:
     LinkedIn: https://www.linkedin.com/in/kumarshashank/
     Twitter: https://twitter.com/shashank_kr
 
 - name: Shashank Mehta
   pic: shashank_mehta.jpg
-  location: Razorpay
-  position:
+  location: RazorpayX
+  position: General Manager
   links:
     LinkedIn: https://www.linkedin.com/in/mehta-shashank/
     Twitter: https://twitter.com/leostatic
 
 - name: Shikhar Shrivastav
   pic: shikhar.jpg
-  location: Flipkart
-  position:
+  location: Myntra
+  position: Associate Architect
   links:
     LinkedIn: https://www.linkedin.com/in/shikharshrivastav/
 
@@ -225,8 +294,8 @@
 
 - name: Shobhit Singh
   pic: shobhit.jpg
-  location: Commonfloor
-  position:
+  location: MakeMyTrip
+  position: Deputy Manager, Technology
   links:
     LinkedIn: https://www.linkedin.com/in/singhshobhit/
     Twitter: https://twitter.com/shobhitsingh03
@@ -245,7 +314,7 @@
   position: SDE
   links:
     # FB1: https://www.facebook.com/arpit270896
-    LinkedIn: https://www.linkedin.com/in/arpitsingla96/ 
+    LinkedIn: https://www.linkedin.com/in/arpitsingla96/
     Twitter: https://twitter.com/arpit270896
     # Github1: https://# Github.com/arpitsingla96
 
@@ -266,6 +335,7 @@
   position: SDE
   links:
     # FB1: https://www.facebook.com/tnmy44
+    LinkedIn: https://www.linkedin.com/in/tanmay-tiwari-81a06b183/
     # Github1: https://# Github.com/tnmy44
 
 - name: Ketan Gupta
@@ -335,6 +405,38 @@
     # FB1: https://www.facebook.com/parinishtha.yadav
     Behance1: https://www.behance.net/parinishtha
     Twitter: https://twitter.com/ParinishthaY
+
+- name: Nipun Vashistha
+  pic: nipun.png
+  location: Flipkart
+  position: Product Designer
+  links:
+    # FB: https://www.facebook.com/SatanicPope
+    Behance1: https://www.behance.net/nipunvashicfc7
+    Twitter: https://twitter.com/DaftLadka
+
+- name: Naman Rajput
+  pic: naman.jpeg
+  links:
+    Behance1: https://www.behance.net/namanrjpt
+
+- name: Samar Singh Karnawat
+  pic: samar.jpeg
+  location: SDE
+  position: Amazon
+  links:
+    # FB: https://www.facebook.com/samarkarnawat
+    Twitter: https://twitter.com/samarkarnawat
+    LinkedIn: https://www.linkedin.com/in/samarkarnawat/
+
+- name: Milan Maheshwari
+  pic: milan.jpeg
+  location: Flipkart
+  position: Product Designer
+  links:
+    # FB: https://www.facebook.com/milanmundra98
+    Behance1: https://www.behance.net/milanmundra98
+    Twitter: https://twitter.com/millons098
 
 - name: Amandeep Duhan
   pic: amandeep.jpg

@@ -1,5 +1,7 @@
 	jQuery(document).ready(function($) {
-		
+
+    var pathname = "/";
+
 		var slide = 0;
 		var routes = {
 			"/": "root",
@@ -8,7 +10,6 @@
 			"/alumni": "alumni",
 			"/alumni/india": "alumni/india",
 			"/alumni/usa": "alumni/usa"
-
 		};
 
 		var pageUrls = {
@@ -41,12 +42,16 @@
 		var pages = pageContainer.children('.page');
 
 		function matchUrl(url){
+      var matched = false;
+
 			for (var index in routes)
 			{
 				if(url==index)
-				{	
-					if(url !== window.location.pathname) {
-						window.history.pushState(null, null, url);
+				{
+          matched = true;
+					if(url !== pathname) {
+						// window.history.pushState(null, null, url);
+            pathname = url;
 					}
 					for(var key in pageUrls){
 						if(pageUrls[key] === index){
@@ -56,6 +61,10 @@
 					}
 				}
 			}
+
+      if (!matched) {
+        matchUrl(pageUrls[0]);
+      }
 		}
 
 		function display(index) {
@@ -77,13 +86,13 @@
 			$(pages[index+3]).addClass('hidden');
 			$(pages[index+4]).removeClass('selected');
 			$(pages[index+4]).addClass('hidden');
-			
+
 		}
 
-		window.onpopstate =function(event) {
-			matchUrl(window.location.pathname);
-			event.preventDefault();
-		}
+		// window.onpopstate =function(event) {
+		// 	matchUrl(window.location.pathname);
+		// 	event.preventDefault();
+		// }
 
 		$.fn.extend({
 		    animateCss: function (animationName) {
@@ -123,7 +132,7 @@
 				function delay01(){
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
-					$('#developer-side-bar').animate({left: '95%', opacity: '0.75', width: '5vw'});
+					$('#developer-side-bar').animate({left: '90%', opacity: '0.75', width: '10vw'});
 					$('#headings-ds').animate({top: '14rem'});
 					$('#horizontalrule-ds').animate({width: '6.5%'});
 					$('.designerpage-elements').animateCss('zoomIn');
@@ -164,14 +173,14 @@
 				$('#right-bottom').toggle('descriptions-animate-in');
 				$('.bordertext-dv').show();
 				setTimeout(delay02, 700);
-				
+
 				function delay02() {
 					$(pages[prevSlideIndex]).removeClass('selected');
 					$(pages[nextSlideIndex]).addClass('selected');
 					$('#headings-dv').animate({top: '14rem'});
 					$('.mainpagetext').animate({top: '69.14vh'});
 					$('#horizontalrule-dv').animate({width: '5%'});
-					$('#designer-side-bar').animate({left: '0%', opacity: '1', width: '5vw'});
+					$('#designer-side-bar').animate({left: '0%', opacity: '1', width: '10vw'});
 					$('.developerpage-elements').animateCss('zoomIn');
 				}
 			}
@@ -210,7 +219,7 @@
 					$(pages[nextSlideIndex]).addClass('selected');
 					$('#headings-dv').animate({top: '14rem'});
 					$('#horizontalrule-dv').animate({width: '6.5%'});
-					$('#designer-side-bar').animate({left: '0', opacity: '0.85', width: '5vw'});
+					$('#designer-side-bar').animate({left: '0', opacity: '0.85', width: '10vw'});
 					$('.developerpage-elements').animateCss('zoomIn fadeIn');
 					$('.bordertext-dv').show();
 				}
@@ -228,7 +237,7 @@
 					$(pages[nextSlideIndex]).addClass('selected');
 					$('#headings-ds').animate({top: '14rem'});
 					$('#horizontalrule-ds').animate({width: '6.5%'});
-					$('#developer-side-bar').animate({left:'95%', opacity: '0.75', width: '5vw'});
+					$('#developer-side-bar').animate({left:'90%', opacity: '0.75', width: '10vw'});
 					$('.designerpage-elements').animateCss('fadeIn zoomIn');
 					$('.bordertextds').show();
 				}
@@ -445,7 +454,7 @@
 			},
 			ds : function() {
 				matchUrl(pageUrls[1]);
-			},	
+			},
 			dv : function() {
 				matchUrl(pageUrls[2]);
 			},
@@ -477,5 +486,5 @@
 		svgIcon.on('click', navClick.numsvg);
 		svgIconUsa.on('click', navClick.numsvgusa);
 		logo.on('click', navClick.logoicon);
-		matchUrl(window.location.pathname);
+		matchUrl(pathname);
 	});

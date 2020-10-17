@@ -76,9 +76,9 @@
 
 .superdiv-ds, .superdiv-dv {
   position: relative;
-  margin: 0 18.67vw;
+  margin: 0 10.67vw 0 18.67vw;
   margin-top: 30vh;
-  height: 70vh;
+  height: 68vh;
   overflow: hidden;
 }
 
@@ -86,7 +86,7 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -120,7 +120,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
   }
 
   .dv-gallery-member-overlay {
@@ -142,6 +141,8 @@
       .gallery-member-overlay-link {
         display: block;
         margin: 0 0.7rem;
+        height: 2.8rem;
+        width: 2.8rem;
       }
 
         .gallery-member-overlay-link-icon {

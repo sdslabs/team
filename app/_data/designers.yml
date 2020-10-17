@@ -1,28 +1,4 @@
 ---
-- name: Nipun Vashistha
-  pic: nipun.png
-  links:
-    FB: https://www.facebook.com/SatanicPope
-    Behance: https://www.behance.net/nipunvashicfc7
-
-- name: Naman Rajput
-  pic: naman.jpeg
-  links:
-    FB: https://www.facebook.com/namanrjpt
-    Behance: https://www.behance.net/namanrjpt
-
-- name: Samar Singh Karnawat
-  pic: samar.jpeg
-  links:
-    FB: https://www.facebook.com/samarkarnawat
-
-- name: Milan Maheshwari
-  pic: milan.jpeg
-  links:
-    FB: https://www.facebook.com/milanmundra98
-    Behance: https://www.behance.net/milanmundra98
-    LinkedIn1: https://www.linkedin.com/in/milan98
-
 - name: Yash Choudhary
   pic: sofu.jpg
   links:

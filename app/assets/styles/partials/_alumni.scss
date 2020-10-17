@@ -9,6 +9,12 @@
   letter-spacing: 5%;
 }
 
+@media only screen and (max-width: 800px) {
+	.alumni-heading{
+		padding-top: 10rem;
+	}
+}
+
 	.alumni-heading-bold {
 		@include font-size(3.6, 1);
 		font-weight: 700;
@@ -35,7 +41,7 @@
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin-top: 3.2rem;
-	height: 80vh;
+	height: 72vh;
 	overflow-y: scroll;
 }
 

@@ -578,7 +578,8 @@ i {
   cursor: pointer;
 }
 
-.mainborder-ds, .bodyborder-dv {
+.mainborder-ds,
+.bodyborder-dv {
   background-color: #45bec9;
   width: 50vw;
   height: 100%;
@@ -587,7 +588,8 @@ i {
   opacity: 0.05;
   z-index: 1;
 }
-.mainborder-ds:hover, .bodyborder-dv:hover {
+.mainborder-ds:hover,
+.bodyborder-dv:hover {
   opacity: 1;
   cursor: pointer;
 }
@@ -602,7 +604,8 @@ i {
   left: 0;
 }
 
-.bordertextds, .bordertext-dv {
+.bordertextds,
+.bordertext-dv {
   font-size: 36px;
   font-size: 31.62518208px;
   font-size: 3.6rem;
@@ -628,7 +631,8 @@ i {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-#headings-ds, #headings-dv {
+#headings-ds,
+#headings-dv {
   font-size: 36px;
   font-size: 31.62518208px;
   font-size: 3.6rem;
@@ -650,7 +654,8 @@ i {
   right: 18.67vw;
 }
 
-#horizontalrule-ds, #horizontalrule-dv {
+#horizontalrule-ds,
+#horizontalrule-dv {
   background-color: #fc3431;
   position: absolute;
   top: 19rem;
@@ -665,7 +670,8 @@ i {
   right: 18.67vw;
 }
 
-.superdiv-ds, .superdiv-dv {
+.superdiv-ds,
+.superdiv-dv {
   position: relative;
   margin: 0 10.67vw 0 18.67vw;
   margin-top: 30vh;
@@ -690,6 +696,7 @@ i {
   bottom: 0;
   left: 0;
   overflow-y: scroll;
+  margin-bottom: 4vh;
 }
 
 .gallery-member {
@@ -729,7 +736,7 @@ i {
   left: 0;
   right: 0;
   opacity: 0;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   background-color: rgba(252, 52, 49, 0.6);
   display: -webkit-box;
   display: -ms-flexbox;

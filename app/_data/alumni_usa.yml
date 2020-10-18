@@ -50,10 +50,10 @@
 
 - name: Dhaval Kapil
   pic: dhaval.jpg
-  position: PhD Student
-  location: Georgia Tech, USA
+  position: Security Engineer
+  location: Facebook
   links:
-    LinkedIn: https://www.linkedin.com/in/dhavalkapil/
+    Github1: https://github.com/dhavalkapil
     Twitter: https://twitter.com/dhaval_kapil
 
 - name: Abhishek Das
@@ -61,7 +61,6 @@
   position: Research Scientist
   location: Facebook AI
   links:
-    LinkedIn: https://www.linkedin.com/in/abhishek-k-das-9876664b/
     Twitter: https://twitter.com/abhshkdz
 
 - name: Abhishek Kandoi

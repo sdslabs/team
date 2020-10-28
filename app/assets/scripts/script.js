@@ -1,24 +1,21 @@
 	jQuery(document).ready(function($) {
-
-    var pathname = "/";
-
 		var slide = 0;
 		var routes = {
 			"/": "root",
-			"/designers": "designers",
-			"/developers": "developers",
-			"/alumni": "alumni",
-			"/alumni/india": "alumni/india",
-			"/alumni/usa": "alumni/usa"
+			"/designers/": "designers",
+			"/developers/": "developers",
+			"/alumni/": "alumni",
+			"/alumni/india/": "alumni/india",
+			"/alumni/usa/": "alumni/usa"
 		};
 
 		var pageUrls = {
 			0 : "/",
-			1 : "/designers",
-			2 : "/developers",
-			3 : "/alumni",
-			4 : "/alumni/india",
-			5 : "/alumni/usa"
+			1 : "/designers/",
+			2 : "/developers/",
+			3 : "/alumni/",
+			4 : "/alumni/india/",
+			5 : "/alumni/usa/"
 		};
 
 		var designerVennButton = $('#designer-venn-button');
@@ -42,16 +39,12 @@
 		var pages = pageContainer.children('.page');
 
 		function matchUrl(url){
-      var matched = false;
-
 			for (var index in routes)
 			{
 				if(url==index)
 				{
-          matched = true;
-					if(url !== pathname) {
-						// window.history.pushState(null, null, url);
-            pathname = url;
+					if(url !== window.location.pathname) {
+						window.history.pushState(null, null, url);
 					}
 					for(var key in pageUrls){
 						if(pageUrls[key] === index){
@@ -61,10 +54,6 @@
 					}
 				}
 			}
-
-      if (!matched) {
-        matchUrl(pageUrls[0]);
-      }
 		}
 
 		function display(index) {
@@ -89,10 +78,10 @@
 
 		}
 
-		// window.onpopstate =function(event) {
-		// 	matchUrl(window.location.pathname);
-		// 	event.preventDefault();
-		// }
+		window.onpopstate =function(event) {
+			matchUrl(window.location.pathname);
+			event.preventDefault();
+		}
 
 		$.fn.extend({
 		    animateCss: function (animationName) {
@@ -486,5 +475,5 @@
 		svgIcon.on('click', navClick.numsvg);
 		svgIconUsa.on('click', navClick.numsvgusa);
 		logo.on('click', navClick.logoicon);
-		matchUrl(pathname);
+		matchUrl(window.location.pathname);
 	});

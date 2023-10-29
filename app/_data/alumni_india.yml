@@ -441,9 +441,10 @@
 
 - name: Pramit Singhi
   pic: pramit.jpg
-  location: Zoomcar
-  position: Product Designer
+  location: Titan Capital
+  position: Investment Associate
   links:
     # FB1: https://www.facebook.com/pramit.singhi
-    Behance1: https://www.behance.net/Pramit_Singhi
-    Twitter: https://twitter.com/pramit_1997
+    # Behance1: https://www.behance.net/Pramit_Singhi
+    LinkedIn: https://www.linkedin.com/in/pramit-singhi/
+    Twitter: https://twitter.com/pramitsinghi
